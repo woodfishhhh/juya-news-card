@@ -1,15 +1,19 @@
 {
   "preset_id": "embodied-evening-video",
   "version": 1,
-  "status": "specification-only",
+  "status": "independent_renderer_implemented_with_known_limits",
   "renderer": {
-    "executable": false,
-    "integrated": false
+    "executable": true,
+    "standalone": true,
+    "integrated_into_next_app": false,
+    "original_renderer_recovered": false,
+    "pixel_equivalence_to_previous_videos_verified": false
   },
   "output": {
-    "width_px": 1920,
-    "height_px": 1080,
-    "frames_per_second": 30
+    "default_width_px": 1920,
+    "default_height_px": 1080,
+    "frames_per_second": 30,
+    "aspect_ratio": "16:9"
   },
   "locales": {
     "separate_scripts": [
@@ -26,13 +30,15 @@
   },
   "overview": {
     "duration_seconds": 5,
-    "topic_ordering": "rank_by_viewer_interest"
+    "topic_ordering": "rank_by_viewer_interest_before_rendering"
   },
   "topic_page": {
     "topics_per_page": 1,
     "key_points_min": 3,
     "key_points_max": 4,
-    "card_visible_seconds_before_material_popup": 5
+    "card_visible_seconds_before_material_popup": 5,
+    "renderer_default_card_visible_seconds": 5,
+    "renderer_allows_manifest_card_seconds_override": true
   },
   "material_popup": {
     "width_px": 1520,
@@ -52,7 +58,8 @@
     "company_event_navigation": {
       "position": "bottom",
       "font_size_px": 23,
-      "highlight_current_item": true
+      "highlight_current_item": true,
+      "show_progress_within_current_item": true
     },
     "hide_during_white_page_transition": true
   },
@@ -61,11 +68,12 @@
     "max_lines": 2,
     "max_bottom_y_px": 1008,
     "bottom_navigation_y_px": 1024,
-    "overflow_handling": "rewrite_or_shorten_semantically",
+    "overflow_handling": "rewrite_or_shorten_semantically_before_rendering",
     "mechanically_truncate_long_sentences": false
   },
   "narration": {
-    "speed_multiplier": 1.3
+    "speed_multiplier": 1.3,
+    "renderer_uses_ffmpeg_atempo": true
   },
   "page_transition": {
     "fade_out": true,
@@ -81,13 +89,15 @@
     "persist_random_seed": true,
     "persist_resolved_track_order": true,
     "share_resolved_track_order_across_locales": true,
-    "rights_status": "unknown"
+    "rights_status": "unknown_until_verified",
+    "actual_requested_track_included_in_repository_or_demo": false
   },
   "typography": {
     "topic_title_font_size_px": 80,
     "card_font_size_px": 42,
     "body_font_size_px": 34,
-    "mobile_preview": "prevent_overflow"
+    "mobile_preview": "overflow_should_be_prevented",
+    "independent_renderer_validates_original_app_typography": false
   },
   "editorial_scope": {
     "include_topics_such_as": [
@@ -98,12 +108,15 @@
       "autonomous driving",
       "other broadly relevant embodied-intelligence developments"
     ],
-    "keep_original_publication_date_separate_from_collection_time": true
+    "keep_original_publication_date_separate_from_collection_time": true,
+    "renderer_extracts_or_validates_story_dates": false,
+    "renderer_sorts_topics": false
   },
   "asset_rights": {
     "status": "unknown_unless_verified",
     "claim_ownership_without_evidence": false,
-    "reuse_or_publish_without_rights_review": false
+    "reuse_or_publish_without_rights_review": false,
+    "renderer_independently_verifies_license_evidence": false
   },
   "historical_example_only": {
     "period_label": "9.30-10.1",
@@ -119,5 +132,27 @@
       "AGIBOT IDC",
       "Galbot"
     ]
+  },
+  "implementation_limits": [
+    "The standalone renderer consumes supplied cards and local media; it does not recover the vanished source renderer, gather news, create the 8-topic editorial script, synthesize speech, or publish.",
+    "The renderer defaults each card to 5 seconds, but a theme manifest may override card_seconds.",
+    "Card art is supplied as PNG/HTML; the convenience fallback card does not reproduce the former renderer's 80/42/34 px typography or establish pixel equivalence.",
+    "No mobile-preview UI or mobile viewport QA is included.",
+    "The exact requested BGM file is not included or tested; synthetic demo tones only exercise the audio mix path.",
+    "License evidence is recorded as a user declaration and is not independently verified."
+  ],
+  "verification": {
+    "python_tests_total": 13,
+    "python_tests_passed": 12,
+    "python_tests_skipped": 1,
+    "skipped_test": "Optional local HTML/Chromium capture; Chromium could not launch because the sandbox denied its IPC socket.",
+    "test_resolution_px": [
+      320,
+      180
+    ],
+    "test_fps": 30,
+    "full_1920x1080_episode_render_or_stress_tested": false,
+    "html_capture_verified_in_this_environment": false,
+    "pixel_comparison_to_previous_videos_performed": false
   }
 }

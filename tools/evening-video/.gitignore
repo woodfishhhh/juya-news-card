@@ -1,0 +1,10 @@
+__pycache__/
+.juya-render-cache/
+demo/.juya-render-cache/
+demo/assets/
+demo/output/*.mp4
+demo/output/*.manifest.json
+demo/output/*.status.json
+output/*.mp4
+output/*.manifest.json
+output/*.status.json
