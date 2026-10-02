@@ -1,0 +1,123 @@
+{
+  "preset_id": "embodied-evening-video",
+  "version": 1,
+  "status": "specification-only",
+  "renderer": {
+    "executable": false,
+    "integrated": false
+  },
+  "output": {
+    "width_px": 1920,
+    "height_px": 1080,
+    "frames_per_second": 30
+  },
+  "locales": {
+    "separate_scripts": [
+      "zh-CN",
+      "en"
+    ],
+    "preserve_topic_order_across_locales": true,
+    "preserve_background_music_order_across_locales": true
+  },
+  "opening_narration": {
+    "locale": "zh-CN",
+    "exact_text": "大家好，我是小鱼是木鱼，以上是今天具身智能动态",
+    "preserve_exact_wording": true
+  },
+  "overview": {
+    "duration_seconds": 5,
+    "topic_ordering": "rank_by_viewer_interest"
+  },
+  "topic_page": {
+    "topics_per_page": 1,
+    "key_points_min": 3,
+    "key_points_max": 4,
+    "card_visible_seconds_before_material_popup": 5
+  },
+  "material_popup": {
+    "width_px": 1520,
+    "height_px": 830,
+    "top_px": 64,
+    "must_remain_within_top_edge": true,
+    "may_occlude_title": true
+  },
+  "navigation": {
+    "section_navigation": {
+      "position": "top",
+      "label": "board_or_section",
+      "font_size_px": 27,
+      "highlight_current_item": true,
+      "show_progress_within_section": true
+    },
+    "company_event_navigation": {
+      "position": "bottom",
+      "font_size_px": 23,
+      "highlight_current_item": true
+    },
+    "hide_during_white_page_transition": true
+  },
+  "subtitles": {
+    "unit": "complete_sentence",
+    "max_lines": 2,
+    "max_bottom_y_px": 1008,
+    "bottom_navigation_y_px": 1024,
+    "overflow_handling": "rewrite_or_shorten_semantically",
+    "mechanically_truncate_long_sentences": false
+  },
+  "narration": {
+    "speed_multiplier": 1.3
+  },
+  "page_transition": {
+    "fade_out": true,
+    "fade_in": true,
+    "sound_effect": true,
+    "white_page_gap_seconds": 0.5,
+    "white_page_gap_frames_at_30fps": 15,
+    "hide_navigation_during_white_page_gap": true
+  },
+  "background_music": {
+    "opening_track": "boring life - db,Beteulan,BD DISCOMUSIC.mp3",
+    "subsequent_track_selection": "seeded_random",
+    "persist_random_seed": true,
+    "persist_resolved_track_order": true,
+    "share_resolved_track_order_across_locales": true,
+    "rights_status": "unknown"
+  },
+  "typography": {
+    "topic_title_font_size_px": 80,
+    "card_font_size_px": 42,
+    "body_font_size_px": 34,
+    "mobile_preview": "prevent_overflow"
+  },
+  "editorial_scope": {
+    "include_topics_such_as": [
+      "robot demonstrations",
+      "embodied models and research papers",
+      "companies and industry",
+      "open-source projects",
+      "autonomous driving",
+      "other broadly relevant embodied-intelligence developments"
+    ],
+    "keep_original_publication_date_separate_from_collection_time": true
+  },
+  "asset_rights": {
+    "status": "unknown_unless_verified",
+    "claim_ownership_without_evidence": false,
+    "reuse_or_publish_without_rights_review": false
+  },
+  "historical_example_only": {
+    "period_label": "9.30-10.1",
+    "year": null,
+    "not_evergreen_topic_order": true,
+    "ordered_topics": [
+      "Figure F02",
+      "Horizon HSD",
+      "DoorDash Air",
+      "HomeBody",
+      "EgoAlign",
+      "Reachy Mini",
+      "AGIBOT IDC",
+      "Galbot"
+    ]
+  }
+}
