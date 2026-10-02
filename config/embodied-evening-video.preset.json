@@ -139,11 +139,12 @@
     "Card art is supplied as PNG/HTML; the convenience fallback card does not reproduce the former renderer's 80/42/34 px typography or establish pixel equivalence.",
     "No mobile-preview UI or mobile viewport QA is included.",
     "The exact requested BGM file is not included or tested; synthetic demo tones only exercise the audio mix path.",
-    "License evidence is recorded as a user declaration and is not independently verified."
+    "License evidence is recorded as a user declaration and is not independently verified.",
+    "A 21.5-second synthetic 1920x1080/30fps demo passed FFprobe and full decode; no complete approximately four-minute production episode or performance/stress test was run."
   ],
   "verification": {
-    "python_tests_total": 13,
-    "python_tests_passed": 12,
+    "python_tests_total": 14,
+    "python_tests_passed": 13,
     "python_tests_skipped": 1,
     "skipped_test": "Optional local HTML/Chromium capture; Chromium could not launch because the sandbox denied its IPC socket.",
     "test_resolution_px": [
@@ -151,8 +152,24 @@
       180
     ],
     "test_fps": 30,
-    "full_1920x1080_episode_render_or_stress_tested": false,
     "html_capture_verified_in_this_environment": false,
-    "pixel_comparison_to_previous_videos_performed": false
+    "pixel_comparison_to_previous_videos_performed": false,
+    "caption_geometry_regression_cases": [
+      "Chinese one-line",
+      "Chinese two-line",
+      "English one-line",
+      "English two-line"
+    ],
+    "short_1080p_demo_rendered": true,
+    "short_1080p_demo_resolution_px": [
+      1920,
+      1080
+    ],
+    "short_1080p_demo_fps": 30,
+    "short_1080p_demo_duration_seconds": 21.5,
+    "short_1080p_demo_ffprobe_passed": true,
+    "short_1080p_demo_complete_decode_passed": true,
+    "caption_frames_visually_checked": true,
+    "production_length_approximately_4min_episode_or_performance_stress_tested": false
   }
 }

@@ -58,6 +58,8 @@ The following is only the sample topic order for the historical 9.30–10.1 epis
 
 ## Verification boundary
 
-The final renderer suite has 13 tests: 12 pass and 1 is skipped because this sandbox denied Chromium's IPC socket, so the optional local HTML capture path was not verified. The passing pipeline tests render synthetic two-topic demos at 320 × 180 and 30 fps, including still-image and video popups, narration speed/caption mapping, BGM mixing across both languages, license gating, and output-collision behavior.
+The final renderer suite has 14 test cases: 13 pass and 1 is skipped because this sandbox denied Chromium's IPC socket, so the optional local HTML capture path remains unverified. Bilingual caption-geometry regressions cover Chinese and English in both one-line and two-line layouts, including actual glyph and backing-plate bounds.
 
-A complete 1920 × 1080 episode was not rendered or performance/stress-tested. The original renderer source and private media were not recovered, and no frame-by-frame pixel comparison with the old final videos was performed. These tests do not prove full-production-resolution performance, HTML-capture operation in other environments, rights ownership, or visual identity with prior videos.
+The automated integration tests render synthetic two-topic demos at 320 × 180 and 30 fps. In addition, a 21.5-second synthetic demo was rendered at 1920 × 1080 and 30 fps; FFprobe and a complete decode passed, and opening/popup subtitle frames were visually checked. This is a short full-resolution smoke test, not a complete roughly four-minute production episode or a performance/stress test.
+
+The original renderer source and private media were not recovered, and no frame-by-frame pixel comparison with the old final videos was performed. These checks do not prove production-length throughput, HTML-capture operation in other environments, rights ownership, or visual identity with prior videos.

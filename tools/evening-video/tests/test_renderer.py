@@ -21,6 +21,46 @@ def command(args, ok=True):
         raise AssertionError(f"command unexpectedly passed: {args}\n{p.stdout}")
     return p
 
+class CaptionGeometry(unittest.TestCase):
+    def test_glyph_ink_stays_padded_inside_plate_and_safe_area(self):
+        from PIL import Image, ImageDraw, ImageOps
+
+        cases={
+            'zh single line':'大家好，我是小鱼是木鱼，以上是今天具身智能动态',
+            'en single line':'A complete English caption stays together on one line.',
+            'zh two lines':'第一句完整中文字幕需要换到第二行\n第二句也必须保持完整显示。',
+            'en two lines':'This is the first full English caption line.\nThis is the second complete line.',
+        }
+        width,height,scale=1920,1080,1.0
+        safe_bottom=int(1008*scale)
+        pad=max(5,int(11*scale))
+        for label,text in cases.items():
+            with self.subTest(label=label):
+                image=Image.new('RGB',(width,height),(0,0,0))
+                renderer.draw_caption(ImageDraw.Draw(image),text,width,height,scale)
+                luminance=image.convert('L')
+                # Rendered ink is white on black; backing plates are mid-gray.
+                ink=luminance.point(lambda value:255 if value>=240 else 0)
+                plate=luminance.point(lambda value:255 if 40<=value<=100 else 0)
+                ink_box=ink.getbbox(); plate_box=plate.getbbox()
+                self.assertIsNotNone(ink_box)
+                self.assertIsNotNone(plate_box)
+                self.assertGreaterEqual(ink_box[1]-plate_box[1],pad)
+                self.assertGreaterEqual(plate_box[3]-ink_box[3],pad)
+                self.assertLessEqual(plate_box[3],safe_bottom)
+                self.assertLessEqual(ink_box[3],safe_bottom-pad)
+
+                # Check each text-bearing row against that row's actual plate,
+                # so a two-line caption cannot pass using only the union bounds.
+                for y in range(ink_box[1],ink_box[3]):
+                    ink_row=ink.crop((0,y,width,y+1)).getbbox()
+                    if not ink_row:
+                        continue
+                    plate_row=plate.crop((0,y,width,y+1)).getbbox()
+                    self.assertIsNotNone(plate_row, f'{label}: glyph row {y} has no backing plate')
+                    self.assertGreaterEqual(ink_row[0]-plate_row[0],pad-1)
+                    self.assertGreaterEqual(plate_row[2]-ink_row[2],pad-1)
+
 class RendererIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

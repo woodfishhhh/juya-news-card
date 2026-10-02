@@ -226,16 +226,26 @@ def draw_caption(draw,text,w,h,scale,opacity=1.0):
     if not text: return
     bottom=int(1008*scale); maxw=int(w*.86); desired=max(12,int(42*scale))
     lines,font=fit_lines(text,desired,maxw,2,max(9,int(16*scale)))
-    heights=[font.getbbox(line or " ")[3]-font.getbbox(line or " ")[1] for line in lines]
+    # Pillow's default horizontal anchor is the ascender, not the top of the
+    # glyph box. Place text by compensating for getbbox's origin so the measured
+    # ink bounds, rather than nominal font size, drive the caption plate.
+    boxes=[draw.textbbox((0,0),line or " ",font=font) for line in lines]
+    heights=[box[3]-box[1] for box in boxes]
+    widths=[box[2]-box[0] for box in boxes]
     pad=max(5,int(11*scale)); gap=max(2,int(4*scale)); block_h=sum(heights)+gap*max(0,len(lines)-1)+2*pad
     y=bottom-block_h; d=draw
     # Gray caption plates match the reference footage, with enough width for full sentence.
     cursor=y+pad
-    for line,lh in zip(lines,heights):
-        tw=d.textlength(line,font=font); x=(w-tw)/2
-        x0=int(max(0,x-pad)); x1=int(min(w,x+tw+pad)); y0=int(cursor-2*scale); y1=int(cursor+lh+2*scale)
-        d.rectangle((x0,y0,x1,y1),fill=(71,70,67,int(225*opacity)))
-        d.text((int(x),int(cursor)),line,font=font,fill=(255,255,255,int(255*opacity)))
+    for line,box,lh,tw in zip(lines,boxes,heights,widths):
+        # Center the measured bbox, then translate Pillow's text anchor so the
+        # actual glyph box starts at cursor. Pillow rectangles have inclusive
+        # edges, so subtract one from the exclusive right/bottom boundaries.
+        ink_x=int(round((w-tw)/2)); ink_y=int(round(cursor))
+        ink_x1=ink_x+tw; ink_y1=ink_y+lh
+        x0=max(0,ink_x-pad); x1=min(w,ink_x1+pad)
+        y0=max(0,ink_y-pad); y1=min(bottom,ink_y1+pad)
+        d.rectangle((x0,y0,x1-1,y1-1),fill=(71,70,67,int(225*opacity)))
+        d.text((ink_x-box[0],ink_y-box[1]),line,font=font,fill=(255,255,255,int(255*opacity)))
         cursor+=lh+gap
 
 def draw_opening(manifest,w,h,scale,alpha):
