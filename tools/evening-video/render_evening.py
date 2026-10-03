@@ -421,15 +421,51 @@ def mix_audio(manifest,root,output_video,output_final,total,timeline,seed,order)
             filters.append(f"[{idx}:a]atempo=1.3,volume={gain},adelay={delay}|{delay},atrim=duration={actual_duration:.5f},asetpts=PTS-STARTPTS[{label}]")
             layers.append(f"[{label}]"); idx+=1
     tracks=manifest.get("music_tracks",[])
-    for i,t in enumerate(manifest["themes"]):
-        if not tracks: break
-        track=order[i%len(order)]; chosen=str(track.get("name"))
-        music=local_path(root,track["path"],f"music track {chosen}")
-        command += ["-stream_loop","-1","-i",str(music)]
-        start=theme_start[i]; end=start+float(t["duration_seconds"]); delay=int(start*1000)
-        volume=float(track.get("volume",0.14)); label=f"m{i}"
-        filters.append(f"[{idx}:a]atrim=duration={end-start:.5f},volume={volume},adelay={delay}|{delay},atrim=duration={actual_duration:.5f},asetpts=PTS-STARTPTS[{label}]")
-        layers.append(f"[{label}]"); idx+=1
+    music_playback=None
+    if tracks:
+        # BGM is one continuous, ordered playlist from time zero. Each selected
+        # source is decoded once; do not restart tracks at chapter boundaries or
+        # loop a short playlist to cover the end of the video.
+        segments=[]; playlist_duration=0.0; playlist_audio_labels=[]
+        for track_index,track in enumerate(order):
+            if playlist_duration>=actual_duration: break
+            chosen=str(track.get("name")); music=local_path(root,track["path"],f"music track {chosen}")
+            try:
+                probe=json.loads(run(["ffprobe","-v","error","-show_entries","format=duration","-of","json",str(music)]).stdout)
+                source_duration=float(probe["format"]["duration"])
+            except Exception as e:
+                raise RenderError(f"could not determine BGM duration for {chosen}: {e}") from e
+            if source_duration<=0: raise RenderError(f"music track {chosen} has no positive duration")
+            segment_duration=min(source_duration,actual_duration-playlist_duration)
+            volume=float(track.get("volume",0.14)); label=f"music_src{track_index}"
+            command += ["-i",str(music)]
+            # Normalize format before concat so MP3/WAV sources with differing
+            # sample rates or channel layouts still form one seamless playlist.
+            filters.append(f"[{idx}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,atrim=duration={segment_duration:.6f},asetpts=PTS-STARTPTS,volume={volume}[{label}]")
+            playlist_audio_labels.append(f"[{label}]")
+            segments.append({"name":chosen,"path":str(music),"source_duration_seconds":source_duration,"scheduled_duration_seconds":segment_duration,"volume":volume})
+            playlist_duration+=source_duration
+            idx+=1
+        if not playlist_audio_labels:
+            raise RenderError("music_tracks were supplied but no BGM audio could be scheduled")
+        if len(playlist_audio_labels)==1:
+            playlist_input=playlist_audio_labels[0]
+        else:
+            filters.append("".join(playlist_audio_labels)+f"concat=n={len(playlist_audio_labels)}:v=0:a=1[playlist_raw]")
+            playlist_input="[playlist_raw]"
+        playback_duration=min(actual_duration,playlist_duration)
+        fade_duration=min(2.0,playback_duration)
+        fade_start=max(0.0,playback_duration-fade_duration)
+        filters.append(f"{playlist_input}afade=t=out:st={fade_start:.5f}:d={fade_duration:.5f},atrim=duration={actual_duration:.5f},asetpts=PTS-STARTPTS[music]")
+        layers.append("[music]")
+        covered=playlist_duration+0.001>=actual_duration
+        note=(f"Continuous one-pass BGM playlist covers {actual_duration:.3f}s and fades out over {fade_duration:.3f}s." if covered else
+              f"BGM playlist lasts {playlist_duration:.3f}s, shorter than the {actual_duration:.3f}s cut; it stops after one pass and is not repeated.")
+        if not covered: print("warning: "+note,file=sys.stderr)
+        music_playback={"policy":"continuous_once_from_video_start","playlist_duration_seconds":playlist_duration,
+                        "playback_duration_seconds":playback_duration,"video_duration_seconds":actual_duration,
+                        "covers_video":covered,"fade_out_duration_seconds":fade_duration,
+                        "repeat":False,"segments":segments,"note":note}
     gaps=[(s,e) for s,e,k,i in timeline if k=="gap"]
     if gaps:
         with tempfile.TemporaryDirectory(prefix="juya-sfx-") as td:
@@ -444,13 +480,14 @@ def mix_audio(manifest,root,output_video,output_final,total,timeline,seed,order)
                 print("AUDIO_FILTER="+";".join(f for f in filters if f), file=sys.stderr)
                 print("AUDIO_COMMAND="+" ".join(command), file=sys.stderr)
             run(command)
-        return
+            return music_playback
     filters.append("".join(layers)+f"amix=inputs={len(layers)}:duration=longest:dropout_transition=0:normalize=0,alimiter=limit=0.96[aout]")
     command += ["-filter_complex",";".join(f for f in filters if f),"-map","0:v:0","-map","[aout]","-c:v","copy","-c:a","aac","-b:a","192k","-t",f"{actual_duration:.5f}","-movflags","+faststart",str(output_final)]
     if os.environ.get("JUYA_DEBUG_AUDIO"):
         print("AUDIO_FILTER="+";".join(f for f in filters if f), file=sys.stderr)
         print("AUDIO_COMMAND="+" ".join(command), file=sys.stderr)
     run(command)
+    return music_playback
 
 def choose_music(tracks, seed:int):
     if not tracks: return []
@@ -551,7 +588,7 @@ def render(manifest_path:Path, outdir:Path, args):
     started=time.time(); final_replaced=False
     try:
         total,timeline=build_silent_video(manifest,root,silent,width,height,fps)
-        mix_audio(manifest,root,silent,staged,total,timeline,seed,order)
+        music_playback=mix_audio(manifest,root,silent,staged,total,timeline,seed,order)
         silent.unlink(missing_ok=True)
         probe=json.loads(run(["ffprobe","-v","error","-show_streams","-show_format","-of","json",str(staged)]).stdout)
         snapshot=json.loads(json.dumps(manifest))
@@ -568,7 +605,8 @@ def render(manifest_path:Path, outdir:Path, args):
             "opening_seconds":float(manifest.get("opening_seconds",5)),"theme_gap_seconds":float(manifest.get("theme_gap_seconds",.5)),
             "narration_speed":1.3,"host_line":manifest.get("host_line","大家好，我是小鱼是木鱼，以上是今天具身智能动态"),
             "music_seed":seed,"music_order":order_names,
-            "music":("enabled" if order else "none; no BGM was supplied"),
+            "music":("enabled; continuous one-pass playlist" if order else "none; no BGM was supplied"),
+            "music_playback":music_playback,
             "sfx":"locally synthesized page-turn tones between themes",
             "publication_ready":bool(args.publication_ready),"license_declarations_independently_verified":False,
             "asset_licenses":assets,

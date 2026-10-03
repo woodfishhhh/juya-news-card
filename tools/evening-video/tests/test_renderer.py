@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -289,13 +290,73 @@ class RendererIntegration(unittest.TestCase):
             self.assertEqual(metas[0]['music_order'],metas[1]['music_order'])
             self.assertEqual(metas[0]['music_order'][0],'boring life demo.wav')
             self.assertEqual(set(metas[0]['music_order']),{t['name'] for t in tracks})
-            self.assertEqual(metas[0]['music'],'enabled')
+            self.assertEqual(metas[0]['music'],'enabled; continuous one-pass playlist')
+            self.assertFalse(metas[0]['music_playback']['repeat'])
             # Topic one starts at second 5. Supplied local BGM makes its opening two seconds non-silent.
             log=command(['ffmpeg','-hide_banner','-ss','5','-i',str(self.out/'music-zh.mp4'),'-t','2',
                          '-af','silencedetect=noise=-50dB:d=0.10','-f','null','-']).stderr
             self.assertNotIn('silence_start:',log,log)
         finally:
             for p in manifests: p.unlink(missing_ok=True)
+
+    def test_bgm_is_one_continuous_ordered_pass_from_zero_with_no_theme_restart_or_repeat(self):
+        first=DEMO/'assets'/f'boring life playlist test {os.getpid()}.wav'
+        second=DEMO/'assets'/f'second playlist test {os.getpid()}.wav'
+        manifests=[]
+        metas=[]
+        outputs=[]
+        try:
+            command(['ffmpeg','-y','-hide_banner','-loglevel','error','-f','lavfi','-i',
+                     'sine=frequency=700:duration=7','-ar','48000','-ac','2',str(first)])
+            command(['ffmpeg','-y','-hide_banner','-loglevel','error','-f','lavfi','-i',
+                     'sine=frequency=1100:duration=10','-ar','48000','-ac','2',str(second)])
+            tracks=[
+                {'id':'first','name':first.name,'path':f'assets/{first.name}','volume':0.25,'license':{'status':'unknown'}},
+                {'id':'second','name':second.name,'path':f'assets/{second.name}','volume':0.25,'license':{'status':'unknown'}},
+            ]
+            for lang in ('zh','en'):
+                source=json.loads((DEMO/f'manifest.{lang}.json').read_text())
+                source['opening_narration']=None
+                for theme in source['themes']: theme['narration']=None
+                source['music_tracks']=tracks; source['music_seed']=17
+                path=DEMO/f'.playlist-once-{lang}-{os.getpid()}.json'
+                path.write_text(json.dumps(source,ensure_ascii=False),encoding='utf-8'); manifests.append(path)
+                name=f'playlist-once-{lang}-{os.getpid()}'
+                result=command([sys.executable,str(RENDERER),str(path),'--output-dir',str(self.out),
+                                '--name',name,'--width','320','--height','180','--fps','30','--seed','17'])
+                outputs.append(self.out/f'{name}.mp4')
+                metas.append(json.loads((self.out/f'{name}.manifest.json').read_text()))
+                self.assertIn('warning: BGM playlist lasts',result.stderr)
+            for meta in metas:
+                self.assertEqual(meta['music_order'],[first.name,second.name])
+                self.assertEqual(meta['music'],'enabled; continuous one-pass playlist')
+                self.assertEqual(meta['music_playback']['policy'],'continuous_once_from_video_start')
+                self.assertFalse(meta['music_playback']['repeat'])
+                self.assertFalse(meta['music_playback']['covers_video'])
+                self.assertEqual([s['name'] for s in meta['music_playback']['segments']],[first.name,second.name])
+            self.assertEqual(metas[0]['music_order'],metas[1]['music_order'])
+
+            def band_mean_db(path, second_offset, frequency):
+                log=command(['ffmpeg','-hide_banner','-ss',str(second_offset),'-i',str(path),'-t','0.8',
+                             '-af',f'bandpass=f={frequency}:width_type=h:width=100,volumedetect','-f','null','-']).stderr
+                match=re.search(r'mean_volume:\s*(-?inf|[-+]?\d+(?:\.\d+)?) dB',log)
+                self.assertIsNotNone(match,log)
+                return -999.0 if 'inf' in match.group(1) else float(match.group(1))
+
+            # Playlist starts at video time 0; the second file takes over once
+            # the first has played once and stays active across the 0.5s gap.
+            for path in outputs:
+                self.assertGreater(band_mean_db(path,2,700),-40)
+                self.assertLess(band_mean_db(path,2,1100),-50)
+                self.assertGreater(band_mean_db(path,8,1100),-40)
+                self.assertLess(band_mean_db(path,8,700),-50)
+                self.assertGreater(band_mean_db(path,13.7,1100),-40)
+                tail=command(['ffmpeg','-hide_banner','-ss','18','-i',str(path),'-t','1',
+                              '-af','silencedetect=noise=-45dB:d=0.25','-f','null','-']).stderr
+                self.assertIn('silence_start:',tail,tail)
+        finally:
+            for p in manifests: p.unlink(missing_ok=True)
+            first.unlink(missing_ok=True); second.unlink(missing_ok=True)
 
     def test_existing_fixed_output_is_not_silently_overwritten(self):
         name='collision-check'; target=self.out/f'{name}.mp4'; target.write_bytes(b'keep me')
