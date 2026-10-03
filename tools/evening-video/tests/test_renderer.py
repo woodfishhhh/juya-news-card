@@ -62,6 +62,55 @@ class CaptionGeometry(unittest.TestCase):
                     self.assertGreaterEqual(ink_row[0]-plate_row[0],pad-1)
                     self.assertGreaterEqual(plate_row[2]-ink_row[2],pad-1)
 
+    def test_word_safe_caption_wrapping_preserves_mixed_script_sentence(self):
+        # Compliance/assembly regression: the input sentence stays intact,
+        # every English word remains on one visual line, and CJK may wrap at
+        # glyph boundaries without losing punctuation or whitespace.
+        sentence='具身智能 systems support robust reasoning, safer deployment, and reliable manipulation across everyday environments。'
+        lines,font=renderer.fit_lines(sentence,42,760,2,16)
+        self.assertLessEqual(len(lines),2)
+        self.assertEqual(''.join(lines),sentence)
+        words=re.findall(r"[A-Za-z]+(?:['’][A-Za-z]+)*",sentence)
+        for word in words:
+            self.assertTrue(any(word in line for line in lines),f'English word was split: {word!r} -> {lines!r}')
+        self.assertTrue(all(font.getlength(line.rstrip())<=760 for line in lines))
+
+        # Explicit line breaks remain authoritative and do not permit a word
+        # to split at the auto-wrap boundary on either side of the break.
+        explicit='第一句保留换行\nEmbodied intelligence remains complete.'
+        explicit_lines,_=renderer.fit_lines(explicit,42,900,2,16)
+        self.assertEqual(len(explicit_lines),2)
+        self.assertEqual(explicit_lines[0],'第一句保留换行')
+        self.assertEqual(explicit_lines[1],'Embodied intelligence remains complete.')
+
+    def test_representative_caption_frame_keeps_complete_lines_inside_safe_area(self):
+        from PIL import Image
+        text=('具身智能 systems support robust reasoning, safer deployment, and reliable manipulation '
+              'across everyday environments while keeping every complete English word visible.')
+        # Exercise the same caption selection and frame-composition path used
+        # when assembling a narrated theme, rather than only testing fit_lines.
+        manifest={'fps':30,'sections':[{'id':'news','title':'要闻'}],
+                  'themes':[{'title':'Mixed-language story','event_title':'Mixed story',
+                             'section_id':'news','duration_seconds':8,
+                             'captions':[{'start':0,'end':10,'text':text}]}]}
+        caption=renderer.caption_for(manifest['themes'][0],.5,1.3)
+        self.assertEqual(caption,text)
+        base=Image.new('RGB',(1920,1080),(30,30,30))
+        image=renderer.compose_frame(base,manifest,0,None,caption,1920,1080,1.0,1.0,165,300)
+        gray=image.convert('L')
+        ink=gray.point(lambda value:255 if value>=240 else 0)
+        plate=gray.point(lambda value:255 if 40<=value<=100 else 0)
+        ink_box=ink.getbbox(); plate_box=plate.getbbox()
+        self.assertIsNotNone(ink_box); self.assertIsNotNone(plate_box)
+        self.assertLessEqual(plate_box[3],1008)
+        self.assertLessEqual(ink_box[3],997)
+        self.assertLessEqual(ink_box[0],plate_box[2])
+        # draw_caption uses the same fit_lines path as assembled video frames.
+        lines,_=renderer.fit_lines(text,42,int(1920*.86),2,16)
+        self.assertLessEqual(len(lines),2)
+        for word in re.findall(r"[A-Za-z]+(?:['’][A-Za-z]+)*",text):
+            self.assertTrue(any(word in line for line in lines),f'English word was split: {word!r}')
+
 class OpeningCardImage(unittest.TestCase):
     def fixture_manifest(self, root, opening_card_image):
         from PIL import Image

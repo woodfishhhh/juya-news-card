@@ -97,23 +97,81 @@ def _font(size:int) -> ImageFont.FreeTypeFont:
             except Exception: pass
     return ImageFont.load_default()
 
+def _is_cjk_breakable(char:str) -> bool:
+    """Return whether a glyph belongs to a script that can wrap between glyphs.
+
+    In this renderer the important cases are Han, Kana, and Hangul. Latin and
+    other space-delimited scripts are kept as unbroken runs so a caption never
+    splits a word merely because it reached the right edge of the plate.
+    """
+    cp=ord(char)
+    return (
+        0x3400 <= cp <= 0x4DBF or 0x4E00 <= cp <= 0x9FFF or
+        0xF900 <= cp <= 0xFAFF or 0x20000 <= cp <= 0x3134F or
+        0x3040 <= cp <= 0x30FF or 0x31F0 <= cp <= 0x31FF or
+        0xAC00 <= cp <= 0xD7AF or 0x1100 <= cp <= 0x11FF or
+        0x3130 <= cp <= 0x318F
+    )
+
+def _caption_tokens(paragraph:str) -> list[str]:
+    """Tokenize a line into whitespace, indivisible word-runs, and CJK glyphs."""
+    tokens=[]; i=0
+    while i<len(paragraph):
+        if paragraph[i].isspace():
+            j=i+1
+            while j<len(paragraph) and paragraph[j].isspace(): j+=1
+            tokens.append(paragraph[i:j]); i=j; continue
+        if _is_cjk_breakable(paragraph[i]):
+            # Keep combining marks and variation selectors with their base glyph.
+            j=i+1
+            while j<len(paragraph) and (
+                unicodedata.category(paragraph[j]).startswith("M") or
+                0xFE00 <= ord(paragraph[j]) <= 0xFE0F or
+                0xE0100 <= ord(paragraph[j]) <= 0xE01EF
+            ): j+=1
+            tokens.append(paragraph[i:j]); i=j; continue
+        j=i+1
+        while j<len(paragraph) and not paragraph[j].isspace() and not _is_cjk_breakable(paragraph[j]): j+=1
+        tokens.append(paragraph[i:j]); i=j
+    return tokens
+
+def _wrap_paragraph(paragraph:str, font:ImageFont.FreeTypeFont, max_width:int) -> list[str]:
+    """Wrap at whitespace/CJK opportunities without breaking non-CJK words."""
+    lines=[]; line=""
+    for token in _caption_tokens(paragraph):
+        if token.isspace():
+            # Keep source whitespace in the output. If the next word does not
+            # fit, this whitespace stays as invisible trailing space on the
+            # previous visual line rather than disappearing from the sentence.
+            line += token
+            continue
+        candidate=line+token
+        if font.getlength(candidate.rstrip()) <= max_width:
+            line=candidate
+            continue
+        if line:
+            lines.append(line)
+            line=token
+        else:
+            # The token itself is wider than the box. fit_lines retries at
+            # progressively smaller sizes; at its floor we fail rather than
+            # splitting an English word or dropping any source text.
+            line=token
+    lines.append(line)
+    return lines
+
 def fit_lines(text:str, font_path_size:int, max_width:int, max_lines:int=2, min_size:int=16):
     text=str(text or "")
-    # Wrap by measured glyph width. Keep every character; never ellipsize/truncate.
+    # Wrap at word boundaries for Latin/space-delimited text and between CJK
+    # glyphs. Explicit newlines always remain hard paragraph breaks. Keep every
+    # character; never ellipsize/truncate.
     for size in range(font_path_size, min_size-1, -1):
         font=_font(size); out=[]; overflow=False
         for para in text.split("\n"):
-            line=""
-            for char in para:
-                candidate=line+char
-                if line and font.getlength(candidate)>max_width:
-                    out.append(line); line=char
-                else:
-                    line=candidate
-            out.append(line)
+            out.extend(_wrap_paragraph(para,font,max_width))
             if len(out)>max_lines:
                 overflow=True; break
-        if not overflow and len(out)<=max_lines and all(font.getlength(x)<=max_width for x in out):
+        if not overflow and len(out)<=max_lines and all(font.getlength(x.rstrip())<=max_width for x in out):
             return out,font
     raise RenderError(f"caption/title is too long to show complete in {max_lines} lines (maximum font shrink reached): {text}")
 
