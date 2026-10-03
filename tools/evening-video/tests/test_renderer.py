@@ -61,6 +61,53 @@ class CaptionGeometry(unittest.TestCase):
                     self.assertGreaterEqual(ink_row[0]-plate_row[0],pad-1)
                     self.assertGreaterEqual(plate_row[2]-ink_row[2],pad-1)
 
+class OpeningCardImage(unittest.TestCase):
+    def fixture_manifest(self, root, opening_card_image):
+        from PIL import Image
+        Image.new('RGB',(32,18),(24,132,207)).save(root/'popup.png')
+        return {
+            'schema_version':1,'language':'en','opening_card_image':opening_card_image,
+            'opening_card_license':{'status':'licensed','evidence':'asset provenance record'},
+            'opening_seconds':5,'theme_gap_seconds':.5,'narration_speed':1.3,
+            'sections':[{'id':'news','title':'Top stories'}],
+            'themes':[{'title':'Example','section_id':'news','card_seconds':5,
+                       'duration_seconds':8,'media':'popup.png','narration':None,'captions':[]}],
+            'music_tracks':[]
+        }
+
+    def test_opening_png_replaces_generated_layout_at_production_ratio(self):
+        from PIL import Image
+        with tempfile.TemporaryDirectory(prefix='juya-opening-card-') as td:
+            root=Path(td)
+            Image.new('RGB',(1920,1080),(24,132,207)).save(root/'overview.png')
+            manifest=self.fixture_manifest(root,'overview.png')
+            image=renderer.draw_opening(manifest,320,180,320/1920,1.0,root)
+            self.assertEqual(image.size,(320,180))
+            self.assertEqual(image.convert('RGB').getpixel((160,90)),(24,132,207))
+
+    def test_opening_png_path_and_decode_failures_are_rejected(self):
+        from PIL import Image
+        args=type('Args',(),{'fps':30,'publication_ready':False})()
+        with tempfile.TemporaryDirectory(prefix='juya-opening-card-validation-') as td:
+            root=Path(td); manifest=self.fixture_manifest(root,'missing.png')
+            with self.assertRaisesRegex(renderer.RenderError,'opening_card_image file not found'):
+                renderer.validate(manifest,root,args)
+            (root/'broken.png').write_bytes(b'this is not a PNG')
+            manifest=self.fixture_manifest(root,'broken.png')
+            with self.assertRaisesRegex(renderer.RenderError,'could not read opening_card_image'):
+                renderer.validate(manifest,root,args)
+
+    def test_opening_png_rights_are_in_asset_audit(self):
+        from PIL import Image
+        args=type('Args',(),{'publication_ready':False})()
+        with tempfile.TemporaryDirectory(prefix='juya-opening-card-license-') as td:
+            root=Path(td); Image.new('RGB',(1920,1080),(24,132,207)).save(root/'overview.png')
+            manifest=self.fixture_manifest(root,'overview.png')
+            assets=renderer.inspect_publication(manifest,args,root)
+            opening=next(a for a in assets if a['kind']=='card' and a['name']=='opening')
+            self.assertEqual(opening['license_status'],'licensed')
+            self.assertEqual(opening['license_evidence'],'asset provenance record')
+
 class RendererIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -109,6 +156,17 @@ class RendererIntegration(unittest.TestCase):
         self.assertGreater(second_popup[0],second_popup[2]*1.7)  # orange popup for theme 2
         gap_row=next(x for x in self.zh_meta['timeline'] if x['kind']=='gap')
         self.assertAlmostEqual(gap_row['end_seconds']-gap_row['start_seconds'],.5,places=3)
+
+    def test_theme_fades_finish_at_quarter_second_in_encoded_frames(self):
+        # At 30 fps these samples land just after the 0.25s fade-in completes
+        # and just before the 0.25s fade-out begins. Read pixels from the actual
+        # encoded MP4, not merely the preset or an isolated alpha calculation.
+        expected=(245,242,237)  # theme-robot demo card background, outside all overlays
+        for sec in (5.2667,12.7333):
+            with self.subTest(second=sec):
+                pixel=self.frame('zh',sec).getpixel((5,60))
+                for channel,value in zip(pixel,expected):
+                    self.assertLessEqual(abs(channel-value),4,(sec,pixel,expected))
 
     def test_png_popup_works_when_first_theme_uses_no_video_reader(self):
         # Exercise a PNG as the first popup, before any MediaStream could initialize sizes.

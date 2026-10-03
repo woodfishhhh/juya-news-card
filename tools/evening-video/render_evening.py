@@ -81,6 +81,7 @@ def inspect_publication(manifest: dict[str,Any], args: argparse.Namespace, root:
         add(t.get("media_video"),"video",str(t.get("title",ti+1)),specific.get("media",t.get("media_license",lic)))
         add(t.get("narration"),"narration",str(t.get("title",ti+1)),specific.get("narration",t.get("narration_license",lic)))
     add(manifest.get("opening_narration"),"narration","opening",manifest.get("opening_license",{}))
+    add(manifest.get("opening_card_image"),"card","opening",manifest.get("opening_card_license",{}))
     for i,m in enumerate(manifest.get("music_tracks",[])): add(m.get("path"),"music",str(m.get("name",i+1)),m)
     if args.publication_ready:
         unknown=[a for a in assets if a["license_status"] not in ALLOWED_PUBLISH_LICENSES or not a["license_evidence"]]
@@ -248,7 +249,17 @@ def draw_caption(draw,text,w,h,scale,opacity=1.0):
         d.text((ink_x-box[0],ink_y-box[1]),line,font=font,fill=(255,255,255,int(255*opacity)))
         cursor+=lh+gap
 
-def draw_opening(manifest,w,h,scale,alpha):
+def draw_opening(manifest,w,h,scale,alpha,root:Path|None=None):
+    opening_card=manifest.get("opening_card_image")
+    if opening_card:
+        if root is None:
+            raise RenderError("opening_card_image requires the manifest directory")
+        path=local_path(root,opening_card,"opening_card_image",required=True)
+        try:
+            with Image.open(path) as source:
+                return cover_resize(source,w,h,"cover").convert("RGBA")
+        except Exception as e:
+            raise RenderError(f"could not read opening_card_image: {path}: {e}") from e
     im=Image.new("RGB",(w,h),PAPER).convert("RGBA"); lay=Image.new("RGBA",(w,h),(250,249,246,0)); d=ImageDraw.Draw(lay)
     d.rectangle((int(w*.105),int(h*.15),int(w*.895),int(h*.84)),fill=(255,255,255,255),outline=(225,220,214,255),width=max(1,int(2*scale)))
     draw_centered_text(d,"本期概览",(int(w*.16),int(h*.21),int(w*.84),int(h*.31)),size=max(12,int(38*scale)),color=INK,max_lines=1,min_size=max(9,int(17*scale)))
@@ -329,7 +340,7 @@ def build_silent_video(manifest, root, output_video, width,height,fps):
     total=cursor; total_frames=math.ceil(total*fps)
     out=subprocess.Popen(["ffmpeg","-y","-hide_banner","-loglevel","error","-f","rawvideo","-pixel_format","rgb24","-video_size",f"{width}x{height}","-framerate",str(fps),"-i","pipe:0","-an","-c:v","libx264","-preset","ultrafast","-crf","23","-pix_fmt","yuv420p","-r",str(fps),"-movflags","+faststart",str(output_video)],stdin=subprocess.PIPE,stderr=subprocess.PIPE)
     cards=[make_card(t,root,width,height,i) for i,t in enumerate(themes)]
-    readers={}; opened_base=draw_opening(manifest,width,height,scale,1.0)
+    readers={}; opened_base=draw_opening(manifest,width,height,scale,1.0,root)
     try:
         for fi in range(total_frames):
             now=fi/fps; chosen=None
@@ -355,7 +366,7 @@ def build_silent_video(manifest, root, output_video, width,height,fps):
                 base=cards[idx]
                 card_seconds=float(theme.get("card_seconds",5))
                 # Fade in at the start and fade out just before the next white gap.
-                fade=min(0.35, max(0.01, (end-start)/4))
+                fade=min(0.25, max(0.01, (end-start)/4))
                 alpha=min(1.0,local/fade,(end-now)/fade)
                 media_start= start+card_seconds
                 if now>=media_start:
@@ -480,6 +491,12 @@ def validate(manifest,root, args):
     if float(manifest.get("narration_speed",1.3)) != 1.3:
         raise RenderError("narration_speed is fixed at 1.3 for the requested cut; update the manifest value to 1.3")
     local_path(root,manifest.get("opening_narration"),"opening_narration")
+    opening_card=local_path(root,manifest.get("opening_card_image"),"opening_card_image")
+    if opening_card:
+        try:
+            with Image.open(opening_card) as im: im.verify()
+        except Exception as e:
+            raise RenderError(f"could not read opening_card_image: {opening_card}: {e}") from e
     for i,t in enumerate(manifest["themes"]):
         if not t.get("title"): raise RenderError(f"theme[{i}] requires title")
         if t.get("section_id") and section_ids and str(t["section_id"]) not in section_ids:

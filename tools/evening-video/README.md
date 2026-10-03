@@ -42,9 +42,9 @@ That command deliberately fails on the demo's `unknown` license entries. Add an 
 
 ## Timeline and layout
 
-- A 5-second opening overview shows the configured episode title, overview, and the exact host line `大家好，我是小鱼是木鱼，以上是今天具身智能动态`.
+- A 5-second opening overview shows the configured episode title, overview, and the exact host line `大家好，我是小鱼是木鱼，以上是今天具身智能动态`. An optional manifest-relative `opening_card_image` PNG replaces that generated opening layout; opening captions, when supplied, are still drawn over it in the existing bottom subtitle-safe area. Manifests without the new field retain the previous generated opening unchanged.
 - Each theme's card is visible for 5 seconds by default and in the supplied preset; a manifest may set a different `card_seconds`. Its local image or looping local video popup appears afterward in the 1520x830 production rectangle at x=200, y=64 (preserving aspect ratio). `duration_seconds` is the full theme duration, including the initial card period.
-- Themes are separated by exactly a 0.5-second white transition with navigation hidden. Cards fade in/out over 0.35 seconds, and each theme boundary gets a locally synthesized short page-turn tone.
+- Themes are separated by exactly a 0.5-second white transition with navigation hidden. Cards fade in/out over 0.25 seconds, and each theme boundary gets a locally synthesized short page-turn tone.
 - Section navigation is 27px and event navigation 23px at 1920x1080. Current section/event highlight, within-section progress, and current-event progress update over time. `card_has_chrome: true` masks the source PNG's existing header, footer, and caption strip before drawing updated navigation and captions.
 - Captions are complete sentences using source-narration timings. They are mapped to the requested 1.3x playback rate and rendered in no more than two lines, above the bottom navigation: caption box bottom is at y=1008; the bottom nav starts at y=1024. If a full sentence cannot fit after font reduction, rendering errors instead of truncating it.
 - The renderer applies actual FFmpeg `atempo=1.3` to provided opening/theme narration and divides source caption times by the same speed. The demo's WAVs are audible synthetic sine tones only, not Mandarin or English speech. The quoted host line is included as script/caption text; to hear it spoken, provide a real local opening narration recording and its caption timing. No voice is synthesized.
@@ -64,7 +64,9 @@ All asset paths are local paths relative to the input manifest. URLs and paths e
   "host_line": "大家好，我是小鱼是木鱼，以上是今天具身智能动态",
   "opening_seconds": 5,
   "theme_gap_seconds": 0.5,
-  "narration_speed": 1.3,
+    "narration_speed": 1.3,
+    "opening_card_image": "assets/overview.png",
+    "opening_card_license": {"status":"unknown", "evidence":"source/license reference"},
   "sections": [{"id":"news", "title":"要闻"}],
   "themes": [{
     "title":"示例主题", "event_title":"示例事件", "section_id":"news",
@@ -78,7 +80,7 @@ All asset paths are local paths relative to the input manifest. URLs and paths e
 }
 ```
 
-Each theme must specify exactly one of `media` (local still image) or `media_video` (local video). `card_image` is an existing generated PNG. If omitted, a simple card is generated from title/source fields. Alternatively, `card_html` names a local HTML file and is captured using Playwright plus local Chromium. HTML navigation is restricted to `file:` files under the manifest directory plus `data:`/`blob:` requests; other resources are aborted, and Chromium gets DNS/network-blocking flags. Some sandboxes prohibit Chromium launch; PNG input does not depend on Chromium. Optional `opening_narration`, `opening_captions`, and `opening_license` accept the opening voice track and source-time sentence captions. A theme-level `license` applies to its card/media/narration by default; `licenses.card` / `card_license`, `licenses.media` / `media_license`, and `licenses.narration` / `narration_license` can declare separate asset rights. Each used local card/media/narration/music asset is recorded separately in output metadata. The renderer is intentionally fail-closed on external asset URLs.
+Each theme must specify exactly one of `media` (local still image) or `media_video` (local video). `card_image` is an existing generated PNG. If omitted, a simple card is generated from title/source fields. Alternatively, `card_html` names a local HTML file and is captured using Playwright plus local Chromium. HTML navigation is restricted to `file:` files under the manifest directory plus `data:`/`blob:` requests; other resources are aborted, and Chromium gets DNS/network-blocking flags. Some sandboxes prohibit Chromium launch; PNG input does not depend on Chromium. Optional `opening_card_image` is a manifest-relative local PNG for the 5-second overview; its `opening_card_license` is recorded as a card asset. Optional `opening_narration`, `opening_captions`, and `opening_license` accept the opening voice track and source-time sentence captions. A theme-level `license` applies to its card/media/narration by default; `licenses.card` / `card_license`, `licenses.media` / `media_license`, and `licenses.narration` / `narration_license` can declare separate asset rights. Each used local card/media/narration/music asset is recorded separately in output metadata. The renderer is intentionally fail-closed on external asset URLs.
 
 ## Test
 
