@@ -195,3 +195,7 @@ npx playwright install chromium-headless-shell
 - `server/next-runtime.ts`：当前 Next API 实际依赖
 - `scripts/` 与 `tests/`：CLI/审计/回归能力
 - `.agents/skills/`：自动化操作流程
+
+## 具身智能晚报工作流
+
+栏目选题、双语文稿、概览页、真实素材弹窗、字幕、配音、BGM、许可与发布回执的统一验收要求见 [业务规则](docs/embodied-evening-business-rules.md)。实现与逐期验收分开记录；详细渲染命令见 [独立视频渲染器](tools/evening-video/README.md)。
