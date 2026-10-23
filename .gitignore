@@ -39,3 +39,8 @@ card-*.png
 
 # Optional local font asset
 assets/htmlFont.ttf
+
+# Machine-local data locations (no runtime state in Git)
+/config/embodied-news.local.json
+__pycache__/
+*.pyc

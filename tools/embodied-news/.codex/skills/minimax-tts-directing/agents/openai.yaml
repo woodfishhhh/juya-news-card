@@ -1,0 +1,4 @@
+interface:
+  display_name: "MiniMax 配音校音与字幕"
+  short_description: "按官方文档调整多音字、停顿和朗读语气，并用真实时间戳制作连贯字幕"
+  default_prompt: "使用 $minimax-tts-directing 检查文稿读音和断句，生成有真实字幕时间戳的配音。"

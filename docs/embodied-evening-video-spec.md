@@ -1,3 +1,5 @@
+> 当前栏目规范和生产适配见 [业务规则](embodied-evening-business-rules.md) 与 [生产模块](../tools/embodied-news/README.md)。下文保留基础渲染器的历史规格，不覆盖现行契约。
+
 # Embodied Evening Video Production Specification
 
 ## Implementation status and boundary

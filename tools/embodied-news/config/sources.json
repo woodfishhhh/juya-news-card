@@ -1,0 +1,672 @@
+{
+  "version": 1,
+  "rsshubConfig": "rsshub.json",
+  "publisherFeedConfig": "rss-publishers.json",
+  "domesticFeedConfig": "rss-domestic.json",
+  "keywordFeedConfigs": ["rss-keywords.json", "rss-keywords-international.json"],
+  "researchedAt": "2026-09-30T11:53:00.3Z",
+  "column": {
+    "name": "具身智能日报",
+    "standaloneEditorialColumn": true,
+    "positioning": "面向中文观众解释具身智能与机器人领域的新进展、新技术、新资源及真实应用。",
+    "pipelineReuse": "采集、核验、RSS和Juya渲染可复用；栏目拥有独立消息源、去重记录、选题和内容规则。",
+    "topics": [
+      "具身模型与VLA",
+      "机器人学习和操作",
+      "运动控制",
+      "人形及其他机器人本体",
+      "数据与仿真",
+      "实际应用",
+      "关键部件与感知"
+    ],
+    "selectionNote": "普通AI产品、一般自动化、纯股价或营销活动仅在存在明确机器人相关进展时纳入。招聘不是固定版块。"
+  },
+  "sourcePrinciples": [
+    "来源角色、技术可获取性、条目证据强度分别记录；官网不能自动证明能力声明为普遍事实。",
+    "企业和作者的原始发布证明其声明；能力结论进一步核对论文、实验条件、失败案例和独立验证。",
+    "媒体可以贡献原创采访和调查，也可以用于发现；转载同一通稿的多篇报道不算多个独立证据。",
+    "每条保留发现链接与原始证据链接；视频卡片显示来源和原始发布日期。",
+    "论文预印本、同行评审、官方演示、第三方测试、模型或代码公开、真实部署分别标记。",
+    "演示核对真机或仿真、自主或遥操作、是否剪辑或加速、测试次数和场景条件；未知字段不补造。",
+    "保留事件日期、首发日期、抓取日期，转载日期不能代替事件日期。",
+    "新闻原文、图片和视频使用许可单独记录；公开可访问不等于可以直接转载素材。"
+  ],
+  "firstBatchRecommendation": [
+    "arxiv-cs-ro",
+    "lerobot-releases",
+    "groot-releases",
+    "deepmind-feed",
+    "nvidia-developer-feed",
+    "ieee-robotics-feed",
+    "qbitai-feed"
+  ],
+  "sources": [
+    {
+      "id": "arxiv-cs-ro",
+      "name": "arXiv Robotics cs.RO",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "RESEARCH_PREPRINT",
+      "topics": [
+        "机器人学习",
+        "操作",
+        "控制",
+        "感知",
+        "导航"
+      ],
+      "entryUrl": "https://rss.arxiv.org/rss/cs.RO",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:42:34.501Z",
+        "httpStatus": 200,
+        "status": "FEED_RETURNED",
+        "itemCount": 199,
+        "newestItemDate": null,
+        "error": null
+      },
+      "notes": "预印本来源；保留arXiv ID及版本，结合论文和作者项目页核验。返回199条不等于当天有199项合格新闻。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "lerobot-releases",
+      "name": "Hugging Face LeRobot Releases",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "MAINTAINER_RELEASE",
+      "topics": [
+        "机器人学习",
+        "模型",
+        "训练",
+        "评估"
+      ],
+      "entryUrl": "https://github.com/huggingface/lerobot/releases.atom",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:42:34.546Z",
+        "httpStatus": 200,
+        "status": "FEED_RETURNED",
+        "itemCount": 10,
+        "newestItemDate": null,
+        "error": null
+      },
+      "notes": "维护者版本发布；重大模型或数据集消息还要监控官方博客与Hub，不能只依靠软件版本。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "groot-releases",
+      "name": "NVIDIA Isaac GR00T Releases",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "MAINTAINER_RELEASE",
+      "topics": [
+        "通用机器人模型",
+        "VLA",
+        "开发工具"
+      ],
+      "entryUrl": "https://github.com/NVIDIA/Isaac-GR00T/releases.atom",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:42:34.547Z",
+        "httpStatus": 200,
+        "status": "FEED_RETURNED",
+        "itemCount": 5,
+        "newestItemDate": null,
+        "error": null
+      },
+      "notes": "核对发布说明、模型卡、开放内容与使用许可。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "deepmind-feed",
+      "name": "Google DeepMind News",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "具身模型",
+        "Gemini Robotics",
+        "空间推理",
+        "世界模型"
+      ],
+      "entryUrl": "https://deepmind.google/blog/rss.xml",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:01.659Z",
+        "httpStatus": 200,
+        "status": "PARSED_FEED_WITH_ITEMS",
+        "itemCount": 100,
+        "newestItemDate": "2026-09-24T16:20:39Z",
+        "error": null
+      },
+      "notes": "这是全站订阅，必须筛机器人及物理世界相关条目；官方声明仍要保留测试条件和限制。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "nvidia-developer-feed",
+      "name": "NVIDIA Technical Blog",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "DEVELOPER_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "Isaac",
+        "GR00T",
+        "Cosmos",
+        "仿真",
+        "数据生成",
+        "部署"
+      ],
+      "entryUrl": "https://developer.nvidia.com/blog/feed/",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:01.66Z",
+        "httpStatus": 200,
+        "status": "PARSED_FEED_WITH_ITEMS",
+        "itemCount": 100,
+        "newestItemDate": "2026-09-29T19:10:51Z",
+        "error": null
+      },
+      "notes": "这是全站订阅，普通GPU、Agent和非机器人话题不自动进入栏目。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "ieee-robotics-feed",
+      "name": "IEEE Spectrum Robotics",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "EDITORIAL_REPORTING_AND_DISCOVERY",
+      "topics": [
+        "机器人",
+        "工程实践",
+        "研究",
+        "视频"
+      ],
+      "entryUrl": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:01.614Z",
+        "httpStatus": 200,
+        "status": "PARSED_FEED_WITH_ITEMS",
+        "itemCount": 30,
+        "newestItemDate": "2026-09-28T21:48:56Z",
+        "error": null
+      },
+      "notes": "可提供采访、背景、技术评价和原始项目链接；栏目中个别条目仍需过滤。Video Friday适合作为长尾研究与演示入口。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "qbitai-feed",
+      "name": "量子位",
+      "priority": "FIRST_BATCH_FEED",
+      "role": "CHINESE_MEDIA_DISCOVERY",
+      "topics": [
+        "中文行业动态",
+        "机器人",
+        "具身智能"
+      ],
+      "entryUrl": "https://www.qbitai.com/feed",
+      "acquisition": {
+        "method": "RSS_OR_ATOM",
+        "validatedInThisSession": true
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:01.658Z",
+        "httpStatus": 200,
+        "status": "PARSED_FEED_WITH_ITEMS",
+        "itemCount": 10,
+        "newestItemDate": "2026-09-30T10:04:12Z",
+        "error": null
+      },
+      "notes": "全站AI订阅；用于发现中文线索，再追到企业、论文、仓库或作者项目页。标题不能直接成为能力结论。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "unitree-news",
+      "name": "宇树官方新闻",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "COMPANY_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "人形机器人",
+        "四足机器人",
+        "硬件",
+        "演示"
+      ],
+      "entryUrl": "https://www.unitree.com/news/",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.333Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [
+        {
+          "url": "https://www.youtube.com/@unitreerobotics",
+          "ownerEvidence": "https://www.unitree.com/news/",
+          "feedOrApiValidated": false
+        },
+        {
+          "url": "https://x.com/UnitreeRobotics",
+          "ownerEvidence": "https://www.unitree.com/news/",
+          "feedOrApiValidated": false
+        }
+      ],
+      "notes": "官网更新未必覆盖全部首发；配合官网链接的官方视频/社交账号监控。",
+      "adapter": "domestic"
+    },
+    {
+      "id": "galbot-news",
+      "name": "银河通用官方新闻",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "COMPANY_INDEX_MIXED_ORIGINS",
+      "topics": [
+        "机器人操作",
+        "模型",
+        "应用",
+        "数据"
+      ],
+      "entryUrl": "https://www.galbot.com/news/",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.335Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [
+        {
+          "url": "https://space.bilibili.com/3546595559737798",
+          "ownerEvidence": "https://www.galbot.com/news/",
+          "feedOrApiValidated": false
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCtWK-1gf-HoocxS-DUirRow",
+          "ownerEvidence": "https://www.galbot.com/news/",
+          "feedOrApiValidated": false
+        }
+      ],
+      "notes": "官网索引混合自有发布及媒体报道，部分详情链接到公众号；每篇保留实际发布者并单独检查正文。",
+      "adapter": "domestic"
+    },
+    {
+      "id": "figure-news",
+      "name": "Figure 官方新闻",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "COMPANY_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "人形机器人",
+        "VLA",
+        "应用",
+        "数据"
+      ],
+      "entryUrl": "https://www.figure.ai/news",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.336Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [
+        {
+          "url": "https://www.youtube.com/@figureai",
+          "ownerEvidence": "https://www.figure.ai/news",
+          "feedOrApiValidated": false
+        }
+      ],
+      "notes": "当前新闻索引可读；关于部署、产能、泛化能力的陈述要明确归属于公司并回看证据。",
+      "adapter": "international"
+    },
+    {
+      "id": "boston-dynamics-blog",
+      "name": "Boston Dynamics 官方博客",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "COMPANY_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "移动操作",
+        "运动控制",
+        "工程应用"
+      ],
+      "entryUrl": "https://bostondynamics.com/blog/",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:30.345Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "博客可读；本轮/feed/虽然返回有效XML却没有条目，所以使用网页适配，不把空订阅计入可用消息流。",
+      "adapter": "international"
+    },
+    {
+      "id": "agibot-news",
+      "name": "智元官方新闻",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "COMPANY_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "具身模型",
+        "人形机器人",
+        "数据",
+        "应用"
+      ],
+      "entryUrl": "https://www.agibot.com/news",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.334Z",
+        "httpStatus": 500,
+        "status": "HTTP_ERROR",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "网页浏览工具可读取新闻索引，但本机HTTP探测返回500，需在部署环境重新验证及设置失败告警。",
+      "adapter": "domestic"
+    },
+    {
+      "id": "isaaclab-releases",
+      "name": "Isaac Lab Releases",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "MAINTAINER_RELEASE",
+      "topics": [
+        "仿真",
+        "强化学习",
+        "机器人训练"
+      ],
+      "entryUrl": "https://github.com/isaac-sim/IsaacLab/releases.atom",
+      "acquisition": {
+        "method": "ATOM_CANDIDATE",
+        "validatedInThisSession": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.33Z",
+        "httpStatus": null,
+        "status": "FETCH_OR_PARSE_ERROR",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": "The operation was aborted due to timeout"
+      },
+      "notes": "项目仓库已通过网页工具确认存在，但Atom请求本轮超时；不能列为已验证订阅源。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "openpi-releases",
+      "name": "Physical Intelligence openpi Releases",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "MAINTAINER_RELEASE",
+      "topics": [
+        "VLA",
+        "模型",
+        "推理",
+        "训练"
+      ],
+      "entryUrl": "https://github.com/Physical-Intelligence/openpi/releases.atom",
+      "acquisition": {
+        "method": "ATOM_CANDIDATE",
+        "validatedInThisSession": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.331Z",
+        "httpStatus": null,
+        "status": "FETCH_OR_PARSE_ERROR",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": "The operation was aborted due to timeout"
+      },
+      "notes": "项目仓库已通过网页工具确认存在，但Atom请求本轮超时；不能列为已验证订阅源。",
+      "adapter": "feeds"
+    },
+    {
+      "id": "corl-2026",
+      "name": "CoRL 官方会议",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "RESEARCH_CONFERENCE",
+      "topics": [
+        "机器人学习",
+        "同行评审",
+        "论文",
+        "演示"
+      ],
+      "entryUrl": "https://2026.corl.org/",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:30.346Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "按会议日程更新，适合重要论文与演示批次补充；不是每日高频消息流。",
+      "adapter": "research-media"
+    },
+    {
+      "id": "rss-proceedings",
+      "name": "Robotics: Science and Systems 官方论文集",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "RESEARCH_PROCEEDINGS",
+      "topics": [
+        "机器人研究",
+        "同行评审",
+        "论文"
+      ],
+      "entryUrl": "https://www.roboticsproceedings.org/",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:30.346Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "这里的RSS是会议名称缩写，不是订阅格式。按年份及论文页面读取，补充研究证据。",
+      "adapter": "research-media"
+    },
+    {
+      "id": "robot-report-feed",
+      "name": "The Robot Report",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "INDUSTRY_MEDIA_DISCOVERY",
+      "topics": [
+        "商业应用",
+        "机器人企业",
+        "工程应用"
+      ],
+      "entryUrl": "https://www.therobotreport.com/feed/",
+      "acquisition": {
+        "method": "RSS_CANDIDATE",
+        "validatedInThisSession": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:01.657Z",
+        "httpStatus": 403,
+        "status": "HTTP_ERROR",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "notes": "网站及订阅本轮403；作为候补来源，不能标记为已接通。",
+      "adapter": "research-media"
+    }
+  ],
+  "eventRecordFields": [
+    "eventId",
+    "topic",
+    "entity",
+    "title",
+    "eventAt",
+    "firstPublishedAt",
+    "discoveredAt",
+    "discoveryUrl",
+    "originalEvidenceUrls",
+    "claims",
+    "evidenceType",
+    "testConditions",
+    "limitations",
+    "availability",
+    "mediaAssets",
+    "independentReportingUrls"
+  ],
+  "operations": {
+    "deploymentStatus": "NOT_DEPLOYED",
+    "feedPollingSuggestion": "每2小时检查一次，失败退避；此为建议而非已创建任务。",
+    "websitePollingSuggestion": "按源更新节奏每4至12小时检查；首发视频来源另设适配。",
+    "retention": "保留原文快照、内容哈希、解析版本和来源时间；修订时保留旧版本。",
+    "eventDedupe": "优先arXiv ID/DOI、仓库+release ID或官方事件URL；多来源报道归并同一事件。",
+    "publishing": "RSS可以收录核验合格的事件；视频每天精选3至5条，不足时缩短，不用旧演示填充为新消息。",
+    "coverageReview": "部署后观察7天的有效新增、正文成功率、漏报、重复和来源集中度，再调整消息源。"
+  },
+  "tracedExample": {
+    "title": "ULOHA 水下双臂机器人学习项目",
+    "discoveryUrl": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+    "originalProjectUrl": "https://mertcookimg.github.io/uloha/",
+    "verifiedScope": "已读取项目页，含论文、视频、仓库入口、任务成功次数、失败示例和实验条件；未做独立复现实验。",
+    "editorialValue": "从媒体发现追到原始实验，能写出展示能力与适用边界；不能仅依据演示称其掌握通用水下操作。"
+  },
+  "excludedSources": [
+    {
+      "id": "jiqizhixin-library",
+      "name": "机器之心",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "CHINESE_MEDIA_DISCOVERY",
+      "topics": [
+        "中文技术线索",
+        "机器人",
+        "论文"
+      ],
+      "entryUrl": "https://www.jiqizhixin.com/articles",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:30.345Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "本轮文章库HTTP200但只有前端壳，未拿到文章列表；需核实新的公开文章入口或RSSHub适配，不能按成功采集计算。",
+      "adapter": "research-media",
+      "excludedAt": "2026-10-01T04:34:11Z",
+      "exclusionReason": "User declined paid subscription and explicitly removed this data source. Preserve historical records; do not collect or count toward active acceptance."
+    },
+    {
+      "id": "limx-news",
+      "name": "逐际动力官方新闻",
+      "priority": "PRIORITY_WEB_ADAPTER",
+      "role": "COMPANY_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "人形机器人",
+        "运动控制",
+        "VLA",
+        "应用"
+      ],
+      "entryUrl": "https://www.limxdynamics.com/en/news",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:12.335Z",
+        "httpStatus": 200,
+        "status": "PAGE_RETURNED_ADAPTER_NOT_IMPLEMENTED",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [
+        {
+          "url": "https://space.bilibili.com/1172054289",
+          "ownerEvidence": "https://www.limxdynamics.com/en/news",
+          "feedOrApiValidated": false
+        },
+        {
+          "url": "https://www.youtube.com/@LimXDynamics",
+          "ownerEvidence": "https://www.limxdynamics.com/en/news",
+          "feedOrApiValidated": false
+        }
+      ],
+      "notes": "新闻页本轮可读，含日期和原始文章入口；后续实现列表、详情与更新识别。",
+      "adapter": "domestic",
+      "excludedAt": "2026-10-01T06:26:05Z",
+      "exclusionReason": "User explicitly cancelled the remaining blocked LimX group and Physical Intelligence website source; preserve historical evidence."
+    },
+    {
+      "id": "physical-intelligence-blog",
+      "name": "Physical Intelligence 研究博客",
+      "priority": "RESERVE_NEEDS_VALIDATION",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "topics": [
+        "VLA",
+        "泛化",
+        "强化学习",
+        "机器人操作"
+      ],
+      "entryUrl": "https://www.pi.website/blog",
+      "acquisition": {
+        "method": "OFFICIAL_WEB_OR_BROWSER",
+        "adapterImplemented": false
+      },
+      "check": {
+        "checkedAt": "2026-09-30T11:49:30.343Z",
+        "httpStatus": 429,
+        "status": "HTTP_ERROR",
+        "itemCount": null,
+        "newestItemDate": null,
+        "error": null
+      },
+      "officialProfiles": [],
+      "notes": "网页工具遇403，本机直连429；本轮不作为已验证自动来源。公开仓库是补充，不能代替博客所有发布。",
+      "adapter": "international",
+      "excludedAt": "2026-10-01T06:26:05Z",
+      "exclusionReason": "User explicitly cancelled the remaining blocked LimX group and Physical Intelligence website source; preserve historical evidence."
+    }
+  ]
+}

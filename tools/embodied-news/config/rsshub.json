@@ -1,0 +1,1811 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "http://127.0.0.1:1200",
+  "updatedAt": "2026-10-23",
+  "excludedSourceIds": [
+    "jiqizhixin-library",
+    "limx-news",
+    "physical-intelligence-blog"
+  ],
+  "sources": [
+    {
+      "id": "hub-ros2-ros2-releases",
+      "name": "ros2/ros2 releases",
+      "publisher": "ros2",
+      "route": "/github/repo_event/ros2/ros2/release",
+      "website": "https://github.com/ros2/ros2",
+      "githubRepo": "ros2/ros2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:47.503Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-ros-navigation-navigation2-releases",
+      "name": "ros-navigation/navigation2 releases",
+      "publisher": "ros-navigation",
+      "route": "/github/repo_event/ros-navigation/navigation2/release",
+      "website": "https://github.com/ros-navigation/navigation2",
+      "githubRepo": "ros-navigation/navigation2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:47.507Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-moveit-moveit2-releases",
+      "name": "moveit/moveit2 releases",
+      "publisher": "moveit",
+      "route": "/github/repo_event/moveit/moveit2/release",
+      "website": "https://github.com/moveit/moveit2",
+      "githubRepo": "moveit/moveit2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:47.507Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-gazebosim-gz-sim-releases",
+      "name": "gazebosim/gz-sim releases",
+      "publisher": "gazebosim",
+      "route": "/github/repo_event/gazebosim/gz-sim/release",
+      "website": "https://github.com/gazebosim/gz-sim",
+      "githubRepo": "gazebosim/gz-sim",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:47.526Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-google-deepmind-mujoco-releases",
+      "name": "google-deepmind/mujoco releases",
+      "publisher": "google-deepmind",
+      "route": "/github/repo_event/google-deepmind/mujoco/release",
+      "website": "https://github.com/google-deepmind/mujoco",
+      "githubRepo": "google-deepmind/mujoco",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:56.654Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-isaac-sim-isaacsim-releases",
+      "name": "isaac-sim/IsaacSim releases",
+      "publisher": "isaac-sim",
+      "route": "/github/repo_event/isaac-sim/IsaacSim/release",
+      "website": "https://github.com/isaac-sim/IsaacSim",
+      "githubRepo": "isaac-sim/IsaacSim",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:59.514Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-nvidia-isaac-gr00t-releases",
+      "name": "NVIDIA/Isaac-GR00T releases",
+      "publisher": "NVIDIA",
+      "route": "/github/repo_event/NVIDIA/Isaac-GR00T/release",
+      "website": "https://github.com/NVIDIA/Isaac-GR00T",
+      "githubRepo": "NVIDIA/Isaac-GR00T",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:38:59.544Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-huggingface-lerobot-releases",
+      "name": "huggingface/lerobot releases",
+      "publisher": "huggingface",
+      "route": "/github/repo_event/huggingface/lerobot/release",
+      "website": "https://github.com/huggingface/lerobot",
+      "githubRepo": "huggingface/lerobot",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:14.843Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-isaac-sim-isaaclab-releases",
+      "name": "isaac-sim/IsaacLab releases",
+      "publisher": "isaac-sim",
+      "route": "/github/repo_event/isaac-sim/IsaacLab/release",
+      "website": "https://github.com/isaac-sim/IsaacLab",
+      "githubRepo": "isaac-sim/IsaacLab",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:15.837Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-arise-initiative-robosuite-releases",
+      "name": "ARISE-Initiative/robosuite releases",
+      "publisher": "ARISE-Initiative",
+      "route": "/github/repo_event/ARISE-Initiative/robosuite/release",
+      "website": "https://github.com/ARISE-Initiative/robosuite",
+      "githubRepo": "ARISE-Initiative/robosuite",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:21.659Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-arise-initiative-robomimic-releases",
+      "name": "ARISE-Initiative/robomimic releases",
+      "publisher": "ARISE-Initiative",
+      "route": "/github/repo_event/ARISE-Initiative/robomimic/release",
+      "website": "https://github.com/ARISE-Initiative/robomimic",
+      "githubRepo": "ARISE-Initiative/robomimic",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:30.241Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-openvla-openvla-releases",
+      "name": "openvla/openvla releases",
+      "publisher": "openvla",
+      "route": "/github/repo_event/openvla/openvla/release",
+      "website": "https://github.com/openvla/openvla",
+      "githubRepo": "openvla/openvla",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:31.399Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-octo-models-octo-releases",
+      "name": "octo-models/octo releases",
+      "publisher": "octo-models",
+      "route": "/github/repo_event/octo-models/octo/release",
+      "website": "https://github.com/octo-models/octo",
+      "githubRepo": "octo-models/octo",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:40.847Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-rail-berkeley-bridge-data-v2-releases",
+      "name": "rail-berkeley/bridge_data_v2 releases",
+      "publisher": "rail-berkeley",
+      "route": "/github/repo_event/rail-berkeley/bridge_data_v2/release",
+      "website": "https://github.com/rail-berkeley/bridge_data_v2",
+      "githubRepo": "rail-berkeley/bridge_data_v2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:41.433Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-real-stanford-diffusion-policy-releases",
+      "name": "real-stanford/diffusion_policy releases",
+      "publisher": "real-stanford",
+      "route": "/github/repo_event/real-stanford/diffusion_policy/release",
+      "website": "https://github.com/real-stanford/diffusion_policy",
+      "githubRepo": "real-stanford/diffusion_policy",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:49.550Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-unitreerobotics-unitree-sdk2-releases",
+      "name": "unitreerobotics/unitree_sdk2 releases",
+      "publisher": "unitreerobotics",
+      "route": "/github/repo_event/unitreerobotics/unitree_sdk2/release",
+      "website": "https://github.com/unitreerobotics/unitree_sdk2",
+      "githubRepo": "unitreerobotics/unitree_sdk2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:51.315Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-unitreerobotics-unitree-ros2-releases",
+      "name": "unitreerobotics/unitree_ros2 releases",
+      "publisher": "unitreerobotics",
+      "route": "/github/repo_event/unitreerobotics/unitree_ros2/release",
+      "website": "https://github.com/unitreerobotics/unitree_ros2",
+      "githubRepo": "unitreerobotics/unitree_ros2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:39:53.448Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-unitreerobotics-unitree-rl-gym-releases",
+      "name": "unitreerobotics/unitree_rl_gym releases",
+      "publisher": "unitreerobotics",
+      "route": "/github/repo_event/unitreerobotics/unitree_rl_gym/release",
+      "website": "https://github.com/unitreerobotics/unitree_rl_gym",
+      "githubRepo": "unitreerobotics/unitree_rl_gym",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:00.238Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-leggedrobotics-rsl-rl-releases",
+      "name": "leggedrobotics/rsl_rl releases",
+      "publisher": "leggedrobotics",
+      "route": "/github/repo_event/leggedrobotics/rsl_rl/release",
+      "website": "https://github.com/leggedrobotics/rsl_rl",
+      "githubRepo": "leggedrobotics/rsl_rl",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:02.446Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-leggedrobotics-legged-gym-releases",
+      "name": "leggedrobotics/legged_gym releases",
+      "publisher": "leggedrobotics",
+      "route": "/github/repo_event/leggedrobotics/legged_gym/release",
+      "website": "https://github.com/leggedrobotics/legged_gym",
+      "githubRepo": "leggedrobotics/legged_gym",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:09.951Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-stack-of-tasks-pinocchio-releases",
+      "name": "stack-of-tasks/pinocchio releases",
+      "publisher": "stack-of-tasks",
+      "route": "/github/repo_event/stack-of-tasks/pinocchio/release",
+      "website": "https://github.com/stack-of-tasks/pinocchio",
+      "githubRepo": "stack-of-tasks/pinocchio",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:11.992Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-simplefoc-arduino-foc-releases",
+      "name": "simplefoc/Arduino-FOC releases",
+      "publisher": "simplefoc",
+      "route": "/github/repo_event/simplefoc/Arduino-FOC/release",
+      "website": "https://github.com/simplefoc/Arduino-FOC",
+      "githubRepo": "simplefoc/Arduino-FOC",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:11.999Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-odriverobotics-odrive-releases",
+      "name": "odriverobotics/ODrive releases",
+      "publisher": "odriverobotics",
+      "route": "/github/repo_event/odriverobotics/ODrive/release",
+      "website": "https://github.com/odriverobotics/ODrive",
+      "githubRepo": "odriverobotics/ODrive",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:12.644Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-px4-px4-autopilot-releases",
+      "name": "PX4/PX4-Autopilot releases",
+      "publisher": "PX4",
+      "route": "/github/repo_event/PX4/PX4-Autopilot/release",
+      "website": "https://github.com/PX4/PX4-Autopilot",
+      "githubRepo": "PX4/PX4-Autopilot",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:26.641Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-ardupilot-ardupilot-releases",
+      "name": "ArduPilot/ardupilot releases",
+      "publisher": "ArduPilot",
+      "route": "/github/repo_event/ArduPilot/ardupilot/release",
+      "website": "https://github.com/ArduPilot/ardupilot",
+      "githubRepo": "ArduPilot/ardupilot",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:29.429Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-pollen-robotics-reachy2-sdk-releases",
+      "name": "pollen-robotics/reachy2-sdk releases",
+      "publisher": "pollen-robotics",
+      "route": "/github/repo_event/pollen-robotics/reachy2-sdk/release",
+      "website": "https://github.com/pollen-robotics/reachy2-sdk",
+      "githubRepo": "pollen-robotics/reachy2-sdk",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:37.718Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-pollen-robotics-microduck-releases",
+      "name": "pollen-robotics/microduck releases",
+      "publisher": "pollen-robotics",
+      "route": "/github/repo_event/pollen-robotics/microduck/release",
+      "website": "https://github.com/pollen-robotics/microduck",
+      "githubRepo": "pollen-robotics/microduck",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:41.051Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-intrinsic-ai-intrinsic-core-releases",
+      "name": "intrinsic-ai/intrinsic-core releases",
+      "publisher": "intrinsic-ai",
+      "route": "/github/repo_event/intrinsic-ai/intrinsic-core/release",
+      "website": "https://github.com/intrinsic-ai/intrinsic-core",
+      "githubRepo": "intrinsic-ai/intrinsic-core",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:40:45.081Z",
+        "items": 1,
+        "relevantItems": 1
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-internrobotics-internutopia-releases",
+      "name": "InternRobotics/InternUtopia releases",
+      "publisher": "InternRobotics",
+      "route": "/github/repo_event/InternRobotics/InternUtopia/release",
+      "website": "https://github.com/InternRobotics/InternUtopia",
+      "githubRepo": "InternRobotics/InternUtopia",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:46.539Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-robomaster-roborts-releases",
+      "name": "RoboMaster/RoboRTS releases",
+      "publisher": "RoboMaster",
+      "route": "/github/repo_event/RoboMaster/RoboRTS/release",
+      "website": "https://github.com/RoboMaster/RoboRTS",
+      "githubRepo": "RoboMaster/RoboRTS",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:48.736Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-robomaster-development-board-c-examples-releases",
+      "name": "RoboMaster/Development-Board-C-Examples releases",
+      "publisher": "RoboMaster",
+      "route": "/github/repo_event/RoboMaster/Development-Board-C-Examples/release",
+      "website": "https://github.com/RoboMaster/Development-Board-C-Examples",
+      "githubRepo": "RoboMaster/Development-Board-C-Examples",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:50.683Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-dora-rs-dora-releases",
+      "name": "dora-rs/dora releases",
+      "publisher": "dora-rs",
+      "route": "/github/repo_event/dora-rs/dora/release",
+      "website": "https://github.com/dora-rs/dora",
+      "githubRepo": "dora-rs/dora",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:40:52.818Z"
+      },
+      "usageNote": "Recent event window only; original release Atom is the durable alternative. Empty event window is not evidence of an inaccessible repository."
+    },
+    {
+      "id": "hub-deepmind",
+      "name": "DeepMind research",
+      "publisher": "deepmind.google",
+      "route": "/deepmind/blog",
+      "website": "https://deepmind.google/blog/",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:45:14.019Z"
+      }
+    },
+    {
+      "id": "hub-huggingface-blog",
+      "name": "Hugging Face robotics research",
+      "publisher": "huggingface.co",
+      "route": "/huggingface/blog",
+      "website": "https://huggingface.co/blog",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:45:14.024Z",
+        "items": 14,
+        "relevantItems": 1
+      }
+    },
+    {
+      "id": "hub-lerobot-posts",
+      "name": "LeRobot official posts",
+      "publisher": "huggingface.co",
+      "route": "/huggingface/activity/lerobot/posts",
+      "website": "https://huggingface.co/lerobot",
+      "role": "PROJECT_UPDATES",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:41:10.240Z"
+      }
+    },
+    {
+      "id": "hub-nature-machine-intelligence",
+      "name": "Nature Machine Intelligence",
+      "publisher": "www.nature.com",
+      "route": "/nature/research/natmachintell",
+      "website": "https://www.nature.com/natmachintell/",
+      "role": "RESEARCH_PAPER",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:45:14.024Z",
+        "items": 20,
+        "relevantItems": 5
+      }
+    },
+    {
+      "id": "hub-nature-communications",
+      "name": "Nature Communications robotics",
+      "publisher": "www.nature.com",
+      "route": "/nature/research/ncomms",
+      "website": "https://www.nature.com/ncomms/",
+      "role": "RESEARCH_PAPER",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:45:14.487Z",
+        "items": 20,
+        "relevantItems": 3
+      }
+    },
+    {
+      "id": "hub-nature-electronics",
+      "name": "Nature Electronics",
+      "publisher": "www.nature.com",
+      "route": "/nature/research/natelectron",
+      "website": "https://www.nature.com/natelectron/",
+      "role": "RESEARCH_PAPER",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:45:39.019Z",
+        "items": 20,
+        "relevantItems": 9
+      }
+    },
+    {
+      "id": "hub-leiphone-robot",
+      "name": "雷峰网机器人",
+      "publisher": "www.leiphone.com",
+      "route": "/leiphone/category/robot",
+      "website": "https://www.leiphone.com/category/robot",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:45:42.149Z"
+      }
+    },
+    {
+      "id": "hub-zhuoqing",
+      "name": "卓晴智能车与电子工程",
+      "publisher": "blog.csdn.net",
+      "route": "/csdn/blog/zhuoqingjoking97298",
+      "website": "https://blog.csdn.net/zhuoqingjoking97298",
+      "role": "ENGINEERING_AUTHOR",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:57:43.885Z",
+        "items": 20,
+        "relevantItems": 0
+      }
+    },
+    {
+      "id": "hub-arxiv-robotics",
+      "name": "arXiv robotics",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dcat%3Acs.RO%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:41:56.877Z",
+        "items": 30,
+        "relevantItems": 22
+      }
+    },
+    {
+      "id": "hub-arxiv-vla",
+      "name": "arXiv vla",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22vision%20language%20action%22%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:06.090Z",
+        "items": 30,
+        "relevantItems": 29
+      }
+    },
+    {
+      "id": "hub-arxiv-dexterous",
+      "name": "arXiv dexterous",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22dexterous%20manipulation%22%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:11.157Z",
+        "items": 30,
+        "relevantItems": 30
+      }
+    },
+    {
+      "id": "hub-arxiv-locomotion",
+      "name": "arXiv locomotion",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22legged%20locomotion%22%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:14.424Z",
+        "items": 30,
+        "relevantItems": 30
+      }
+    },
+    {
+      "id": "hub-arxiv-tactile",
+      "name": "arXiv tactile",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22tactile%20robot%22%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:21.228Z",
+        "items": 30,
+        "relevantItems": 30
+      }
+    },
+    {
+      "id": "hub-arxiv-sim2real",
+      "name": "arXiv sim2real",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22sim-to-real%22%20AND%20all%3Arobot%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:27.288Z",
+        "items": 30,
+        "relevantItems": 30
+      }
+    },
+    {
+      "id": "hub-arxiv-robot-datasets",
+      "name": "arXiv robot-datasets",
+      "publisher": "arXiv",
+      "route": "/arxiv/search_query%3Dall%3A%22robot%20learning%22%20AND%20all%3Adataset%26sortBy%3DsubmittedDate%26sortOrder%3Ddescending%26max_results%3D30",
+      "website": "https://arxiv.org/",
+      "role": "RESEARCH_PREPRINT",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/arxiv/query.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:27.424Z",
+        "items": 30,
+        "relevantItems": 29
+      }
+    },
+    {
+      "id": "feed-ros-discourse",
+      "name": "ROS Discourse",
+      "publisher": "discourse.openrobotics.org",
+      "entryUrl": "https://discourse.openrobotics.org/latest.rss",
+      "website": "https://discourse.openrobotics.org",
+      "role": "COMMUNITY_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:26:57.105Z",
+        "items": 30,
+        "relevantItems": 25
+      }
+    },
+    {
+      "id": "feed-simplefoc-community",
+      "name": "SimpleFOC community",
+      "publisher": "community.simplefoc.com",
+      "entryUrl": "https://community.simplefoc.com/latest.rss",
+      "website": "https://community.simplefoc.com",
+      "role": "COMMUNITY_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:26:57.112Z",
+        "items": 30,
+        "relevantItems": 2
+      }
+    },
+    {
+      "id": "feed-hackaday-robots",
+      "name": "Hackaday robots",
+      "publisher": "hackaday.com",
+      "entryUrl": "https://hackaday.com/category/robots-hacks/feed/",
+      "website": "https://hackaday.com",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:02.353Z",
+        "items": 7,
+        "relevantItems": 4
+      }
+    },
+    {
+      "id": "feed-bair",
+      "name": "Berkeley BAIR",
+      "publisher": "bair.berkeley.edu",
+      "entryUrl": "https://bair.berkeley.edu/blog/feed.xml",
+      "website": "https://bair.berkeley.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:27:04.860Z",
+        "items": 10,
+        "relevantItems": 3
+      }
+    },
+    {
+      "id": "feed-stanford-hai",
+      "name": "Stanford HAI",
+      "publisher": "hai.stanford.edu",
+      "entryUrl": "https://hai.stanford.edu/news/rss.xml",
+      "website": "https://hai.stanford.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:16.067Z"
+      }
+    },
+    {
+      "id": "feed-mit-robotics",
+      "name": "MIT robotics",
+      "publisher": "news.mit.edu",
+      "entryUrl": "https://news.mit.edu/rss/topic/robotics",
+      "website": "https://news.mit.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:37:02.361Z"
+      }
+    },
+    {
+      "id": "feed-cmu-ri",
+      "name": "CMU Robotics Institute",
+      "publisher": "www.ri.cmu.edu",
+      "entryUrl": "https://www.ri.cmu.edu/feed/",
+      "website": "https://www.ri.cmu.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:27:24.438Z",
+        "items": 100,
+        "relevantItems": 100
+      }
+    },
+    {
+      "id": "feed-robotiq",
+      "name": "Robotiq blog",
+      "publisher": "blog.robotiq.com",
+      "entryUrl": "https://blog.robotiq.com/rss.xml",
+      "website": "https://blog.robotiq.com",
+      "role": "COMPANY_ORIGINAL",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:27:24.557Z",
+        "items": 10,
+        "relevantItems": 8
+      }
+    },
+    {
+      "id": "feed-roboticsbusinessreview",
+      "name": "Robotics Business Review",
+      "publisher": "www.roboticsbusinessreview.com",
+      "entryUrl": "https://www.roboticsbusinessreview.com/feed/",
+      "website": "https://www.roboticsbusinessreview.com",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:02.362Z",
+        "items": 15,
+        "relevantItems": 15
+      }
+    },
+    {
+      "id": "feed-roboticsandautomationnews",
+      "name": "Robotics and Automation News",
+      "publisher": "roboticsandautomationnews.com",
+      "entryUrl": "https://roboticsandautomationnews.com/feed/",
+      "website": "https://roboticsandautomationnews.com",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:07.276Z",
+        "items": 15,
+        "relevantItems": 12
+      }
+    },
+    {
+      "id": "feed-frontiers-robotics",
+      "name": "Frontiers Robotics and AI",
+      "publisher": "www.frontiersin.org",
+      "entryUrl": "https://www.frontiersin.org/journals/robotics-and-ai/rss",
+      "website": "https://www.frontiersin.org",
+      "role": "RESEARCH_PAPER",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:33.344Z"
+      }
+    },
+    {
+      "id": "feed-mdpi-robotics",
+      "name": "MDPI Robotics",
+      "publisher": "www.mdpi.com",
+      "entryUrl": "https://www.mdpi.com/rss/journal/robotics",
+      "website": "https://www.mdpi.com",
+      "role": "RESEARCH_PAPER",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:40.830Z"
+      }
+    },
+    {
+      "id": "feed-science-robotics",
+      "name": "Science Robotics",
+      "publisher": "www.science.org",
+      "entryUrl": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=scirobotics",
+      "website": "https://www.science.org",
+      "role": "RESEARCH_PAPER",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:09.543Z",
+        "items": 6,
+        "relevantItems": 6
+      }
+    },
+    {
+      "id": "feed-roboticstomorrow",
+      "name": "Robotics Tomorrow",
+      "publisher": "www.roboticstomorrow.com",
+      "entryUrl": "https://www.roboticstomorrow.com/rss/news.xml",
+      "website": "https://www.roboticstomorrow.com",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:51.408Z"
+      }
+    },
+    {
+      "id": "feed-hackster",
+      "name": "Hackster projects",
+      "publisher": "www.hackster.io",
+      "entryUrl": "https://www.hackster.io/feed",
+      "website": "https://www.hackster.io",
+      "role": "ENGINEERING_DISCOVERY",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:51.512Z"
+      }
+    },
+    {
+      "id": "feed-sparkfun",
+      "name": "SparkFun engineering",
+      "publisher": "www.sparkfun.com",
+      "entryUrl": "https://www.sparkfun.com/feeds/news",
+      "website": "https://www.sparkfun.com",
+      "role": "COMPANY_ORIGINAL",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:27:54.559Z"
+      }
+    },
+    {
+      "id": "feed-adafruit",
+      "name": "Adafruit robotics",
+      "publisher": "blog.adafruit.com",
+      "entryUrl": "https://blog.adafruit.com/category/robotics/feed/",
+      "website": "https://blog.adafruit.com",
+      "role": "COMPANY_ORIGINAL",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:19.007Z",
+        "items": 50,
+        "relevantItems": 42
+      }
+    },
+    {
+      "id": "feed-raspberrypi",
+      "name": "Raspberry Pi engineering",
+      "publisher": "www.raspberrypi.com",
+      "entryUrl": "https://www.raspberrypi.com/news/feed/",
+      "website": "https://www.raspberrypi.com",
+      "role": "COMPANY_ORIGINAL",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:19.158Z",
+        "items": 10,
+        "relevantItems": 0
+      }
+    },
+    {
+      "id": "feed-arduino",
+      "name": "Arduino robotics",
+      "publisher": "blog.arduino.cc",
+      "entryUrl": "https://blog.arduino.cc/category/robotics/feed/",
+      "website": "https://blog.arduino.cc",
+      "role": "COMPANY_ORIGINAL",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:37:25.721Z"
+      }
+    },
+    {
+      "id": "feed-ardupilot-blog",
+      "name": "ArduPilot news",
+      "publisher": "discuss.ardupilot.org",
+      "entryUrl": "https://discuss.ardupilot.org/c/blog/110.rss",
+      "website": "https://discuss.ardupilot.org",
+      "role": "PROJECT_UPDATES",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:30.445Z",
+        "items": 25,
+        "relevantItems": 8
+      }
+    },
+    {
+      "id": "feed-px4-community",
+      "name": "PX4 community",
+      "publisher": "discuss.px4.io",
+      "entryUrl": "https://discuss.px4.io/latest.rss",
+      "website": "https://discuss.px4.io",
+      "role": "COMMUNITY_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:34.627Z",
+        "items": 30,
+        "relevantItems": 3
+      }
+    },
+    {
+      "id": "feed-first-frc",
+      "name": "FIRST FRC",
+      "publisher": "community.firstinspires.org",
+      "entryUrl": "https://community.firstinspires.org/topic/frc/rss.xml",
+      "website": "https://community.firstinspires.org",
+      "role": "COMPETITION_ORIGINAL",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:39.247Z",
+        "items": 5,
+        "relevantItems": 3
+      }
+    },
+    {
+      "id": "feed-robocup",
+      "name": "RoboCup news",
+      "publisher": "www.robocup.org",
+      "entryUrl": "https://www.robocup.org/news.rss",
+      "website": "https://www.robocup.org",
+      "role": "COMPETITION_ORIGINAL",
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:28:23.008Z"
+      }
+    },
+    {
+      "id": "feed-weekly-robotics",
+      "name": "Weekly Robotics",
+      "publisher": "www.weeklyrobotics.com",
+      "entryUrl": "https://www.weeklyrobotics.com/feed.xml",
+      "website": "https://www.weeklyrobotics.com",
+      "role": "MEDIA_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:37:53.718Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "feed-ros2-ros2-releases",
+      "name": "ros2/ros2 releases",
+      "publisher": "ros2",
+      "website": "https://github.com/ros2/ros2",
+      "githubRepo": "ros2/ros2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:32.266Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/ros2/ros2/releases.atom",
+      "alternativeFor": "hub-ros2-ros2-releases"
+    },
+    {
+      "id": "feed-ros-navigation-navigation2-releases",
+      "name": "ros-navigation/navigation2 releases",
+      "publisher": "ros-navigation",
+      "website": "https://github.com/ros-navigation/navigation2",
+      "githubRepo": "ros-navigation/navigation2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:32.276Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/ros-navigation/navigation2/releases.atom",
+      "alternativeFor": "hub-ros-navigation-navigation2-releases"
+    },
+    {
+      "id": "feed-moveit-moveit2-releases",
+      "name": "moveit/moveit2 releases",
+      "publisher": "moveit",
+      "website": "https://github.com/moveit/moveit2",
+      "githubRepo": "moveit/moveit2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:32.277Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/moveit/moveit2/releases.atom",
+      "alternativeFor": "hub-moveit-moveit2-releases"
+    },
+    {
+      "id": "feed-gazebosim-gz-sim-releases",
+      "name": "gazebosim/gz-sim releases",
+      "publisher": "gazebosim",
+      "website": "https://github.com/gazebosim/gz-sim",
+      "githubRepo": "gazebosim/gz-sim",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:48.090Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/gazebosim/gz-sim/releases.atom",
+      "alternativeFor": "hub-gazebosim-gz-sim-releases"
+    },
+    {
+      "id": "feed-google-deepmind-mujoco-releases",
+      "name": "google-deepmind/mujoco releases",
+      "publisher": "google-deepmind",
+      "website": "https://github.com/google-deepmind/mujoco",
+      "githubRepo": "google-deepmind/mujoco",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:49.341Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/google-deepmind/mujoco/releases.atom",
+      "alternativeFor": "hub-google-deepmind-mujoco-releases"
+    },
+    {
+      "id": "feed-isaac-sim-isaacsim-releases",
+      "name": "isaac-sim/IsaacSim releases",
+      "publisher": "isaac-sim",
+      "website": "https://github.com/isaac-sim/IsaacSim",
+      "githubRepo": "isaac-sim/IsaacSim",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:53.638Z",
+        "items": 9,
+        "relevantItems": 9
+      },
+      "entryUrl": "https://github.com/isaac-sim/IsaacSim/releases.atom",
+      "alternativeFor": "hub-isaac-sim-isaacsim-releases"
+    },
+    {
+      "id": "feed-arise-initiative-robosuite-releases",
+      "name": "ARISE-Initiative/robosuite releases",
+      "publisher": "ARISE-Initiative",
+      "website": "https://github.com/ARISE-Initiative/robosuite",
+      "githubRepo": "ARISE-Initiative/robosuite",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:54.884Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/ARISE-Initiative/robosuite/releases.atom",
+      "alternativeFor": "hub-arise-initiative-robosuite-releases"
+    },
+    {
+      "id": "feed-arise-initiative-robomimic-releases",
+      "name": "ARISE-Initiative/robomimic releases",
+      "publisher": "ARISE-Initiative",
+      "website": "https://github.com/ARISE-Initiative/robomimic",
+      "githubRepo": "ARISE-Initiative/robomimic",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:57.920Z",
+        "items": 5,
+        "relevantItems": 5
+      },
+      "entryUrl": "https://github.com/ARISE-Initiative/robomimic/releases.atom",
+      "alternativeFor": "hub-arise-initiative-robomimic-releases"
+    },
+    {
+      "id": "feed-openvla-openvla-releases",
+      "name": "openvla/openvla releases",
+      "publisher": "openvla",
+      "website": "https://github.com/openvla/openvla",
+      "githubRepo": "openvla/openvla",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:42:59.224Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/openvla/openvla/releases.atom",
+      "alternativeFor": "hub-openvla-openvla-releases"
+    },
+    {
+      "id": "feed-octo-models-octo-releases",
+      "name": "octo-models/octo releases",
+      "publisher": "octo-models",
+      "website": "https://github.com/octo-models/octo",
+      "githubRepo": "octo-models/octo",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:01.132Z",
+        "items": 2,
+        "relevantItems": 2
+      },
+      "entryUrl": "https://github.com/octo-models/octo/releases.atom",
+      "alternativeFor": "hub-octo-models-octo-releases"
+    },
+    {
+      "id": "feed-rail-berkeley-bridge-data-v2-releases",
+      "name": "rail-berkeley/bridge_data_v2 releases",
+      "publisher": "rail-berkeley",
+      "website": "https://github.com/rail-berkeley/bridge_data_v2",
+      "githubRepo": "rail-berkeley/bridge_data_v2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:01.291Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/rail-berkeley/bridge_data_v2/releases.atom",
+      "alternativeFor": "hub-rail-berkeley-bridge-data-v2-releases"
+    },
+    {
+      "id": "feed-real-stanford-diffusion-policy-releases",
+      "name": "real-stanford/diffusion_policy releases",
+      "publisher": "real-stanford",
+      "website": "https://github.com/real-stanford/diffusion_policy",
+      "githubRepo": "real-stanford/diffusion_policy",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:01.323Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/real-stanford/diffusion_policy/releases.atom",
+      "alternativeFor": "hub-real-stanford-diffusion-policy-releases"
+    },
+    {
+      "id": "feed-unitreerobotics-unitree-sdk2-releases",
+      "name": "unitreerobotics/unitree_sdk2 releases",
+      "publisher": "unitreerobotics",
+      "website": "https://github.com/unitreerobotics/unitree_sdk2",
+      "githubRepo": "unitreerobotics/unitree_sdk2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:02.153Z",
+        "items": 4,
+        "relevantItems": 4
+      },
+      "entryUrl": "https://github.com/unitreerobotics/unitree_sdk2/releases.atom",
+      "alternativeFor": "hub-unitreerobotics-unitree-sdk2-releases"
+    },
+    {
+      "id": "feed-unitreerobotics-unitree-ros2-releases",
+      "name": "unitreerobotics/unitree_ros2 releases",
+      "publisher": "unitreerobotics",
+      "website": "https://github.com/unitreerobotics/unitree_ros2",
+      "githubRepo": "unitreerobotics/unitree_ros2",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:02.175Z",
+        "items": 3,
+        "relevantItems": 3
+      },
+      "entryUrl": "https://github.com/unitreerobotics/unitree_ros2/releases.atom",
+      "alternativeFor": "hub-unitreerobotics-unitree-ros2-releases"
+    },
+    {
+      "id": "feed-unitreerobotics-unitree-rl-gym-releases",
+      "name": "unitreerobotics/unitree_rl_gym releases",
+      "publisher": "unitreerobotics",
+      "website": "https://github.com/unitreerobotics/unitree_rl_gym",
+      "githubRepo": "unitreerobotics/unitree_rl_gym",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:04.443Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/unitreerobotics/unitree_rl_gym/releases.atom",
+      "alternativeFor": "hub-unitreerobotics-unitree-rl-gym-releases"
+    },
+    {
+      "id": "feed-leggedrobotics-rsl-rl-releases",
+      "name": "leggedrobotics/rsl_rl releases",
+      "publisher": "leggedrobotics",
+      "website": "https://github.com/leggedrobotics/rsl_rl",
+      "githubRepo": "leggedrobotics/rsl_rl",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:05.299Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/leggedrobotics/rsl_rl/releases.atom",
+      "alternativeFor": "hub-leggedrobotics-rsl-rl-releases"
+    },
+    {
+      "id": "feed-leggedrobotics-legged-gym-releases",
+      "name": "leggedrobotics/legged_gym releases",
+      "publisher": "leggedrobotics",
+      "website": "https://github.com/leggedrobotics/legged_gym",
+      "githubRepo": "leggedrobotics/legged_gym",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:05.753Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/leggedrobotics/legged_gym/releases.atom",
+      "alternativeFor": "hub-leggedrobotics-legged-gym-releases"
+    },
+    {
+      "id": "feed-stack-of-tasks-pinocchio-releases",
+      "name": "stack-of-tasks/pinocchio releases",
+      "publisher": "stack-of-tasks",
+      "website": "https://github.com/stack-of-tasks/pinocchio",
+      "githubRepo": "stack-of-tasks/pinocchio",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:05.761Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/stack-of-tasks/pinocchio/releases.atom",
+      "alternativeFor": "hub-stack-of-tasks-pinocchio-releases"
+    },
+    {
+      "id": "feed-simplefoc-arduino-foc-releases",
+      "name": "simplefoc/Arduino-FOC releases",
+      "publisher": "simplefoc",
+      "website": "https://github.com/simplefoc/Arduino-FOC",
+      "githubRepo": "simplefoc/Arduino-FOC",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:06.884Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/simplefoc/Arduino-FOC/releases.atom",
+      "alternativeFor": "hub-simplefoc-arduino-foc-releases"
+    },
+    {
+      "id": "feed-odriverobotics-odrive-releases",
+      "name": "odriverobotics/ODrive releases",
+      "publisher": "odriverobotics",
+      "website": "https://github.com/odriverobotics/ODrive",
+      "githubRepo": "odriverobotics/ODrive",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:13.457Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/odriverobotics/ODrive/releases.atom",
+      "alternativeFor": "hub-odriverobotics-odrive-releases"
+    },
+    {
+      "id": "feed-px4-px4-autopilot-releases",
+      "name": "PX4/PX4-Autopilot releases",
+      "publisher": "PX4",
+      "website": "https://github.com/PX4/PX4-Autopilot",
+      "githubRepo": "PX4/PX4-Autopilot",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:13.462Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/PX4/PX4-Autopilot/releases.atom",
+      "alternativeFor": "hub-px4-px4-autopilot-releases"
+    },
+    {
+      "id": "feed-ardupilot-ardupilot-releases",
+      "name": "ArduPilot/ardupilot releases",
+      "publisher": "ArduPilot",
+      "website": "https://github.com/ArduPilot/ardupilot",
+      "githubRepo": "ArduPilot/ardupilot",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:26.488Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/ArduPilot/ardupilot/releases.atom",
+      "alternativeFor": "hub-ardupilot-ardupilot-releases"
+    },
+    {
+      "id": "feed-pollen-robotics-reachy2-sdk-releases",
+      "name": "pollen-robotics/reachy2-sdk releases",
+      "publisher": "pollen-robotics",
+      "website": "https://github.com/pollen-robotics/reachy2-sdk",
+      "githubRepo": "pollen-robotics/reachy2-sdk",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:30.389Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/pollen-robotics/reachy2-sdk/releases.atom",
+      "alternativeFor": "hub-pollen-robotics-reachy2-sdk-releases"
+    },
+    {
+      "id": "feed-pollen-robotics-microduck-releases",
+      "name": "pollen-robotics/microduck releases",
+      "publisher": "pollen-robotics",
+      "website": "https://github.com/pollen-robotics/microduck",
+      "githubRepo": "pollen-robotics/microduck",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:30.944Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/pollen-robotics/microduck/releases.atom",
+      "alternativeFor": "hub-pollen-robotics-microduck-releases"
+    },
+    {
+      "id": "feed-intrinsic-ai-intrinsic-core-releases",
+      "name": "intrinsic-ai/intrinsic-core releases",
+      "publisher": "intrinsic-ai",
+      "website": "https://github.com/intrinsic-ai/intrinsic-core",
+      "githubRepo": "intrinsic-ai/intrinsic-core",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:32.187Z",
+        "items": 7,
+        "relevantItems": 7
+      },
+      "entryUrl": "https://github.com/intrinsic-ai/intrinsic-core/releases.atom",
+      "alternativeFor": "hub-intrinsic-ai-intrinsic-core-releases"
+    },
+    {
+      "id": "feed-internrobotics-internutopia-releases",
+      "name": "InternRobotics/InternUtopia releases",
+      "publisher": "InternRobotics",
+      "website": "https://github.com/InternRobotics/InternUtopia",
+      "githubRepo": "InternRobotics/InternUtopia",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:35.168Z",
+        "items": 6,
+        "relevantItems": 6
+      },
+      "entryUrl": "https://github.com/InternRobotics/InternUtopia/releases.atom",
+      "alternativeFor": "hub-internrobotics-internutopia-releases"
+    },
+    {
+      "id": "feed-robomaster-roborts-releases",
+      "name": "RoboMaster/RoboRTS releases",
+      "publisher": "RoboMaster",
+      "website": "https://github.com/RoboMaster/RoboRTS",
+      "githubRepo": "RoboMaster/RoboRTS",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:36.986Z",
+        "items": 2,
+        "relevantItems": 2
+      },
+      "entryUrl": "https://github.com/RoboMaster/RoboRTS/releases.atom",
+      "alternativeFor": "hub-robomaster-roborts-releases"
+    },
+    {
+      "id": "feed-robomaster-development-board-c-examples-releases",
+      "name": "RoboMaster/Development-Board-C-Examples releases",
+      "publisher": "RoboMaster",
+      "website": "https://github.com/RoboMaster/Development-Board-C-Examples",
+      "githubRepo": "RoboMaster/Development-Board-C-Examples",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:39.010Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "entryUrl": "https://github.com/RoboMaster/Development-Board-C-Examples/releases.atom",
+      "alternativeFor": "hub-robomaster-development-board-c-examples-releases"
+    },
+    {
+      "id": "feed-dora-rs-dora-releases",
+      "name": "dora-rs/dora releases",
+      "publisher": "dora-rs",
+      "website": "https://github.com/dora-rs/dora",
+      "githubRepo": "dora-rs/dora",
+      "role": "MAINTAINER_RELEASE",
+      "topicScope": "robotics-project",
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/repo-event.ts",
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:40.190Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "entryUrl": "https://github.com/dora-rs/dora/releases.atom",
+      "alternativeFor": "hub-dora-rs-dora-releases"
+    },
+    {
+      "id": "hub-huggingface-lerobot-issues",
+      "name": "huggingface/lerobot engineering discussions",
+      "publisher": "huggingface",
+      "website": "https://github.com/huggingface/lerobot",
+      "route": "/github/issue/huggingface/lerobot/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:41.286Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-ros-navigation-navigation2-issues",
+      "name": "ros-navigation/navigation2 engineering discussions",
+      "publisher": "ros-navigation",
+      "website": "https://github.com/ros-navigation/navigation2",
+      "route": "/github/issue/ros-navigation/navigation2/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:41.342Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-moveit-moveit2-issues",
+      "name": "moveit/moveit2 engineering discussions",
+      "publisher": "moveit",
+      "website": "https://github.com/moveit/moveit2",
+      "route": "/github/issue/moveit/moveit2/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:52.689Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-isaac-sim-isaaclab-issues",
+      "name": "isaac-sim/IsaacLab engineering discussions",
+      "publisher": "isaac-sim",
+      "website": "https://github.com/isaac-sim/IsaacLab",
+      "route": "/github/issue/isaac-sim/IsaacLab/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:43:54.002Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-unitreerobotics-unitree-sdk2-issues",
+      "name": "unitreerobotics/unitree_sdk2 engineering discussions",
+      "publisher": "unitreerobotics",
+      "website": "https://github.com/unitreerobotics/unitree_sdk2",
+      "route": "/github/issue/unitreerobotics/unitree_sdk2/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": false,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T10:43:59.643Z"
+      }
+    },
+    {
+      "id": "hub-dora-rs-dora-issues",
+      "name": "dora-rs/dora engineering discussions",
+      "publisher": "dora-rs",
+      "website": "https://github.com/dora-rs/dora",
+      "route": "/github/issue/dora-rs/dora/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:44:01.437Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-simplefoc-arduino-foc-issues",
+      "name": "simplefoc/Arduino-FOC engineering discussions",
+      "publisher": "simplefoc",
+      "website": "https://github.com/simplefoc/Arduino-FOC",
+      "route": "/github/issue/simplefoc/Arduino-FOC/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:44:04.507Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "hub-pollen-robotics-microduck-issues",
+      "name": "pollen-robotics/microduck engineering discussions",
+      "publisher": "pollen-robotics",
+      "website": "https://github.com/pollen-robotics/microduck",
+      "route": "/github/issue/pollen-robotics/microduck/open?limit=10",
+      "role": "COMMUNITY_DISCOVERY",
+      "topicScope": "robotics-project",
+      "enabled": true,
+      "routeSource": "https://github.com/DIYgod/RSSHub/blob/master/lib/routes/github/issue.ts",
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T10:44:08.320Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    }
+  ]
+}

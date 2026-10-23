@@ -1,0 +1,26 @@
+{
+  "name": "embodied-news-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node bin/daily.mjs",
+    "daily": "node bin/daily.mjs",
+    "report:daily": "node bin/daily.mjs --skip-collect true",
+    "collect": "node bin/collect.mjs --data data/live",
+    "test": "node --test test/*.test.mjs",
+    "report": "node bin/report.mjs --data data/live --output reports/current",
+    "verify": "node bin/verify.mjs data/live",
+    "evidence": "node bin/export-evidence.mjs data/live reports/current"
+  },
+  "dependencies": {
+    "cheerio": "1.1.2",
+    "playwright": "1.56.1",
+    "proper-lockfile": "^4.1.2",
+    "rss-parser": "3.13.0",
+    "undici": "^7.16.0"
+  }
+}

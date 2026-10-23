@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "episode_id": "offline-demo-zh",
+  "output_name": "juya-evening-demo-zh",
+  "language": "zh",
+  "episode_title": "具身智能动态 · 离线演示",
+  "overview": "两条原创合成演示素材，用于验证卡片、弹窗、主题间隔、字幕与音频时轴。",
+  "host_line": "大家好，我是小鱼是木鱼，以上是今天具身智能动态",
+  "opening_seconds": 5,
+  "theme_gap_seconds": 0.5,
+  "narration_speed": 1.3,
+  "opening_narration": "assets/opening-tone.wav",
+  "opening_license": {"status":"unknown","note":"synthetic tone only, not speech"},
+  "opening_captions": [
+    {"start":0,"end":2.6,"text":"大家好，我是小鱼是木鱼，以上是今天具身智能动态"}
+  ],
+  "music_seed": 17,
+  "sections": [
+    {"id":"news","title":"要闻"},
+    {"id":"research","title":"机器人研究"},
+    {"id":"open","title":"开源项目"}
+  ],
+  "themes": [
+    {
+      "id":"robot-maintenance", "title":"机器人研究", "event_title":"测试主题 A", "section_id":"research",
+      "card_image":"assets/theme-robot.png", "media_video":"assets/media-robot-demo.mp4", "narration":"assets/narration-robot.wav",
+      "card_seconds":5, "duration_seconds":8,
+      "captions":[
+        {"start":0,"end":1.3,"text":"第一条完整句子用于字幕时间测试。"},
+        {"start":1.3,"end":2.6,"text":"第二条完整句子也必须完整显示。"}
+      ],
+      "license":{"status":"unknown","note":"原始自制测试素材，无第三方内容"}
+    },
+    {
+      "id":"open-source", "title":"开源项目", "event_title":"测试主题 B", "section_id":"open",
+      "card_image":"assets/theme-open.png", "media":"assets/media-open.png", "narration":"assets/narration-open.wav",
+      "card_seconds":5, "duration_seconds":8,
+      "captions":[
+        {"start":0,"end":1.3,"text":"这是第二个主题的完整字幕句子。"},
+        {"start":1.3,"end":2.6,"text":"字幕按实际的一点三倍语速映射。"}
+      ],
+      "license":{"status":"unknown","note":"原始自制测试素材，无第三方内容"}
+    }
+  ],
+  "music_tracks": []
+}

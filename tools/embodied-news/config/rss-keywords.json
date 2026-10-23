@@ -1,0 +1,4060 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "http://127.0.0.1:1200",
+  "library": "reports/source-research/keyword-library.json",
+  "generatedAt": "2026-10-23T14:25:12.004Z",
+  "sourceKind": "keyword_search_not_independent_publishers",
+  "excludedSourceIds": [],
+  "sources": [
+    {
+      "id": "keyword-technology-97fd669413",
+      "name": "关键词 · VLA",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "VLA"
+      ],
+      "searchQuery": "\"VLA\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22VLA%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22VLA%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:38.803Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-c79c645a90",
+      "name": "关键词 · 视觉-语言-动作",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "视觉-语言-动作"
+      ],
+      "searchQuery": "\"视觉-语言-动作\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%A7%86%E8%A7%89-%E8%AF%AD%E8%A8%80-%E5%8A%A8%E4%BD%9C%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%A7%86%E8%A7%89-%E8%AF%AD%E8%A8%80-%E5%8A%A8%E4%BD%9C%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:42.133Z",
+        "relevantItems": 78
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-723351f47d",
+      "name": "关键词 · 世界模型",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "世界模型"
+      ],
+      "searchQuery": "\"世界模型\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:42.140Z",
+        "relevantItems": 74
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-b19b1c0791",
+      "name": "关键词 · WAM",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "WAM"
+      ],
+      "searchQuery": "world action model robot",
+      "entryUrl": "https://www.bing.com/news/search?q=world+action+model+robot&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=world+action+model+robot&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:39.374Z",
+        "relevantItems": 12
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-e584b463ea",
+      "name": "关键词 · WRAM",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "WRAM"
+      ],
+      "searchQuery": "world reasoning action model robot",
+      "entryUrl": "https://www.bing.com/news/search?q=world+reasoning+action+model+robot&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=world+reasoning+action+model+robot&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:39.360Z",
+        "relevantItems": 11
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-0eeacd2435",
+      "name": "关键词 · 世界推理动作模型",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "世界推理动作模型"
+      ],
+      "searchQuery": "\"世界推理动作模型\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%B8%96%E7%95%8C%E6%8E%A8%E7%90%86%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%B8%96%E7%95%8C%E6%8E%A8%E7%90%86%E5%8A%A8%E4%BD%9C%E6%A8%A1%E5%9E%8B%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:42.685Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-78f6dedd3e",
+      "name": "关键词 · WBI",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "WBI"
+      ],
+      "searchQuery": "whole body intelligence robot",
+      "entryUrl": "https://www.bing.com/news/search?q=whole+body+intelligence+robot&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=whole+body+intelligence+robot&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:40.497Z",
+        "relevantItems": 10
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-c173e414d1",
+      "name": "关键词 · 全身智能",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "全身智能"
+      ],
+      "searchQuery": "\"全身智能\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%85%A8%E8%BA%AB%E6%99%BA%E8%83%BD%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%85%A8%E8%BA%AB%E6%99%BA%E8%83%BD%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:43.166Z",
+        "relevantItems": 13
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-ea72c4499b",
+      "name": "关键词 · Agent+Skill",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "Agent+Skill"
+      ],
+      "searchQuery": "robot agent skill",
+      "entryUrl": "https://www.bing.com/news/search?q=robot+agent+skill&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=robot+agent+skill&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:42.982Z",
+        "relevantItems": 11
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-8329102979",
+      "name": "关键词 · 具身原生",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "具身原生"
+      ],
+      "searchQuery": "\"具身原生\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%85%B7%E8%BA%AB%E5%8E%9F%E7%94%9F%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%85%B7%E8%BA%AB%E5%8E%9F%E7%94%9F%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:44.735Z",
+        "relevantItems": 19
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-7d07222b9f",
+      "name": "关键词 · Embodied-Native",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "Embodied-Native"
+      ],
+      "searchQuery": "\"Embodied-Native\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Embodied-Native%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Embodied-Native%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:43.828Z",
+        "relevantItems": 9
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-dae5e4a4bd",
+      "name": "关键词 · 端到端",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "端到端"
+      ],
+      "searchQuery": "\"端到端\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%AB%AF%E5%88%B0%E7%AB%AF%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%AB%AF%E5%88%B0%E7%AB%AF%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:45.906Z",
+        "relevantItems": 92
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-4e2d8ce774",
+      "name": "关键词 · 分层架构",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "分层架构"
+      ],
+      "searchQuery": "\"分层架构\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:46.377Z",
+        "relevantItems": 43
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-917bce6eae",
+      "name": "关键词 · Sim2Real",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "Sim2Real"
+      ],
+      "searchQuery": "\"Sim2Real\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Sim2Real%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Sim2Real%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:45.464Z",
+        "relevantItems": 34
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-fe1f6c4565",
+      "name": "关键词 · Real2Sim2Real",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "Real2Sim2Real"
+      ],
+      "searchQuery": "\"Real2Sim2Real\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Real2Sim2Real%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Real2Sim2Real%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:46.376Z",
+        "relevantItems": 8
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-0e1d334902",
+      "name": "关键词 · 仿真到现实迁移",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "仿真到现实迁移"
+      ],
+      "searchQuery": "\"仿真到现实迁移\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%8E%B0%E5%AE%9E%E8%BF%81%E7%A7%BB%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BB%BF%E7%9C%9F%E5%88%B0%E7%8E%B0%E5%AE%9E%E8%BF%81%E7%A7%BB%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:47.086Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-0924721401",
+      "name": "关键词 · 数据飞轮",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "数据飞轮"
+      ],
+      "searchQuery": "\"数据飞轮\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B0%E6%8D%AE%E9%A3%9E%E8%BD%AE%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B0%E6%8D%AE%E9%A3%9E%E8%BD%AE%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:48.379Z",
+        "relevantItems": 45
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-c259274a5e",
+      "name": "关键词 · Scaling Law",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "Scaling Law"
+      ],
+      "searchQuery": "\"Scaling Law\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Scaling+Law%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Scaling+Law%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:48.055Z",
+        "relevantItems": 36
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-8193b73654",
+      "name": "关键词 · 遥操作",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "遥操作"
+      ],
+      "searchQuery": "\"遥操作\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%81%A5%E6%93%8D%E4%BD%9C%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%81%A5%E6%93%8D%E4%BD%9C%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:49.127Z",
+        "relevantItems": 56
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-168780739d",
+      "name": "关键词 · UMI",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "UMI"
+      ],
+      "searchQuery": "\"UMI\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22UMI%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22UMI%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:48.660Z",
+        "relevantItems": 38
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-c08b5c08dc",
+      "name": "关键词 · 无本体采集",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "无本体采集"
+      ],
+      "searchQuery": "\"无本体采集\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%97%A0%E6%9C%AC%E4%BD%93%E9%87%87%E9%9B%86%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%97%A0%E6%9C%AC%E4%BD%93%E9%87%87%E9%9B%86%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:50.611Z",
+        "relevantItems": 29
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-72bfdb7f98",
+      "name": "关键词 · egocentric",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "egocentric"
+      ],
+      "searchQuery": "\"egocentric\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22egocentric%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22egocentric%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:49.780Z",
+        "relevantItems": 38
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-technology-bbc3aeeba9",
+      "name": "关键词 · 第一视角",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "第一视角"
+      ],
+      "searchQuery": "\"第一视角\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:51.489Z",
+        "relevantItems": 40
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-9eb62ac805",
+      "name": "关键词 · 部署态",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "部署态"
+      ],
+      "searchQuery": "\"部署态\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%83%A8%E7%BD%B2%E6%80%81%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%83%A8%E7%BD%B2%E6%80%81%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:51.812Z",
+        "relevantItems": 28
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-technology-85d5eac76c",
+      "name": "关键词 · 全栈闭环",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "technology",
+      "keywords": [
+        "全栈闭环"
+      ],
+      "searchQuery": "\"全栈闭环\" (robot OR robotics OR embodied OR 机器人)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%85%A8%E6%A0%88%E9%97%AD%E7%8E%AF%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%85%A8%E6%A0%88%E9%97%AD%E7%8E%AF%22+%28robot+OR+robotics+OR+embodied+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:52.774Z",
+        "relevantItems": 23
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-578d66fc86",
+      "name": "关键词 · 灵巧手",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "灵巧手"
+      ],
+      "searchQuery": "\"灵巧手\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%81%B5%E5%B7%A7%E6%89%8B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%81%B5%E5%B7%A7%E6%89%8B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:53.555Z",
+        "relevantItems": 94
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-06fda7b81f",
+      "name": "关键词 · 直驱",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "直驱"
+      ],
+      "searchQuery": "\"直驱\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%9B%B4%E9%A9%B1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%9B%B4%E9%A9%B1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:53.944Z",
+        "relevantItems": 34
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-c182d80382",
+      "name": "关键词 · 连杆",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "连杆"
+      ],
+      "searchQuery": "\"连杆\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%BF%9E%E6%9D%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%BF%9E%E6%9D%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:54.668Z",
+        "relevantItems": 54
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-5436c1a728",
+      "name": "关键词 · 腱绳",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "腱绳"
+      ],
+      "searchQuery": "\"腱绳\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%85%B1%E7%BB%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%85%B1%E7%BB%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:55.082Z",
+        "relevantItems": 42
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-c7ee5c7d0a",
+      "name": "关键词 · 触觉电子皮肤",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "触觉电子皮肤"
+      ],
+      "searchQuery": "\"触觉电子皮肤\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%A7%A6%E8%A7%89%E7%94%B5%E5%AD%90%E7%9A%AE%E8%82%A4%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%A7%A6%E8%A7%89%E7%94%B5%E5%AD%90%E7%9A%AE%E8%82%A4%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:55.877Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-5cec30f57c",
+      "name": "关键词 · 多维力觉感知",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "多维力觉感知"
+      ],
+      "searchQuery": "\"多维力觉感知\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%A4%9A%E7%BB%B4%E5%8A%9B%E8%A7%89%E6%84%9F%E7%9F%A5%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%A4%9A%E7%BB%B4%E5%8A%9B%E8%A7%89%E6%84%9F%E7%9F%A5%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:56.260Z",
+        "relevantItems": 4
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-f2caf05539",
+      "name": "关键词 · 一体化关节",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "一体化关节"
+      ],
+      "searchQuery": "\"一体化关节\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%B8%80%E4%BD%93%E5%8C%96%E5%85%B3%E8%8A%82%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%B8%80%E4%BD%93%E5%8C%96%E5%85%B3%E8%8A%82%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:57.634Z",
+        "relevantItems": 68
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-92fc1bc30e",
+      "name": "关键词 · 谐波减速器",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "谐波减速器"
+      ],
+      "searchQuery": "\"谐波减速器\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%B0%90%E6%B3%A2%E5%87%8F%E9%80%9F%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%B0%90%E6%B3%A2%E5%87%8F%E9%80%9F%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:57.578Z",
+        "relevantItems": 74
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-6a3822e890",
+      "name": "关键词 · 行星减速器",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "行星减速器"
+      ],
+      "searchQuery": "\"行星减速器\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%A1%8C%E6%98%9F%E5%87%8F%E9%80%9F%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%A1%8C%E6%98%9F%E5%87%8F%E9%80%9F%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:58.359Z",
+        "relevantItems": 57
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-15416d4273",
+      "name": "关键词 · 伺服电机",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "伺服电机"
+      ],
+      "searchQuery": "\"伺服电机\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:25:58.275Z",
+        "relevantItems": 56
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-5c4be0c198",
+      "name": "关键词 · 无框力矩电机",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "无框力矩电机"
+      ],
+      "searchQuery": "\"无框力矩电机\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%97%A0%E6%A1%86%E5%8A%9B%E7%9F%A9%E7%94%B5%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%97%A0%E6%A1%86%E5%8A%9B%E7%9F%A9%E7%94%B5%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:00.233Z",
+        "relevantItems": 72
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-c9d8cee760",
+      "name": "关键词 · 丝杠",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "丝杠"
+      ],
+      "searchQuery": "\"丝杠\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%B8%9D%E6%9D%A0%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%B8%9D%E6%9D%A0%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:00.535Z",
+        "relevantItems": 80
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-9da59cee50",
+      "name": "关键词 · 端侧算力模组",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "端侧算力模组"
+      ],
+      "searchQuery": "\"端侧算力模组\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%AB%AF%E4%BE%A7%E7%AE%97%E5%8A%9B%E6%A8%A1%E7%BB%84%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%AB%AF%E4%BE%A7%E7%AE%97%E5%8A%9B%E6%A8%A1%E7%BB%84%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:00.405Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-fe8cb4c719",
+      "name": "关键词 · 热管理",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "热管理"
+      ],
+      "searchQuery": "\"热管理\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%83%AD%E7%AE%A1%E7%90%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%83%AD%E7%AE%A1%E7%90%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:01.085Z",
+        "relevantItems": 39
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-37906b9568",
+      "name": "关键词 · 耐久性",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "耐久性"
+      ],
+      "searchQuery": "\"耐久性\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%80%90%E4%B9%85%E6%80%A7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%80%90%E4%B9%85%E6%80%A7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:03.170Z",
+        "relevantItems": 49
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-9b770d8cf4",
+      "name": "关键词 · 长时间稳定运行",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "长时间稳定运行"
+      ],
+      "searchQuery": "\"长时间稳定运行\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%95%BF%E6%97%B6%E9%97%B4%E7%A8%B3%E5%AE%9A%E8%BF%90%E8%A1%8C%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%95%BF%E6%97%B6%E9%97%B4%E7%A8%B3%E5%AE%9A%E8%BF%90%E8%A1%8C%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:02.974Z",
+        "relevantItems": 13
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-bd49b0f668",
+      "name": "关键词 · 整机可靠性",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "整机可靠性"
+      ],
+      "searchQuery": "\"整机可靠性\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B4%E6%9C%BA%E5%8F%AF%E9%9D%A0%E6%80%A7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B4%E6%9C%BA%E5%8F%AF%E9%9D%A0%E6%80%A7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:02.622Z",
+        "relevantItems": 12
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-d8c9c6038e",
+      "name": "关键词 · 编码器",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "编码器"
+      ],
+      "searchQuery": "\"编码器\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%BC%96%E7%A0%81%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%BC%96%E7%A0%81%E5%99%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:03.984Z",
+        "relevantItems": 58
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-hardware-6464e4e65c",
+      "name": "关键词 · FOC",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "FOC"
+      ],
+      "searchQuery": "\"FOC\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22FOC%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22FOC%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:03.790Z",
+        "relevantItems": 14
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-hardware-748813c415",
+      "name": "关键词 · 力矩控制",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "hardware",
+      "keywords": [
+        "力矩控制"
+      ],
+      "searchQuery": "\"力矩控制\" (机器人 OR 电机 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%8A%9B%E7%9F%A9%E6%8E%A7%E5%88%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%8A%9B%E7%9F%A9%E6%8E%A7%E5%88%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+%E7%94%B5%E6%9C%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:05.746Z",
+        "relevantItems": 13
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-1f5be66894",
+      "name": "关键词 · Figure",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Figure"
+      ],
+      "searchQuery": "Figure humanoid robot",
+      "entryUrl": "https://www.bing.com/news/search?q=Figure+humanoid+robot&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=Figure+humanoid+robot&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:03.810Z",
+        "relevantItems": 10
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-c4a77c799e",
+      "name": "关键词 · Helix",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Helix"
+      ],
+      "searchQuery": "Figure Helix robot",
+      "entryUrl": "https://www.bing.com/news/search?q=Figure+Helix+robot&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=Figure+Helix+robot&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:04.556Z",
+        "relevantItems": 12
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-05612db023",
+      "name": "关键词 · BMW部署",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "BMW部署"
+      ],
+      "searchQuery": "BMW humanoid robot factory",
+      "entryUrl": "https://www.bing.com/news/search?q=BMW+humanoid+robot+factory&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=BMW+humanoid+robot+factory&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:06.223Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-4009f44bf2",
+      "name": "关键词 · Tesla Optimus",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Tesla Optimus"
+      ],
+      "searchQuery": "Tesla Optimus",
+      "entryUrl": "https://www.bing.com/news/search?q=Tesla+Optimus&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=Tesla+Optimus&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:04.775Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-a56dc56ecf",
+      "name": "关键词 · Gen 3",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Gen 3"
+      ],
+      "searchQuery": "Tesla Optimus Gen 3",
+      "entryUrl": "https://www.bing.com/news/search?q=Tesla+Optimus+Gen+3&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=Tesla+Optimus+Gen+3&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:05.350Z",
+        "relevantItems": 10
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-b5aa5bca54",
+      "name": "关键词 · 弗里蒙特工厂",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "弗里蒙特工厂"
+      ],
+      "searchQuery": "Tesla Optimus Fremont factory",
+      "entryUrl": "https://www.bing.com/news/search?q=Tesla+Optimus+Fremont+factory&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=Tesla+Optimus+Fremont+factory&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:06.368Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-cc7c0a9448",
+      "name": "关键词 · 宇树",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "宇树"
+      ],
+      "searchQuery": "\"宇树\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%AE%87%E6%A0%91%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%AE%87%E6%A0%91%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:07.849Z",
+        "relevantItems": 52
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-54a22fae44",
+      "name": "关键词 · IPO",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "IPO"
+      ],
+      "searchQuery": "\"IPO\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22IPO%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22IPO%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:06.570Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-9548dddbfb",
+      "name": "关键词 · 出货量",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "出货量"
+      ],
+      "searchQuery": "\"出货量\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%87%BA%E8%B4%A7%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%87%BA%E8%B4%A7%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:08.924Z",
+        "relevantItems": 94
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-73e415bb33",
+      "name": "关键词 · 四足",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "四足"
+      ],
+      "searchQuery": "\"四足\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%9B%9B%E8%B6%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%9B%9B%E8%B6%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:09.582Z",
+        "relevantItems": 96
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-8f0298f9c8",
+      "name": "关键词 · 人形",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "人形"
+      ],
+      "searchQuery": "\"人形\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BA%BA%E5%BD%A2%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BA%BA%E5%BD%A2%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:08.452Z",
+        "relevantItems": 97
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-620e30b380",
+      "name": "关键词 · 智元",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "智元"
+      ],
+      "searchQuery": "\"智元\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%99%BA%E5%85%83%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%99%BA%E5%85%83%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:09.982Z",
+        "relevantItems": 82
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-2e273c907c",
+      "name": "关键词 · 精灵G2",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "精灵G2"
+      ],
+      "searchQuery": "\"精灵G2\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%B2%BE%E7%81%B5G2%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%B2%BE%E7%81%B5G2%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:11.198Z",
+        "relevantItems": 82
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-8df40c9c2e",
+      "name": "关键词 · 万台交付",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "万台交付"
+      ],
+      "searchQuery": "机器人 交付",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E4%BA%A4%E4%BB%98&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E4%BA%A4%E4%BB%98&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:10.934Z",
+        "relevantItems": 93
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-c5456c9421",
+      "name": "关键词 · 银河通用",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "银河通用"
+      ],
+      "searchQuery": "\"银河通用\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%93%B6%E6%B2%B3%E9%80%9A%E7%94%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%93%B6%E6%B2%B3%E9%80%9A%E7%94%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:12.269Z",
+        "relevantItems": 35
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-a6e5382c05",
+      "name": "关键词 · 星海图",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "星海图"
+      ],
+      "searchQuery": "\"星海图\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%98%9F%E6%B5%B7%E5%9B%BE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%98%9F%E6%B5%B7%E5%9B%BE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:12.167Z",
+        "relevantItems": 84
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-83ee8b326f",
+      "name": "关键词 · 自变量",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "自变量"
+      ],
+      "searchQuery": "\"自变量\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%87%AA%E5%8F%98%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%87%AA%E5%8F%98%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:13.327Z",
+        "relevantItems": 87
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-1032f7a4df",
+      "name": "关键词 · 千寻智能",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "千寻智能"
+      ],
+      "searchQuery": "\"千寻智能\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%8D%83%E5%AF%BB%E6%99%BA%E8%83%BD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%8D%83%E5%AF%BB%E6%99%BA%E8%83%BD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:13.335Z",
+        "relevantItems": 79
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-30081094f2",
+      "name": "关键词 · 优必选",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "优必选"
+      ],
+      "searchQuery": "\"优必选\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BC%98%E5%BF%85%E9%80%89%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BC%98%E5%BF%85%E9%80%89%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:14.391Z",
+        "relevantItems": 50
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-f477aa728c",
+      "name": "关键词 · 柳州工厂",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "柳州工厂"
+      ],
+      "searchQuery": "\"柳州工厂\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9F%B3%E5%B7%9E%E5%B7%A5%E5%8E%82%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9F%B3%E5%B7%9E%E5%B7%A5%E5%8E%82%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:14.661Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-b41f0f6a15",
+      "name": "关键词 · 小鹏机器人",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "小鹏机器人"
+      ],
+      "searchQuery": "\"小鹏机器人\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:16.059Z",
+        "relevantItems": 92
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-42e70561b5",
+      "name": "关键词 · Boston Dynamics",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Boston Dynamics"
+      ],
+      "searchQuery": "\"Boston Dynamics\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Boston+Dynamics%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Boston+Dynamics%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:14.184Z",
+        "relevantItems": 11
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-7cb81d4827",
+      "name": "关键词 · Atlas全电动",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Atlas全电动"
+      ],
+      "searchQuery": "\"Atlas全电动\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Atlas%E5%85%A8%E7%94%B5%E5%8A%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Atlas%E5%85%A8%E7%94%B5%E5%8A%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:16.769Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-5b5bb3e524",
+      "name": "关键词 · NEURA Robotics",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "NEURA Robotics"
+      ],
+      "searchQuery": "\"NEURA Robotics\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22NEURA+Robotics%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22NEURA+Robotics%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:15.009Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-b99b77bac1",
+      "name": "关键词 · Apptronik",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "Apptronik"
+      ],
+      "searchQuery": "\"Apptronik\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Apptronik%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Apptronik%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:15.341Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-82b5503177",
+      "name": "关键词 · 百亿估值",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "百亿估值"
+      ],
+      "searchQuery": "机器人 公司 融资 估值",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E5%85%AC%E5%8F%B8+%E8%9E%8D%E8%B5%84+%E4%BC%B0%E5%80%BC&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E5%85%AC%E5%8F%B8+%E8%9E%8D%E8%B5%84+%E4%BC%B0%E5%80%BC&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:19.426Z",
+        "relevantItems": 81
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-fc585a14bf",
+      "name": "关键词 · 独角兽",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "独角兽"
+      ],
+      "searchQuery": "\"独角兽\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%8B%AC%E8%A7%92%E5%85%BD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%8B%AC%E8%A7%92%E5%85%BD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:18.447Z",
+        "relevantItems": 85
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-ae16500cbc",
+      "name": "关键词 · IPO提速",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "IPO提速"
+      ],
+      "searchQuery": "\"IPO提速\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22IPO%E6%8F%90%E9%80%9F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22IPO%E6%8F%90%E9%80%9F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:17.562Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-5763832423",
+      "name": "关键词 · 马太效应",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "马太效应"
+      ],
+      "searchQuery": "\"马太效应\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:19.764Z",
+        "relevantItems": 28
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-companies_capital-12d01f909c",
+      "name": "关键词 · CR5",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "CR5"
+      ],
+      "searchQuery": "\"CR5\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22CR5%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22CR5%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:19.201Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-companies_capital-e616188f6f",
+      "name": "关键词 · CR20",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "companies_capital",
+      "keywords": [
+        "CR20"
+      ],
+      "searchQuery": "\"CR20\" (机器人 OR humanoid OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22CR20%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22CR20%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+humanoid+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:19.852Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-deployment-cb6a1af7aa",
+      "name": "关键词 · 实景实训",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "实景实训"
+      ],
+      "searchQuery": "\"实景实训\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%AE%9E%E6%99%AF%E5%AE%9E%E8%AE%AD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%AE%9E%E6%99%AF%E5%AE%9E%E8%AE%AD%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:21.207Z",
+        "relevantItems": 62
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-52df64c821",
+      "name": "关键词 · 进厂入户",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "进厂入户"
+      ],
+      "searchQuery": "\"进厂入户\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%BF%9B%E5%8E%82%E5%85%A5%E6%88%B7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%BF%9B%E5%8E%82%E5%85%A5%E6%88%B7%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:21.401Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-9581e75804",
+      "name": "关键词 · 一脑多机",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "一脑多机"
+      ],
+      "searchQuery": "\"一脑多机\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%B8%80%E8%84%91%E5%A4%9A%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%B8%80%E8%84%91%E5%A4%9A%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:21.722Z",
+        "relevantItems": 47
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-0421bfbbfd",
+      "name": "关键词 · 药房夜间分拣",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "药房夜间分拣"
+      ],
+      "searchQuery": "\"药房夜间分拣\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%8D%AF%E6%88%BF%E5%A4%9C%E9%97%B4%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%8D%AF%E6%88%BF%E5%A4%9C%E9%97%B4%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:21.723Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-432984797e",
+      "name": "关键词 · 物流包裹分拣",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "物流包裹分拣"
+      ],
+      "searchQuery": "\"物流包裹分拣\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%89%A9%E6%B5%81%E5%8C%85%E8%A3%B9%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%89%A9%E6%B5%81%E5%8C%85%E8%A3%B9%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:22.614Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-1486bf23cd",
+      "name": "关键词 · 每小时件数",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "每小时件数"
+      ],
+      "searchQuery": "\"每小时件数\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%AF%8F%E5%B0%8F%E6%97%B6%E4%BB%B6%E6%95%B0%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%AF%8F%E5%B0%8F%E6%97%B6%E4%BB%B6%E6%95%B0%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:23.306Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-5ac4d9adff",
+      "name": "关键词 · 汽车工厂物料搬运",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "汽车工厂物料搬运"
+      ],
+      "searchQuery": "\"汽车工厂物料搬运\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%B1%BD%E8%BD%A6%E5%B7%A5%E5%8E%82%E7%89%A9%E6%96%99%E6%90%AC%E8%BF%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%B1%BD%E8%BD%A6%E5%B7%A5%E5%8E%82%E7%89%A9%E6%96%99%E6%90%AC%E8%BF%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:23.738Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-cddf448206",
+      "name": "关键词 · 装配",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "装配"
+      ],
+      "searchQuery": "\"装配\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%A3%85%E9%85%8D%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%A3%85%E9%85%8D%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:23.922Z",
+        "relevantItems": 55
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-e87f7b3095",
+      "name": "关键词 · 仓储分拣",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "仓储分拣"
+      ],
+      "searchQuery": "\"仓储分拣\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BB%93%E5%82%A8%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BB%93%E5%82%A8%E5%88%86%E6%8B%A3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:24.716Z",
+        "relevantItems": 30
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-3e12ce47d1",
+      "name": "关键词 · 电力巡检",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "电力巡检"
+      ],
+      "searchQuery": "\"电力巡检\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%94%B5%E5%8A%9B%E5%B7%A1%E6%A3%80%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%94%B5%E5%8A%9B%E5%B7%A1%E6%A3%80%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:25.202Z",
+        "relevantItems": 59
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-b76f8957e5",
+      "name": "关键词 · 家庭收纳",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "家庭收纳"
+      ],
+      "searchQuery": "\"家庭收纳\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%AE%B6%E5%BA%AD%E6%94%B6%E7%BA%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%AE%B6%E5%BA%AD%E6%94%B6%E7%BA%B3%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:25.487Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-d5a8d6bcf2",
+      "name": "关键词 · 清洁",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "清洁"
+      ],
+      "searchQuery": "\"清洁\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%B8%85%E6%B4%81%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%B8%85%E6%B4%81%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:26.398Z",
+        "relevantItems": 95
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-9ffc3aa907",
+      "name": "关键词 · 搬运",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "搬运"
+      ],
+      "searchQuery": "\"搬运\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%90%AC%E8%BF%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%90%AC%E8%BF%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:26.663Z",
+        "relevantItems": 91
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-aa546727dd",
+      "name": "关键词 · 康养助行外骨骼",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "康养助行外骨骼"
+      ],
+      "searchQuery": "\"康养助行外骨骼\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%BA%B7%E5%85%BB%E5%8A%A9%E8%A1%8C%E5%A4%96%E9%AA%A8%E9%AA%BC%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%BA%B7%E5%85%BB%E5%8A%A9%E8%A1%8C%E5%A4%96%E9%AA%A8%E9%AA%BC%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:27.390Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-36e21541cd",
+      "name": "关键词 · 商超零售",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "商超零售"
+      ],
+      "searchQuery": "\"商超零售\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%95%86%E8%B6%85%E9%9B%B6%E5%94%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%95%86%E8%B6%85%E9%9B%B6%E5%94%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:28.004Z",
+        "relevantItems": 28
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-a95ba0160b",
+      "name": "关键词 · 自主扫码",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "自主扫码"
+      ],
+      "searchQuery": "\"自主扫码\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%87%AA%E4%B8%BB%E6%89%AB%E7%A0%81%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%87%AA%E4%B8%BB%E6%89%AB%E7%A0%81%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:28.366Z",
+        "relevantItems": 6
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-7ff562141d",
+      "name": "关键词 · RaaS",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "RaaS"
+      ],
+      "searchQuery": "\"RaaS\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22RaaS%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22RaaS%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:27.216Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-deployment-cfcf9a2413",
+      "name": "关键词 · 机器人即服务",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "机器人即服务"
+      ],
+      "searchQuery": "\"机器人即服务\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8D%B3%E6%9C%8D%E5%8A%A1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8D%B3%E6%9C%8D%E5%8A%A1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:29.240Z",
+        "relevantItems": 83
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-51a56db235",
+      "name": "关键词 · 按小时计费",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "按小时计费"
+      ],
+      "searchQuery": "\"按小时计费\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%8C%89%E5%B0%8F%E6%97%B6%E8%AE%A1%E8%B4%B9%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%8C%89%E5%B0%8F%E6%97%B6%E8%AE%A1%E8%B4%B9%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:29.694Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-6a2cbbfacb",
+      "name": "关键词 · 非结构化环境",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "非结构化环境"
+      ],
+      "searchQuery": "\"非结构化环境\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E7%8E%AF%E5%A2%83%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E7%8E%AF%E5%A2%83%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:30.846Z",
+        "relevantItems": 60
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-223bbca691",
+      "name": "关键词 · 动态变化",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "动态变化"
+      ],
+      "searchQuery": "\"动态变化\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%8A%A8%E6%80%81%E5%8F%98%E5%8C%96%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%8A%A8%E6%80%81%E5%8F%98%E5%8C%96%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:30.444Z",
+        "relevantItems": 38
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-deployment-bd66789bc2",
+      "name": "关键词 · 任务成功率",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "deployment",
+      "keywords": [
+        "任务成功率"
+      ],
+      "searchQuery": "\"任务成功率\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BB%BB%E5%8A%A1%E6%88%90%E5%8A%9F%E7%8E%87%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BB%BB%E5%8A%A1%E6%88%90%E5%8A%9F%E7%8E%87%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:32.221Z",
+        "relevantItems": 60
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-f49f4c88f7",
+      "name": "关键词 · 训练场",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "训练场"
+      ],
+      "searchQuery": "\"训练场\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%AE%AD%E7%BB%83%E5%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%AE%AD%E7%BB%83%E5%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:32.344Z",
+        "relevantItems": 96
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-dff408c394",
+      "name": "关键词 · 全国70+座",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "全国70+座"
+      ],
+      "searchQuery": "机器人 训练场",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%AE%AD%E7%BB%83%E5%9C%BA&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%AE%AD%E7%BB%83%E5%9C%BA&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:32.567Z",
+        "relevantItems": 96
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-1dbc8ac2e1",
+      "name": "关键词 · 在建46座",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "在建46座"
+      ],
+      "searchQuery": "机器人 训练场 在建",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%AE%AD%E7%BB%83%E5%9C%BA+%E5%9C%A8%E5%BB%BA&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%AE%AD%E7%BB%83%E5%9C%BA+%E5%9C%A8%E5%BB%BA&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:33.907Z",
+        "relevantItems": 54
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-908356a92d",
+      "name": "关键词 · 真机数据",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "真机数据"
+      ],
+      "searchQuery": "\"真机数据\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%9C%9F%E6%9C%BA%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%9C%9F%E6%9C%BA%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:35.090Z",
+        "relevantItems": 90
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-cad9c26276",
+      "name": "关键词 · 仿真合成数据",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "仿真合成数据"
+      ],
+      "searchQuery": "\"仿真合成数据\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E4%BB%BF%E7%9C%9F%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E4%BB%BF%E7%9C%9F%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:34.759Z",
+        "relevantItems": 38
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-d1fb006114",
+      "name": "关键词 · 无本体采集数据",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "无本体采集数据"
+      ],
+      "searchQuery": "\"无本体采集数据\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%97%A0%E6%9C%AC%E4%BD%93%E9%87%87%E9%9B%86%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%97%A0%E6%9C%AC%E4%BD%93%E9%87%87%E9%9B%86%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:34.679Z",
+        "relevantItems": 4
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-2b2deb889a",
+      "name": "关键词 · 高质量物理交互数据",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "高质量物理交互数据"
+      ],
+      "searchQuery": "\"高质量物理交互数据\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%AB%98%E8%B4%A8%E9%87%8F%E7%89%A9%E7%90%86%E4%BA%A4%E4%BA%92%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%AB%98%E8%B4%A8%E9%87%8F%E7%89%A9%E7%90%86%E4%BA%A4%E4%BA%92%E6%95%B0%E6%8D%AE%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:35.725Z",
+        "relevantItems": 16
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-4800670940",
+      "name": "关键词 · 数据集交易",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "数据集交易"
+      ],
+      "searchQuery": "\"数据集交易\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B0%E6%8D%AE%E9%9B%86%E4%BA%A4%E6%98%93%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B0%E6%8D%AE%E9%9B%86%E4%BA%A4%E6%98%93%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:36.203Z",
+        "relevantItems": 2
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-400f80f769",
+      "name": "关键词 · 数据标注",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "数据标注"
+      ],
+      "searchQuery": "\"数据标注\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B0%E6%8D%AE%E6%A0%87%E6%B3%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B0%E6%8D%AE%E6%A0%87%E6%B3%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:37.243Z",
+        "relevantItems": 40
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-713af2d1e2",
+      "name": "关键词 · 清洗",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "清洗"
+      ],
+      "searchQuery": "\"清洗\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%B8%85%E6%B4%97%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%B8%85%E6%B4%97%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:37.158Z",
+        "relevantItems": 90
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-8a4bd8a4a5",
+      "name": "关键词 · 质检",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "质检"
+      ],
+      "searchQuery": "\"质检\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%B4%A8%E6%A3%80%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%B4%A8%E6%A3%80%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:37.710Z",
+        "relevantItems": 49
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-d9efd9160b",
+      "name": "关键词 · 数采规模化",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "数采规模化"
+      ],
+      "searchQuery": "\"数采规模化\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B0%E9%87%87%E8%A7%84%E6%A8%A1%E5%8C%96%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B0%E9%87%87%E8%A7%84%E6%A8%A1%E5%8C%96%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:37.983Z",
+        "relevantItems": 5
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-baf302f144",
+      "name": "关键词 · 千万小时级数据缺口",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "千万小时级数据缺口"
+      ],
+      "searchQuery": "机器人 数据 采集 规模",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%95%B0%E6%8D%AE+%E9%87%87%E9%9B%86+%E8%A7%84%E6%A8%A1&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%95%B0%E6%8D%AE+%E9%87%87%E9%9B%86+%E8%A7%84%E6%A8%A1&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:39.269Z",
+        "relevantItems": 17
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-babf83554f",
+      "name": "关键词 · 机器人数据集",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "机器人数据集"
+      ],
+      "searchQuery": "\"机器人数据集\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9B%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%B0%E6%8D%AE%E9%9B%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:39.707Z",
+        "relevantItems": 83
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-data-d3b5e6e368",
+      "name": "关键词 · 数据质量",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "data",
+      "keywords": [
+        "数据质量"
+      ],
+      "searchQuery": "\"数据质量\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:40.324Z",
+        "relevantItems": 41
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-bdc7152cf2",
+      "name": "关键词 · 实景实训专项行动",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "实景实训专项行动"
+      ],
+      "searchQuery": "\"实景实训专项行动\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%AE%9E%E6%99%AF%E5%AE%9E%E8%AE%AD%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%AE%9E%E6%99%AF%E5%AE%9E%E8%AE%AD%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:40.819Z",
+        "relevantItems": 74
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-99ab66e520",
+      "name": "关键词 · 工信部",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "工信部"
+      ],
+      "searchQuery": "\"工信部\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%B7%A5%E4%BF%A1%E9%83%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%B7%A5%E4%BF%A1%E9%83%A8%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:41.277Z",
+        "relevantItems": 79
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-6a6cf59a10",
+      "name": "关键词 · 国资委",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "国资委"
+      ],
+      "searchQuery": "\"国资委\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%9B%BD%E8%B5%84%E5%A7%94%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%9B%BD%E8%B5%84%E5%A7%94%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:42.007Z",
+        "relevantItems": 48
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-68779c2a55",
+      "name": "关键词 · 万台级规模落地能力",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "万台级规模落地能力"
+      ],
+      "searchQuery": "机器人 规模 部署",
+      "entryUrl": "https://www.bing.com/news/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%A7%84%E6%A8%A1+%E9%83%A8%E7%BD%B2&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%A7%84%E6%A8%A1+%E9%83%A8%E7%BD%B2&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:43.315Z",
+        "relevantItems": 22
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-9422cbf3b2",
+      "name": "关键词 · 国家人形机器人产业标准体系建设指南（2026版）",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "国家人形机器人产业标准体系建设指南（2026版）"
+      ],
+      "searchQuery": "人形机器人 标准体系 建设指南",
+      "entryUrl": "https://www.bing.com/news/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB+%E5%BB%BA%E8%AE%BE%E6%8C%87%E5%8D%97&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB+%E5%BB%BA%E8%AE%BE%E6%8C%87%E5%8D%97&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:43.557Z",
+        "relevantItems": 22
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-afe85d9d70",
+      "name": "关键词 · 人形机器人产量突破10万台",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "人形机器人产量突破10万台"
+      ],
+      "searchQuery": "人形机器人 产量 统计",
+      "entryUrl": "https://www.bing.com/news/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E4%BA%A7%E9%87%8F+%E7%BB%9F%E8%AE%A1&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E4%BA%A7%E9%87%8F+%E7%BB%9F%E8%AE%A1&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:43.594Z",
+        "relevantItems": 47
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-471f05a095",
+      "name": "关键词 · 整机产品400+款",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "整机产品400+款"
+      ],
+      "searchQuery": "人形机器人 整机 产品",
+      "entryUrl": "https://www.bing.com/news/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%95%B4%E6%9C%BA+%E4%BA%A7%E5%93%81&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E6%95%B4%E6%9C%BA+%E4%BA%A7%E5%93%81&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:45.428Z",
+        "relevantItems": 94
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-221232f785",
+      "name": "关键词 · 具身智能数据集质量行业标准",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "具身智能数据集质量行业标准"
+      ],
+      "searchQuery": "\"具身智能数据集质量行业标准\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%95%B0%E6%8D%AE%E9%9B%86%E8%B4%A8%E9%87%8F%E8%A1%8C%E4%B8%9A%E6%A0%87%E5%87%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%95%B0%E6%8D%AE%E9%9B%86%E8%B4%A8%E9%87%8F%E8%A1%8C%E4%B8%9A%E6%A0%87%E5%87%86%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:45.175Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-0442893c33",
+      "name": "关键词 · Sim-to-Real迁移成功率≥95%",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "Sim-to-Real迁移成功率≥95%"
+      ],
+      "searchQuery": "robot sim-to-real transfer success benchmark",
+      "entryUrl": "https://www.bing.com/news/search?q=robot+sim-to-real+transfer+success+benchmark&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=robot+sim-to-real+transfer+success+benchmark&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:46.212Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-1601b72767",
+      "name": "关键词 · 人机协作动态风险响应时间<50ms",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "人机协作动态风险响应时间<50ms"
+      ],
+      "searchQuery": "人机协作 安全 风险 响应 标准",
+      "entryUrl": "https://www.bing.com/news/search?q=%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C+%E5%AE%89%E5%85%A8+%E9%A3%8E%E9%99%A9+%E5%93%8D%E5%BA%94+%E6%A0%87%E5%87%86&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%E4%BA%BA%E6%9C%BA%E5%8D%8F%E4%BD%9C+%E5%AE%89%E5%85%A8+%E9%A3%8E%E9%99%A9+%E5%93%8D%E5%BA%94+%E6%A0%87%E5%87%86&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:45.957Z",
+        "relevantItems": 11
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-707b5c28b1",
+      "name": "关键词 · 期望膨胀期",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "期望膨胀期"
+      ],
+      "searchQuery": "\"期望膨胀期\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%9F%E6%9C%9B%E8%86%A8%E8%83%80%E6%9C%9F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%9F%E6%9C%9B%E8%86%A8%E8%83%80%E6%9C%9F%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:47.961Z",
+        "relevantItems": 3
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-policy-4afb7eb9c2",
+      "name": "关键词 · 行业洗牌",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "policy",
+      "keywords": [
+        "行业洗牌"
+      ],
+      "searchQuery": "\"行业洗牌\" (机器人 OR robotics)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%A1%8C%E4%B8%9A%E6%B4%97%E7%89%8C%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%A1%8C%E4%B8%9A%E6%B4%97%E7%89%8C%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:47.922Z",
+        "relevantItems": 54
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-35f93c9943",
+      "name": "关键词 · 机器人AI",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "机器人AI"
+      ],
+      "searchQuery": "\"机器人AI\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BAAI%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BAAI%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:48.758Z",
+        "relevantItems": 99
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-a4d1441486",
+      "name": "关键词 · 机器人",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "机器人"
+      ],
+      "searchQuery": "\"机器人\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:48.919Z",
+        "relevantItems": 99
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-9776895d0b",
+      "name": "关键词 · 电赛",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "电赛"
+      ],
+      "searchQuery": "\"电赛\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%94%B5%E8%B5%9B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%94%B5%E8%B5%9B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:50.362Z",
+        "relevantItems": 28
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-c6a109e200",
+      "name": "关键词 · 电子设计竞赛",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "电子设计竞赛"
+      ],
+      "searchQuery": "\"电子设计竞赛\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:50.919Z",
+        "relevantItems": 39
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-13cc084c86",
+      "name": "关键词 · 智能车",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "智能车"
+      ],
+      "searchQuery": "\"智能车\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%99%BA%E8%83%BD%E8%BD%A6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%99%BA%E8%83%BD%E8%BD%A6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:51.699Z",
+        "relevantItems": 42
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-68a5c8672f",
+      "name": "关键词 · RoboMaster",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "RoboMaster"
+      ],
+      "searchQuery": "\"RoboMaster\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22RoboMaster%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22RoboMaster%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:54.896Z",
+        "relevantItems": 25
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-3691f7ec35",
+      "name": "关键词 · RoboCup",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "RoboCup"
+      ],
+      "searchQuery": "\"RoboCup\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22RoboCup%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22RoboCup%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:52.489Z",
+        "relevantItems": 88
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-267d3b81a9",
+      "name": "关键词 · FIRST",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "FIRST"
+      ],
+      "searchQuery": "FIRST Robotics competition",
+      "entryUrl": "https://www.bing.com/news/search?q=FIRST+Robotics+competition&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=FIRST+Robotics+competition&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:51.395Z",
+        "relevantItems": 11
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-699b6aa66d",
+      "name": "关键词 · FRC",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "FRC"
+      ],
+      "searchQuery": "FIRST Robotics FRC",
+      "entryUrl": "https://www.bing.com/news/search?q=FIRST+Robotics+FRC&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=FIRST+Robotics+FRC&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:52.484Z",
+        "relevantItems": 7
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-757a6c60f2",
+      "name": "关键词 · NHRL",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "NHRL"
+      ],
+      "searchQuery": "\"NHRL\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22NHRL%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22NHRL%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:52.699Z",
+        "relevantItems": 12
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-2a1239cf58",
+      "name": "关键词 · RoboSub",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "RoboSub"
+      ],
+      "searchQuery": "\"RoboSub\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22RoboSub%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22RoboSub%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:53.663Z",
+        "relevantItems": 15
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-55d2f1bf0a",
+      "name": "关键词 · RobotX",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "RobotX"
+      ],
+      "searchQuery": "\"RobotX\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22RobotX%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22RobotX%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:53.895Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-9f1912878f",
+      "name": "关键词 · MATE ROV",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "MATE ROV"
+      ],
+      "searchQuery": "\"MATE ROV\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22MATE+ROV%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22MATE+ROV%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:55.058Z",
+        "relevantItems": 38
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-e68d370083",
+      "name": "关键词 · Eurobot",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "Eurobot"
+      ],
+      "searchQuery": "\"Eurobot\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22Eurobot%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=en-US",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22Eurobot%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=en-US&gl=US&ceid=US%3Aen"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:55.164Z",
+        "relevantItems": 8
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "en-US"
+    },
+    {
+      "id": "keyword-engineering_competitions-b18adaa988",
+      "name": "关键词 · 无人机",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "无人机"
+      ],
+      "searchQuery": "\"无人机\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%97%A0%E4%BA%BA%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%97%A0%E4%BA%BA%E6%9C%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:56.602Z",
+        "relevantItems": 92
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-cd17ccd35c",
+      "name": "关键词 · 水下机器人",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "水下机器人"
+      ],
+      "searchQuery": "\"水下机器人\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%B0%B4%E4%B8%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:57.576Z",
+        "relevantItems": 92
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-6b5ad08fe6",
+      "name": "关键词 · 遥控机器人",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "遥控机器人"
+      ],
+      "searchQuery": "\"遥控机器人\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E9%81%A5%E6%8E%A7%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E9%81%A5%E6%8E%A7%E6%9C%BA%E5%99%A8%E4%BA%BA%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:58.086Z",
+        "relevantItems": 71
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-95c419192d",
+      "name": "关键词 · 开源硬件",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "开源硬件"
+      ],
+      "searchQuery": "\"开源硬件\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:57.636Z",
+        "relevantItems": 34
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-1077b89672",
+      "name": "关键词 · 电路",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "电路"
+      ],
+      "searchQuery": "\"电路\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E7%94%B5%E8%B7%AF%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E7%94%B5%E8%B7%AF%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:58.416Z",
+        "relevantItems": 32
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-a981c51cd8",
+      "name": "关键词 · 固件",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "固件"
+      ],
+      "searchQuery": "\"固件\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%9B%BA%E4%BB%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%9B%BA%E4%BB%B6%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:26:59.579Z",
+        "relevantItems": 8
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-3262e1234b",
+      "name": "关键词 · 机械设计",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "机械设计"
+      ],
+      "searchQuery": "\"机械设计\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%9C%BA%E6%A2%B0%E8%AE%BE%E8%AE%A1%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:27:00.235Z",
+        "relevantItems": 45
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-5dae9af18b",
+      "name": "关键词 · 战队开源",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "战队开源"
+      ],
+      "searchQuery": "\"战队开源\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%88%98%E9%98%9F%E5%BC%80%E6%BA%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%88%98%E9%98%9F%E5%BC%80%E6%BA%90%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:27:00.150Z",
+        "relevantItems": 0
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-5218333b46",
+      "name": "关键词 · 技术报告",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "技术报告"
+      ],
+      "searchQuery": "\"技术报告\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:27:00.874Z",
+        "relevantItems": 40
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-f516e94b0e",
+      "name": "关键词 · 调试复盘",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "调试复盘"
+      ],
+      "searchQuery": "\"调试复盘\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E8%B0%83%E8%AF%95%E5%A4%8D%E7%9B%98%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E8%B0%83%E8%AF%95%E5%A4%8D%E7%9B%98%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:27:01.104Z",
+        "relevantItems": 1
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    },
+    {
+      "id": "keyword-engineering_competitions-e4a37be1f6",
+      "name": "关键词 · 可靠性测试",
+      "publisher": "News search aggregation",
+      "adapter": "keyword-search",
+      "transport": "keyword_search",
+      "keywordGroup": "engineering_competitions",
+      "keywords": [
+        "可靠性测试"
+      ],
+      "searchQuery": "\"可靠性测试\" (机器人 OR robotics OR 电子设计 OR 开源硬件)",
+      "entryUrl": "https://www.bing.com/news/search?q=%22%E5%8F%AF%E9%9D%A0%E6%80%A7%E6%B5%8B%E8%AF%95%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&format=rss&mkt=zh-CN",
+      "fallbackUrls": [
+        "https://news.google.com/rss/search?q=%22%E5%8F%AF%E9%9D%A0%E6%80%A7%E6%B5%8B%E8%AF%95%22+%28%E6%9C%BA%E5%99%A8%E4%BA%BA+OR+robotics+OR+%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1+OR+%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      ],
+      "website": "https://www.bing.com/news",
+      "role": "KEYWORD_DISCOVERY",
+      "enabled": true,
+      "verification": {
+        "status": "search_feed_parsed",
+        "checkedAt": "2026-10-23T14:27:02.034Z",
+        "relevantItems": 40
+      },
+      "claimBoundary": "User keywords are search hints; quantities, company claims and policy names are not verified facts",
+      "discoveryOnly": true,
+      "locale": "zh-CN"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> 当前具身智能晚报请使用 [生产模块](../embodied-news/README.md)，本文件说明早期基础渲染器及历史兼容行为。
+
 # Juya evening video renderer (new offline implementation)
 
 This is a new, standalone offline renderer written for the `juya-recovery` work area. It is not recovered source from the vanished Juya project, does not copy the prior renderer, and does not claim compatibility with its internals. It accepts the existing workflow's rendered card PNGs, or local HTML card files captured with the machine's Chromium, and builds the evening-video timeline around those assets. It never contacts the network or uploads/publishes a video.

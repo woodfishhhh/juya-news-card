@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "rules": [
+    "舍弗勒/(she4)(fu2)(le4)",
+    "数字孪生/(shu4)(zi4)(luan2)(sheng1)",
+    "执行/(zhi2)(xing2)",
+    "运行/(yun4)(xing2)",
+    "并行/(bing4)(xing2)",
+    "进行/(jin4)(xing2)",
+    "重新/(chong2)(xin1)",
+    "重复/(chong2)(fu4)",
+    "重心/(zhong4)(xin1)",
+    "重量/(zhong4)(liang4)",
+    "调试/(tiao2)(shi4)",
+    "调整/(tiao2)(zheng3)",
+    "协调/(xie2)(tiao2)",
+    "装载机/(zhuang1)(zai4)(ji1)",
+    "搭载/(da1)(zai4)",
+    "处理/(chu3)(li3)",
+    "分拣/(fen1)(jian3)",
+    "传感器/(chuan2)(gan3)(qi4)",
+    "数据/(shu4)(ju4)",
+    "参数/(can1)(shu4)",
+    "赫兹/(he4)(zi1)",
+    "旋转/(xuan2)(zhuan3)",
+    "模型/(mo2)(xing2)",
+    "偏差/(pian1)(cha1)"
+  ],
+  "policy": "Only send whole-word rules present in the current narration. These are reading instructions; audible pronunciation remains subject to listening review."
+}

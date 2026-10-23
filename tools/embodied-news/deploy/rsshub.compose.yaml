@@ -1,0 +1,21 @@
+name: embodied-news-rsshub
+services:
+  rsshub:
+    image: diygod/rsshub@sha256:17434ed2f6ba129b19547e47f0de3fd6e6013c8ea9fbfb41adefb63e884ac9dc
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:1200:1200"
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: memory
+      CACHE_EXPIRE: "900"
+      REQUEST_TIMEOUT: "20000"
+      PROXY_URI: ${EMBODIED_RSSHUB_PROXY:-http://host.docker.internal:7897}
+      TZ: Asia/Shanghai
+    mem_limit: 1g
+    cpus: 2
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1200/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

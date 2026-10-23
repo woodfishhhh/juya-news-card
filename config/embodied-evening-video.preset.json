@@ -1,13 +1,15 @@
 {
   "preset_id": "embodied-evening-video",
-  "version": 1,
-  "status": "independent_renderer_implemented_with_known_limits",
+  "version": 2,
+  "status": "production_adapter_integrated",
   "renderer": {
     "executable": true,
     "standalone": true,
     "integrated_into_next_app": false,
     "original_renderer_recovered": false,
-    "pixel_equivalence_to_previous_videos_verified": false
+    "pixel_equivalence_to_previous_videos_verified": false,
+    "entrypoint": "tools/embodied-news/bin/render-juya-video.py",
+    "rules": "tools/embodied-news/reports/production-contract.md"
   },
   "output": {
     "default_width_px": 1920,
@@ -25,27 +27,32 @@
   },
   "opening_narration": {
     "locale": "zh-CN",
-    "exact_text": "大家好，我是小鱼是木鱼，以上是今天具身智能动态",
+    "exact_text": "大家好，我是木鱼，欢迎收看今天的具身智能晚报",
     "preserve_exact_wording": true
   },
   "overview": {
-    "duration_seconds": 5,
-    "topic_ordering": "rank_by_viewer_interest_before_rendering"
+    "duration_seconds": null,
+    "topic_ordering": "rank_by_viewer_interest_before_rendering",
+    "duration_basis": "decoded opening voice"
   },
   "topic_page": {
     "topics_per_page": 1,
-    "key_points_min": 3,
-    "key_points_max": 4,
-    "card_visible_seconds_before_material_popup": 5,
-    "renderer_default_card_visible_seconds": 5,
-    "renderer_allows_manifest_card_seconds_override": true
+    "key_points_min": 4,
+    "key_points_max": 6,
+    "card_visible_seconds_before_material_popup": 2.5,
+    "renderer_default_card_visible_seconds": 2.5,
+    "renderer_allows_manifest_card_seconds_override": true,
+    "closing_card_seconds": 2.5
   },
   "material_popup": {
     "width_px": 1520,
     "height_px": 830,
     "top_px": 64,
     "must_remain_within_top_edge": true,
-    "may_occlude_title": true
+    "may_occlude_title": true,
+    "media_binding_policy": "sentence-v1",
+    "ordinary_image_max_seconds": 3,
+    "continuous_bookends": true
   },
   "navigation": {
     "section_navigation": {
@@ -64,10 +71,10 @@
     "hide_during_white_page_transition": true
   },
   "subtitles": {
-    "unit": "complete_sentence",
-    "max_lines": 2,
-    "max_bottom_y_px": 1008,
-    "bottom_navigation_y_px": 1024,
+    "unit": "semantic_single_line",
+    "max_lines": 1,
+    "max_bottom_y_px": 1000,
+    "bottom_navigation_y_px": 1032,
     "overflow_handling": "rewrite_or_shorten_semantically_before_rendering",
     "mechanically_truncate_long_sentences": false
   },
@@ -76,9 +83,9 @@
     "renderer_uses_ffmpeg_atempo": true
   },
   "page_transition": {
-    "fade_out": true,
-    "fade_in": true,
-    "sound_effect": true,
+    "fade_out": false,
+    "fade_in": false,
+    "sound_effect": "paper-rustle",
     "white_page_gap_seconds": 0.5,
     "white_page_gap_frames_at_30fps": 15,
     "hide_navigation_during_white_page_gap": true
@@ -134,15 +141,37 @@
     ]
   },
   "implementation_limits": [
-    "The standalone renderer consumes supplied cards and local media; it does not recover the vanished source renderer, gather news, create the 8-topic editorial script, synthesize speech, or publish.",
-    "The renderer defaults each card to 5 seconds, but a theme manifest may override card_seconds.",
-    "Card art is supplied as PNG/HTML; the convenience fallback card does not reproduce the former renderer's 80/42/34 px typography or establish pixel equivalence.",
-    "No mobile-preview UI or mobile viewport QA is included.",
-    "The exact requested BGM file is not included or tested; synthetic demo tones only exercise the audio mix path.",
-    "License evidence is recorded as a user declaration and is not independently verified.",
-    "A 21.5-second synthetic 1920x1080/30fps demo passed FFprobe and full decode; no complete approximately four-minute production episode or performance/stress test was run."
+    "Collection is implemented; search leads still require original evidence and date verification.",
+    "Editorial scripts, media selection, actual visual/audio review and publication remain explicit production steps.",
+    "Credentials, media, TTS cache, BGM and live data are not bundled.",
+    "Historical verification belongs to the legacy renderer; new integration verification is reported separately."
   ],
-  "verification": {
+  "closing_narration": {
+    "exact_text": "今天的具身智能晚报就到这里了，感谢你的收看，早点休息"
+  },
+  "cover": {
+    "independent_design": true,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "dimensions": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1080,
+        1440
+      ]
+    ],
+    "review_separate_from_video": true
+  },
+  "review": {
+    "version_bound": true,
+    "technical_visual_acceptance_separate": true
+  },
+  "historical_verification": {
     "python_tests_total": 14,
     "python_tests_passed": 13,
     "python_tests_skipped": 1,

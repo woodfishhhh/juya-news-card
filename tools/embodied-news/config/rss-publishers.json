@@ -1,0 +1,1308 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "http://127.0.0.1:1200",
+  "excludedSourceIds": [],
+  "sources": [
+    {
+      "id": "publisher-pololu-blog",
+      "name": "Pololu",
+      "publisher": "www.pololu.com",
+      "entryUrl": "https://www.pololu.com/blog.atom",
+      "website": "https://www.pololu.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "FOC",
+        "编码器",
+        "伺服电机"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:07.276Z",
+        "items": 50,
+        "relevantItems": 8
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-pololu-products",
+      "name": "Pololu products",
+      "publisher": "www.pololu.com",
+      "entryUrl": "https://www.pololu.com/rss/new_products",
+      "website": "https://www.pololu.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "电机",
+        "传感器",
+        "开源硬件"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:07.286Z",
+        "items": 50,
+        "relevantItems": 0
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-pololu-forum",
+      "name": "Pololu engineering community",
+      "publisher": "forum.pololu.com",
+      "entryUrl": "https://forum.pololu.com/posts.rss",
+      "website": "https://forum.pololu.com",
+      "role": "COMMUNITY_DISCOVERY",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "电路",
+        "固件",
+        "机械设计"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:07.287Z",
+        "items": 50,
+        "relevantItems": 3
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-clearpath",
+      "name": "Clearpath Robotics",
+      "publisher": "clearpathrobotics.com",
+      "entryUrl": "https://clearpathrobotics.com/feed/",
+      "website": "https://clearpathrobotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "无人车",
+        "遥操作",
+        "真实部署"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:11.876Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-pal",
+      "name": "PAL Robotics",
+      "publisher": "pal-robotics.com",
+      "entryUrl": "https://pal-robotics.com/feed/",
+      "website": "https://pal-robotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "人形",
+        "移动操作",
+        "商超零售"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:12.563Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-eurobot",
+      "name": "Eurobot",
+      "publisher": "www.eurobot.org",
+      "entryUrl": "https://www.eurobot.org/feed/",
+      "website": "https://www.eurobot.org",
+      "role": "COMPETITION_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "Eurobot",
+        "战队开源"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:13.659Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-robonation",
+      "name": "RoboNation",
+      "publisher": "robonation.org",
+      "entryUrl": "https://robonation.org/feed/",
+      "website": "https://robonation.org",
+      "role": "COMPETITION_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "RoboSub",
+        "RobotX",
+        "无人机"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:14.849Z",
+        "items": 10,
+        "relevantItems": 3
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-robosub",
+      "name": "RoboSub",
+      "publisher": "robosub.org",
+      "entryUrl": "https://robosub.org/feed/",
+      "website": "https://robosub.org",
+      "role": "COMPETITION_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "RoboSub",
+        "水下机器人"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:16.853Z",
+        "items": 10,
+        "relevantItems": 0
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-robotx",
+      "name": "RobotX",
+      "publisher": "robotx.org",
+      "entryUrl": "https://robotx.org/feed/",
+      "website": "https://robotx.org",
+      "role": "COMPETITION_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "RobotX",
+        "无人艇"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:18.901Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-roboboat",
+      "name": "RoboBoat",
+      "publisher": "roboboat.org",
+      "entryUrl": "https://roboboat.org/feed/",
+      "website": "https://roboboat.org",
+      "role": "COMPETITION_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "无人艇",
+        "机器人AI"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:19.126Z",
+        "items": 10,
+        "relevantItems": 0
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-massrobotics",
+      "name": "MassRobotics",
+      "publisher": "www.massrobotics.org",
+      "entryUrl": "https://www.massrobotics.org/feed/",
+      "website": "https://www.massrobotics.org",
+      "role": "INDUSTRY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "初创公司",
+        "实际应用"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:19.679Z",
+        "items": 12,
+        "relevantItems": 12
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-anybotics",
+      "name": "ANYbotics",
+      "publisher": "www.anybotics.com",
+      "entryUrl": "https://www.anybotics.com/feed/",
+      "website": "https://www.anybotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "四足",
+        "电力巡检",
+        "整机可靠性"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:21.726Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-neura",
+      "name": "NEURA Robotics",
+      "publisher": "neura-robotics.com",
+      "entryUrl": "https://neura-robotics.com/feed/",
+      "website": "https://neura-robotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "NEURA Robotics",
+        "人形"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:23.015Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-agility",
+      "name": "Agility Robotics",
+      "publisher": "www.agilityrobotics.com",
+      "entryUrl": "https://www.agilityrobotics.com/news/feed",
+      "website": "https://www.agilityrobotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "仓储分拣",
+        "搬运"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:26.250Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-apptronik",
+      "name": "Apptronik",
+      "publisher": "apptronik.com",
+      "entryUrl": "https://apptronik.com/feed/",
+      "website": "https://apptronik.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "汽车工厂物料搬运",
+        "人形"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:26.533Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-bostondynamics",
+      "name": "Boston Dynamics",
+      "publisher": "bostondynamics.com",
+      "entryUrl": "https://bostondynamics.com/feed/",
+      "website": "https://bostondynamics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "Boston Dynamics",
+        "Atlas全电动"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:27.373Z",
+        "items": 0,
+        "relevantItems": 0
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-shadowrobot",
+      "name": "Shadow Robot",
+      "publisher": "www.shadowrobot.com",
+      "entryUrl": "https://www.shadowrobot.com/feed/",
+      "website": "https://www.shadowrobot.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "灵巧手",
+        "腱绳",
+        "遥操作"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:29.690Z",
+        "items": 40,
+        "relevantItems": 40
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-gelsight",
+      "name": "GelSight",
+      "publisher": "www.gelsight.com",
+      "entryUrl": "https://www.gelsight.com/feed/",
+      "website": "https://www.gelsight.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "触觉电子皮肤",
+        "数据质量"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:29.850Z",
+        "items": 10,
+        "relevantItems": 1
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-xelarobotics",
+      "name": "XELA Robotics",
+      "publisher": "xelarobotics.com",
+      "entryUrl": "https://xelarobotics.com/feed/",
+      "website": "https://xelarobotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "多维力觉感知",
+        "灵巧手"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:31.212Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-touchlab",
+      "name": "Touchlab",
+      "publisher": "touchlab.io",
+      "entryUrl": "https://touchlab.io/feed/",
+      "website": "https://touchlab.io",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "触觉电子皮肤",
+        "遥操作"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:32.148Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-tekscan",
+      "name": "Tekscan",
+      "publisher": "www.tekscan.com",
+      "entryUrl": "https://www.tekscan.com/blog/feed",
+      "website": "https://www.tekscan.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "触觉",
+        "力觉"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:35.832Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-maxon",
+      "name": "maxon drives",
+      "publisher": "drive.tech",
+      "entryUrl": "https://drive.tech/en/rss.xml",
+      "website": "https://drive.tech",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "伺服电机",
+        "无框力矩电机",
+        "编码器"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:40.291Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-harmonicdrive",
+      "name": "Harmonic Drive",
+      "publisher": "harmonicdrive.de",
+      "entryUrl": "https://harmonicdrive.de/en/newsroom/news/rss.xml",
+      "website": "https://harmonicdrive.de",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "谐波减速器",
+        "一体化关节"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:40.867Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-st-blog",
+      "name": "STMicroelectronics blog",
+      "publisher": "blog.st.com",
+      "entryUrl": "https://blog.st.com/feed/",
+      "website": "https://blog.st.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "端侧算力模组",
+        "电路",
+        "固件"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:41.633Z",
+        "items": 10,
+        "relevantItems": 3
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-nxp",
+      "name": "NXP community",
+      "publisher": "community.nxp.com",
+      "entryUrl": "https://community.nxp.com/pwmxy87654/rss/board?board.id=blog",
+      "website": "https://community.nxp.com",
+      "role": "COMMUNITY_DISCOVERY",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "嵌入式",
+        "电路",
+        "FOC"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:42.720Z",
+        "items": 20,
+        "relevantItems": 1
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-seeed",
+      "name": "Seeed Studio",
+      "publisher": "www.seeedstudio.com",
+      "entryUrl": "https://www.seeedstudio.com/blog/feed/",
+      "website": "https://www.seeedstudio.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "domestic_global",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "开源硬件",
+        "端侧算力模组",
+        "传感器"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:45.341Z",
+        "items": 12,
+        "relevantItems": 1
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-dfrobot",
+      "name": "DFRobot",
+      "publisher": "www.dfrobot.com",
+      "entryUrl": "https://www.dfrobot.com/blog-rss.xml",
+      "website": "https://www.dfrobot.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "domestic_global",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "开源硬件",
+        "机器人",
+        "智能车"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:45.897Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-waveshare",
+      "name": "Waveshare",
+      "publisher": "www.waveshare.com",
+      "entryUrl": "https://www.waveshare.com/blog/feed/",
+      "website": "https://www.waveshare.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "domestic_global",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "机器人",
+        "电路",
+        "端侧算力模组"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:46.913Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-orangepi",
+      "name": "Orange Pi",
+      "publisher": "www.orangepi.org",
+      "entryUrl": "https://www.orangepi.org/orangepibbsen/forum.php?mod=rss",
+      "website": "https://www.orangepi.org",
+      "role": "COMMUNITY_DISCOVERY",
+      "region": "domestic_global",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "端侧算力模组",
+        "开源硬件"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:48.026Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-cnx",
+      "name": "CNX Software",
+      "publisher": "www.cnx-software.com",
+      "entryUrl": "https://www.cnx-software.com/feed/",
+      "website": "https://www.cnx-software.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "international",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "端侧算力模组",
+        "开源硬件"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:51.256Z",
+        "items": 32,
+        "relevantItems": 3
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-hackaday-io",
+      "name": "Hackaday engineering",
+      "publisher": "hackaday.com",
+      "entryUrl": "https://hackaday.com/blog/feed/",
+      "website": "https://hackaday.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "电路",
+        "战队开源",
+        "机械设计"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:52.416Z",
+        "items": 7,
+        "relevantItems": 0
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-arduinoblog",
+      "name": "Arduino blog",
+      "publisher": "blog.arduino.cc",
+      "entryUrl": "https://blog.arduino.cc/feed/",
+      "website": "https://blog.arduino.cc",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "开源硬件",
+        "电路",
+        "固件"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:53.744Z",
+        "items": 10,
+        "relevantItems": 1
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-guyue",
+      "name": "古月居",
+      "publisher": "www.guyuehome.com",
+      "entryUrl": "https://www.guyuehome.com/feed",
+      "website": "https://www.guyuehome.com",
+      "role": "COMMUNITY_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "engineering_competitions"
+      ],
+      "keywords": [
+        "ROS",
+        "机器人",
+        "调试复盘"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:54.028Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-zhidx",
+      "name": "智东西",
+      "publisher": "zhidx.com",
+      "entryUrl": "https://zhidx.com/feed",
+      "website": "https://zhidx.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "人形",
+        "灵巧手",
+        "公司产业"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:59.210Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-leiphone-native",
+      "name": "雷峰网",
+      "publisher": "www.leiphone.com",
+      "entryUrl": "https://www.leiphone.com/feed",
+      "website": "https://www.leiphone.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "机器人",
+        "人形",
+        "融资"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:34:59.476Z",
+        "items": 20,
+        "relevantItems": 13
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-eeworld",
+      "name": "电子工程世界",
+      "publisher": "www.eeworld.com.cn",
+      "entryUrl": "https://www.eeworld.com.cn/rss/",
+      "website": "https://www.eeworld.com.cn",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "FOC",
+        "电路",
+        "端侧算力模组"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:34:59.899Z"
+      },
+      "topicScope": "engineering"
+    },
+    {
+      "id": "publisher-rss-nist",
+      "name": "NIST news",
+      "publisher": "www.nist.gov",
+      "entryUrl": "https://www.nist.gov/news-events/news/rss.xml",
+      "website": "https://www.nist.gov",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "可靠性测试",
+        "机器人标准",
+        "人机协作"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:00.254Z",
+        "items": 40,
+        "relevantItems": 0
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-nsf",
+      "name": "NSF news",
+      "publisher": "www.nsf.gov",
+      "entryUrl": "https://www.nsf.gov/rss/rss_www_news.xml",
+      "website": "https://www.nsf.gov",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "机器人研究",
+        "数据基础设施"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:00.768Z",
+        "items": 15,
+        "relevantItems": 1
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-iso",
+      "name": "ISO news",
+      "publisher": "www.iso.org",
+      "entryUrl": "https://www.iso.org/rss/news.xml",
+      "website": "https://www.iso.org",
+      "role": "STANDARDS_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "机器人标准",
+        "人机协作"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:02.485Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-osha",
+      "name": "OSHA news",
+      "publisher": "www.osha.gov",
+      "entryUrl": "https://www.osha.gov/news/newsreleases.xml",
+      "website": "https://www.osha.gov",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "人机协作",
+        "安全标准"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:02.514Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-amazon-science",
+      "name": "Amazon Science",
+      "publisher": "www.amazon.science",
+      "entryUrl": "https://www.amazon.science/index.rss",
+      "website": "https://www.amazon.science",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "仓储分拣",
+        "物流包裹分拣",
+        "任务成功率"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:04.374Z",
+        "items": 25,
+        "relevantItems": 1
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-amazon-robotics",
+      "name": "Amazon robotics science",
+      "publisher": "www.amazon.science",
+      "entryUrl": "https://www.amazon.science/tag/robotics.rss",
+      "website": "https://www.amazon.science",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "data"
+      ],
+      "keywords": [
+        "机器人数据集",
+        "部署态"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:04.998Z",
+        "items": 10,
+        "relevantItems": 8
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-cmu-icontrol",
+      "name": "CMU Intelligent Control",
+      "publisher": "icontrol.ri.cmu.edu",
+      "entryUrl": "https://icontrol.ri.cmu.edu/feed/",
+      "website": "https://icontrol.ri.cmu.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "力矩控制",
+        "全身智能"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:05.364Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-eth-robotx",
+      "name": "ETH RobotX",
+      "publisher": "robotx.ethz.ch",
+      "entryUrl": "https://robotx.ethz.ch/news-and-events/news.html.viewfeed.xml",
+      "website": "https://robotx.ethz.ch",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "全身智能",
+        "Sim2Real"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:10.488Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-eth-rsl",
+      "name": "ETH Robotic Systems Lab",
+      "publisher": "rsl.ethz.ch",
+      "entryUrl": "https://rsl.ethz.ch/news.html.viewfeed.xml",
+      "website": "https://rsl.ethz.ch",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "四足",
+        "运动控制",
+        "Sim2Real"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:10.566Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-stanford-sail",
+      "name": "Stanford AI Lab",
+      "publisher": "ai.stanford.edu",
+      "entryUrl": "https://ai.stanford.edu/blog/feed.xml",
+      "website": "https://ai.stanford.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "data"
+      ],
+      "keywords": [
+        "机器人数据集",
+        "UMI",
+        "真机数据"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:11.884Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-mit-csail",
+      "name": "MIT CSAIL",
+      "publisher": "www.csail.mit.edu",
+      "entryUrl": "https://www.csail.mit.edu/rss/news",
+      "website": "https://www.csail.mit.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "世界模型",
+        "机器人学习"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:12.765Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-mit-news",
+      "name": "MIT robotics news",
+      "publisher": "news.mit.edu",
+      "entryUrl": "https://news.mit.edu/topic/mitrobotics-rss.xml",
+      "website": "https://news.mit.edu",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "机器人",
+        "机械设计"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:13.089Z",
+        "items": 50,
+        "relevantItems": 31
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-nvidia-blog",
+      "name": "NVIDIA blog",
+      "publisher": "blogs.nvidia.com",
+      "entryUrl": "https://blogs.nvidia.com/feed/",
+      "website": "https://blogs.nvidia.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "data"
+      ],
+      "keywords": [
+        "仿真合成数据",
+        "端侧算力模组",
+        "Sim2Real"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:13.104Z",
+        "items": 18,
+        "relevantItems": 3
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-nvidia-research",
+      "name": "NVIDIA research",
+      "publisher": "research.nvidia.com",
+      "entryUrl": "https://research.nvidia.com/rss.xml",
+      "website": "https://research.nvidia.com",
+      "role": "LAB_ORIGINAL_ANNOUNCEMENT",
+      "region": "international",
+      "keywordGroups": [
+        "technology"
+      ],
+      "keywords": [
+        "世界模型",
+        "全身智能"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:15.005Z",
+        "items": 10,
+        "relevantItems": 1
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-roboticstomorrow-alt",
+      "name": "RoboticsTomorrow",
+      "publisher": "www.roboticstomorrow.com",
+      "entryUrl": "https://www.roboticstomorrow.com/rss/news/",
+      "website": "https://www.roboticstomorrow.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "RaaS",
+        "装配",
+        "商超零售"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:16.297Z",
+        "items": 50,
+        "relevantItems": 32
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-robotnik",
+      "name": "Robotnik",
+      "publisher": "robotnik.eu",
+      "entryUrl": "https://robotnik.eu/feed/",
+      "website": "https://robotnik.eu",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "电力巡检",
+        "搬运",
+        "非结构化环境"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:35:17.339Z",
+        "items": 10,
+        "relevantItems": 10
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-fruitcore",
+      "name": "fruitcore robotics",
+      "publisher": "fruitcore-robotics.com",
+      "entryUrl": "https://fruitcore-robotics.com/feed/",
+      "website": "https://fruitcore-robotics.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "装配",
+        "一体化关节"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:19.215Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-universalrobots",
+      "name": "Universal Robots blog",
+      "publisher": "www.universal-robots.com",
+      "entryUrl": "https://www.universal-robots.com/blog/rss/",
+      "website": "https://www.universal-robots.com",
+      "role": "COMPANY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "deployment"
+      ],
+      "keywords": [
+        "人机协作",
+        "装配",
+        "任务成功率"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:23.132Z"
+      },
+      "topicScope": "robotics"
+    },
+    {
+      "id": "publisher-ifr",
+      "name": "International Federation of Robotics",
+      "publisher": "ifr.org",
+      "entryUrl": "https://ifr.org/rss",
+      "website": "https://ifr.org",
+      "role": "INDUSTRY_ORIGINAL",
+      "region": "international",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "出货量",
+        "人形",
+        "行业统计"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:35:29.472Z"
+      },
+      "topicScope": "robotics"
+    }
+  ]
+}

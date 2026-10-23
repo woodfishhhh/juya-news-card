@@ -198,4 +198,4 @@ npx playwright install chromium-headless-shell
 
 ## 具身智能晚报工作流
 
-栏目选题、双语文稿、概览页、真实素材弹窗、字幕、配音、BGM、许可与发布回执的统一验收要求见 [业务规则](docs/embodied-evening-business-rules.md)。实现与逐期验收分开记录；详细渲染命令见 [独立视频渲染器](tools/evening-video/README.md)。
+栏目选题、双语文稿、概览页、真实素材弹窗、字幕、配音、BGM、许可与发布回执的统一验收要求见 [业务规则](docs/embodied-evening-business-rules.md)。现已合并完整的 [采集与生产模块](tools/embodied-news/README.md)：RSSHub/双语关键词、Juya 卡片、口播绑定、连续媒体、独立封面和具体版本审片。Windows 从仓库根目录运行 `pwsh -File ./run-embodied-news.ps1`；该命令完成基础采集与文字，后续编辑、TTS、渲染及验收按模块说明执行。历史基础渲染器仍保留兼容入口。

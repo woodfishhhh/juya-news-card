@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "http://127.0.0.1:1200",
+  "excludedSourceIds": [],
+  "sources": [
+    {
+      "id": "cn-miit-policy",
+      "name": "工信部政策文件",
+      "publisher": "www.miit.gov.cn",
+      "route": "/gov/miit/zcwj",
+      "website": "https://www.miit.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "工信部",
+        "机器人标准",
+        "机器人数据集"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:19.235Z",
+        "items": 10,
+        "relevantItems": 3
+      }
+    },
+    {
+      "id": "cn-miit-tech",
+      "name": "工信部科技司文件",
+      "publisher": "www.miit.gov.cn",
+      "route": "/gov/miit/wjfb/kjs",
+      "website": "https://www.miit.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "工信部",
+        "行业标准",
+        "实景实训"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:19.240Z",
+        "items": 24,
+        "relevantItems": 5
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-miit-equipment",
+      "name": "工信部装备工业一司文件",
+      "publisher": "www.miit.gov.cn",
+      "route": "/gov/miit/wjfb/zbgys",
+      "website": "https://www.miit.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "机器人",
+        "装备制造"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:19.240Z"
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-miit-interpretation",
+      "name": "工信部政策解读",
+      "publisher": "www.miit.gov.cn",
+      "route": "/gov/miit/zcjd",
+      "website": "https://www.miit.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "工信部",
+        "标准体系",
+        "实景实训"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:19.852Z",
+        "items": 24,
+        "relevantItems": 7
+      }
+    },
+    {
+      "id": "cn-gov-latest",
+      "name": "中国政府网最新政策",
+      "publisher": "www.gov.cn",
+      "route": "/gov/zhengce/zuixin",
+      "website": "https://www.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "机器人",
+        "政策"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:20.108Z",
+        "items": 20,
+        "relevantItems": 5
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-gov-documents",
+      "name": "中国政府网文件",
+      "publisher": "www.gov.cn",
+      "route": "/gov/zhengce/wenjian",
+      "website": "https://www.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "机器人",
+        "行业标准"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:24.592Z"
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-stats",
+      "name": "国家统计局最新数据",
+      "publisher": "www.stats.gov.cn",
+      "route": "/gov/stats/sj/zxfb",
+      "website": "https://www.stats.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "产量",
+        "出货量",
+        "工业机器人"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:28.407Z",
+        "items": 15,
+        "relevantItems": 2
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-stats-analysis",
+      "name": "国家统计局数据解读",
+      "publisher": "www.stats.gov.cn",
+      "route": "/gov/stats/sj/sjjd",
+      "website": "https://www.stats.gov.cn",
+      "role": "GOVERNMENT_ORIGINAL",
+      "region": "domestic",
+      "keywordGroups": [
+        "policy"
+      ],
+      "keywords": [
+        "产量",
+        "行业统计"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:32.093Z",
+        "items": 15,
+        "relevantItems": 2
+      },
+      "feedDatePrecision": "day"
+    },
+    {
+      "id": "cn-ofweek",
+      "name": "OFweek产业新闻",
+      "publisher": "www.ofweek.com",
+      "route": "/ofweek/news",
+      "website": "https://www.ofweek.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "机器人",
+        "核心零部件",
+        "真实部署"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:33.509Z",
+        "items": 20,
+        "relevantItems": 6
+      }
+    },
+    {
+      "id": "cn-elecfans",
+      "name": "电子发烧友专题",
+      "publisher": "www.elecfans.com",
+      "route": "/elecfans/article/special",
+      "website": "https://www.elecfans.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "hardware"
+      ],
+      "keywords": [
+        "电路",
+        "电机",
+        "端侧算力模组"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:37.056Z"
+      }
+    },
+    {
+      "id": "cn-36kr-10",
+      "name": "36氪 · 机器人",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E6%9C%BA%E5%99%A8%E4%BA%BA?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "机器人"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:38.709Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "cn-36kr-11",
+      "name": "36氪 · 具身智能",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "具身智能"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:40.015Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "cn-36kr-12",
+      "name": "36氪 · 灵巧手",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E7%81%B5%E5%B7%A7%E6%89%8B?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "灵巧手"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:40.921Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "cn-36kr-13",
+      "name": "36氪 · 宇树",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E5%AE%87%E6%A0%91?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "宇树"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:41.528Z",
+        "items": 10,
+        "relevantItems": 5
+      }
+    },
+    {
+      "id": "cn-36kr-14",
+      "name": "36氪 · 智元",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E6%99%BA%E5%85%83?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "智元"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:41.889Z",
+        "items": 10,
+        "relevantItems": 8
+      }
+    },
+    {
+      "id": "cn-36kr-15",
+      "name": "36氪 · 银河通用",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E9%93%B6%E6%B2%B3%E9%80%9A%E7%94%A8?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "银河通用"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:42.481Z",
+        "items": 10,
+        "relevantItems": 8
+      }
+    },
+    {
+      "id": "cn-36kr-16",
+      "name": "36氪 · 星海图",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E6%98%9F%E6%B5%B7%E5%9B%BE?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "星海图"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:42.677Z",
+        "items": 10,
+        "relevantItems": 8
+      }
+    },
+    {
+      "id": "cn-36kr-17",
+      "name": "36氪 · 千寻智能",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E5%8D%83%E5%AF%BB%E6%99%BA%E8%83%BD?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "千寻智能"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:43.252Z",
+        "items": 10,
+        "relevantItems": 6
+      }
+    },
+    {
+      "id": "cn-36kr-18",
+      "name": "36氪 · 优必选",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E4%BC%98%E5%BF%85%E9%80%89?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "优必选"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:43.263Z",
+        "items": 10,
+        "relevantItems": 7
+      }
+    },
+    {
+      "id": "cn-36kr-19",
+      "name": "36氪 · 小鹏机器人",
+      "publisher": "36kr.com",
+      "route": "/36kr/search/articles/%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA?limit=10",
+      "website": "https://36kr.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "小鹏机器人"
+      ],
+      "enabled": true,
+      "verification": {
+        "status": "feed_parsed",
+        "checkedAt": "2026-10-23T14:36:43.870Z",
+        "items": 10,
+        "relevantItems": 10
+      }
+    },
+    {
+      "id": "cn-ithome-20",
+      "name": "IT之家 · 机器人",
+      "publisher": "www.ithome.com",
+      "route": "/ithome/tag/%E6%9C%BA%E5%99%A8%E4%BA%BA?limit=10",
+      "website": "https://www.ithome.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "机器人"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:44.332Z"
+      }
+    },
+    {
+      "id": "cn-ithome-21",
+      "name": "IT之家 · 人形机器人",
+      "publisher": "www.ithome.com",
+      "route": "/ithome/tag/%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA?limit=10",
+      "website": "https://www.ithome.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "人形机器人"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:44.346Z"
+      }
+    },
+    {
+      "id": "cn-ithome-22",
+      "name": "IT之家 · 宇树",
+      "publisher": "www.ithome.com",
+      "route": "/ithome/tag/%E5%AE%87%E6%A0%91?limit=10",
+      "website": "https://www.ithome.com",
+      "role": "MEDIA_DISCOVERY",
+      "region": "domestic",
+      "keywordGroups": [
+        "companies_capital"
+      ],
+      "keywords": [
+        "宇树"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-23T14:36:46.032Z"
+      }
+    }
+  ]
+}

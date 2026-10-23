@@ -29,7 +29,11 @@
     "audit-themes:runtime:critical": "node --import tsx scripts/audit-runtime-layout-risk.ts --critical-only",
     "audit-themes:runtime:strict": "node --import tsx scripts/audit-runtime-layout-risk.ts --fail-on-findings",
     "audit-themes:visual": "node --import tsx scripts/audit-visual-consistency.ts",
-    "review-pack": "node --import tsx scripts/generate-review-pack.ts"
+    "review-pack": "node --import tsx scripts/generate-review-pack.ts",
+    "news:install": "npm --prefix tools/embodied-news ci",
+    "news:test": "npm --prefix tools/embodied-news test",
+    "news:collect": "npm --prefix tools/embodied-news run collect --",
+    "news:daily": "npm --prefix tools/embodied-news run daily --"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

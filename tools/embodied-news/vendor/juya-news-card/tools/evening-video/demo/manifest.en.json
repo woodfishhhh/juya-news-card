@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "episode_id": "offline-demo-en",
+  "output_name": "juya-evening-demo-en",
+  "language": "en",
+  "episode_title": "Embodied AI Evening · Offline Demo",
+  "overview": "Two original synthetic assets verify timing, popup media, navigation and captions.",
+  "host_line": "大家好，我是小鱼是木鱼，以上是今天具身智能动态",
+  "opening_seconds": 5,
+  "theme_gap_seconds": 0.5,
+  "narration_speed": 1.3,
+  "opening_narration": "assets/opening-tone.wav",
+  "opening_license": {"status":"unknown","note":"synthetic tone only, not speech"},
+  "opening_captions": [
+    {"start":0,"end":2.6,"text":"大家好，我是小鱼是木鱼，以上是今天具身智能动态"}
+  ],
+  "music_seed": 17,
+  "sections": [
+    {"id":"news","title":"News"},
+    {"id":"research","title":"Robotics Research"},
+    {"id":"open","title":"Open Source"}
+  ],
+  "themes": [
+    {
+      "id":"robot-maintenance", "title":"Robotics Research", "event_title":"Demo theme A", "section_id":"research",
+      "card_image":"assets/theme-robot.png", "media_video":"assets/media-robot-demo.mp4", "narration":"assets/narration-robot.wav",
+      "card_seconds":5, "duration_seconds":8,
+      "captions":[
+        {"start":0,"end":1.3,"text":"A complete first sentence for caption timing verification."},
+        {"start":1.3,"end":2.6,"text":"A second full sentence must never be truncated."}
+      ],
+      "license":{"status":"unknown","note":"Original locally generated test asset"}
+    },
+    {
+      "id":"open-source", "title":"Open Source", "event_title":"Demo theme B", "section_id":"open",
+      "card_image":"assets/theme-open.png", "media":"assets/media-open.png", "narration":"assets/narration-open.wav",
+      "card_seconds":5, "duration_seconds":8,
+      "captions":[
+        {"start":0,"end":1.3,"text":"This is a complete caption sentence for topic two."},
+        {"start":1.3,"end":2.6,"text":"Caption timing follows narration at one point three speed."}
+      ],
+      "license":{"status":"unknown","note":"Original locally generated test asset"}
+    }
+  ],
+  "music_tracks": []
+}

@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/woodfishhhh/juya-news-card",
+  "ref": "11fb231f2312cd639598a5152780232d8f26f4e2",
+  "importedAt": "2026-10-21",
+  "upstreamFiles": [
+    {
+      "path": "config/embodied-evening-video.preset.json",
+      "gitBlobSha": "3b35e3d65eb35ef256922dba332685223c8ba184"
+    },
+    {
+      "path": "docs/embodied-evening-business-rules.md",
+      "gitBlobSha": "485ae1aae0dc1033992fade997e25b0413ee3380"
+    },
+    {
+      "path": "docs/embodied-evening-video-spec.md",
+      "gitBlobSha": "077dec48e5be9acd3178a8085629ec27af255e15"
+    },
+    {
+      "path": "tools/evening-video/.gitignore",
+      "gitBlobSha": "ee44298d7c05c1eec42e2a13c77398dc2ccda5a4"
+    },
+    {
+      "path": "tools/evening-video/README.md",
+      "gitBlobSha": "9292055da69b6df9b998dc0c344375816ca519be"
+    },
+    {
+      "path": "tools/evening-video/demo/card-local.html",
+      "gitBlobSha": "d3dccd81ca9ba2ba305220271198b5a0c767b2c3"
+    },
+    {
+      "path": "tools/evening-video/demo/make_demo.py",
+      "gitBlobSha": "8cfea50e03bd733c1bb22491980cc38af557b58c"
+    },
+    {
+      "path": "tools/evening-video/demo/manifest.en.json",
+      "gitBlobSha": "149addc2f3007184132d284d856c1fbea2daf4c9"
+    },
+    {
+      "path": "tools/evening-video/demo/manifest.zh.json",
+      "gitBlobSha": "409f4b2dcf566ed9483e0799cf33f6dc66f1cff3"
+    },
+    {
+      "path": "tools/evening-video/render-evening.mjs",
+      "gitBlobSha": "6e7bf83e02e6271cb44073c4193c42b103ff3869"
+    },
+    {
+      "path": "tools/evening-video/render_evening.py",
+      "gitBlobSha": "c2f605a840a9480712ee0f617297caac48bbcdf8"
+    },
+    {
+      "path": "tools/evening-video/tests/test_renderer.py",
+      "gitBlobSha": "ffa866803941e0236472578a9a7818e29c90e228"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha": "5a7add407bbdfb02d299b80f0af60f44086f1285"
+    }
+  ],
+  "note": "Read-only upstream snapshot; the original dirty local checkout was preserved."
+}

@@ -9,6 +9,10 @@ description: Operate juya-news-card as a local CLI text-to-image card tool. Use 
 
 Use this skill to treat the repository as an executable tool, not a codebase to refactor. Default flow: choose template -> AI drafts final card content -> run local CLI renderer -> output PNG.
 
+## Embodied evening production
+
+For 具身智能日报/晚报, use [the production module](../../../tools/embodied-news/README.md) and its production contract. It includes source intake, native Juya SSR card HTML, sentence-bound media, independent covers, and version-specific review. Use EGO for browser interaction when required by the active workspace; the generic Playwright CLI below does not replace that workflow.
+
 ## Default Workflow
 
 1. Install dependencies (`npm install`) and ensure Playwright browser is installed.
