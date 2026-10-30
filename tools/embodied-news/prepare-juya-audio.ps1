@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)][string]$ContentFile,
-    [string]$MusicRoot = 'D:\Coding\VideoFactory\public',
+    [string]$MusicRoot = 'D:\Coding\video-factory\public',
     [int]$Seed = 20261021
 )
 $ErrorActionPreference = 'Stop'

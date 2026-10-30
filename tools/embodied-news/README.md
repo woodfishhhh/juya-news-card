@@ -18,16 +18,16 @@ pwsh -NoProfile -File ./run-embodied-news.ps1
 
 ```powershell
 pwsh -File ./run-embodied-news.ps1 `
-  -DataDirectory 'D:\Coding\具身智能日报\data\live' `
-  -ReportDirectory 'D:\Coding\具身智能日报\reports\daily'
+  -DataDirectory 'D:\Coding\embodied-news\data\live' `
+  -ReportDirectory 'D:\Coding\embodied-news\reports\daily'
 ```
 
 也可在仓库根目录创建 Git 忽略的 `config/embodied-news.local.json`，之后直接运行入口：
 
 ```json
 {
-  "dataDirectory": "D:/Coding/具身智能日报/data/live",
-  "reportDirectory": "D:/Coding/具身智能日报/reports/daily"
+  "dataDirectory": "D:/Coding/embodied-news/data/live",
+  "reportDirectory": "D:/Coding/embodied-news/reports/daily"
 }
 ```
 
